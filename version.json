@@ -1,82 +1,82 @@
 {
-  "version": "3.0.2",
-  "notes": "RallyForge 3.0.2 - cleaner screens with less text, the app no longer closes after starting your instances, Daily Rewards claimed reliably, real Activity points, and other fixes.",
+  "version": "3.0.3",
+  "notes": "Monster hunts Setup screen, Vikings tab and fixes, sign-in fix",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "474683437e6fdd4927ff0ea77cfb4a3f3a1bbe789ed56f894fe2175e8b0028c2",
-      "url": "v3.0.2/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "6f3ab9d0ae2b510e047fea63c40fa83e3022abf4556bf34d2c77fe0a63180211",
+      "url": "v3.0.3/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "e7a4bbab4261039b689baf02235dd17262534f046d7ad40fa1aaef21aebbb70f",
-      "url": "v3.0.2/web_app.cp313-win_amd64.pyd"
+      "sha256": "323e1732a483e4d964525caf351848f5a2505096130870ae8c573193f2b06b8b",
+      "url": "v3.0.3/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "be61ac7ba1587aaec59958439288afa7acf6e849c632203f8763f5eabde3c8aa",
-      "url": "v3.0.2/rf_license.cp313-win_amd64.pyd"
+      "sha256": "76424d32ac815cdf64536fde96d592d43ac8820081b687481ad10ae47779ca48",
+      "url": "v3.0.3/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "50772997a968768ba88e94c411ffe6d7865c056118fa31a35629db662daca860",
-      "url": "v3.0.2/ui/app.css"
+      "sha256": "fb8e6653f05eed6ac7033f758c772aae4cdf766923fec0d0282de49d54fca88e",
+      "url": "v3.0.3/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "13ee5e3d2afd537fdf34e6a131d1ad8370e8dd84805baa7540322c02455d6081",
-      "url": "v3.0.2/ui/app.js"
+      "sha256": "cdee5590996852962919b459d6ba6adca33487e891924e52b9947ae7626d878d",
+      "url": "v3.0.3/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "0db0a06ac21e936da643cd15d7befc82b580eeb073defb0d3dccacf03ae17765",
-      "url": "v3.0.2/ui/changelog.js"
+      "sha256": "93e6ae7f155a53a9e962cc9059dd42054c32635f62802f78dc3218ca3b736406",
+      "url": "v3.0.3/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "61b19a50ed319ac9aedad1562dc8a7b00c2afc960a50ee25c52c46a4090c042e",
-      "url": "v3.0.2/ui/dialogs.js"
+      "url": "v3.0.3/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.2/ui/eula.html"
+      "url": "v3.0.3/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.2/ui/fonts.css"
+      "url": "v3.0.3/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.2/ui/index.html"
+      "url": "v3.0.3/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "afd0e759c6dadd791a6264201c6d6f594424452dd31d45b21ed1607de4845e35",
-      "url": "v3.0.2/ui/logo-small.svg"
+      "url": "v3.0.3/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "afd0e759c6dadd791a6264201c6d6f594424452dd31d45b21ed1607de4845e35",
-      "url": "v3.0.2/ui/logo.svg"
+      "url": "v3.0.3/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "9ac38d561eab6c1778dcdf12ba5589bc5caaefb2984c1e0bf5b21b280bfb6b5d",
-      "url": "v3.0.2/ui/pages.js"
+      "sha256": "ddcae1f187c3e0829337e92867986808b3255aab56aa4e533fa31e80e35c5d63",
+      "url": "v3.0.3/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "e7746353acbdecc83172bb7986ff4fb4e26dcf928d6b3c752ce52b0ee3995d6a",
-      "url": "v3.0.2/ui/tour.js"
+      "url": "v3.0.3/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.2/extension/background.js"
+      "url": "v3.0.3/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.2/extension/content.js"
+      "url": "v3.0.3/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "d01cdd4e8977468de9ad23ca32103b55c184234af8657a7e41dc0c8c2f5a9590",
-      "url": "v3.0.2/extension/manifest.json"
+      "url": "v3.0.3/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.2/extension/popup.html"
+      "url": "v3.0.3/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.2/extension/popup.js"
+      "url": "v3.0.3/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3333,6 +3333,30 @@
       "sha256": "e53ed01ea7366b35bf659ac235ceba8d3708a689f2bfbeeb1ddadf00d42366d8",
       "url": "templates/alliance_help_hand.png"
     },
+    "arch_ring_item.png": {
+      "sha256": "d0e08044180ed9d8ac0bdd94ece539d2904e032ad535ef12c0b97ed469b459ca",
+      "url": "templates/arch_ring_item.png"
+    },
+    "arow_alliance_building.png": {
+      "sha256": "aba8ff98bc33ecaa509f475793248a86515bf00bcbfdd9f4c787c33ed6eee418",
+      "url": "templates/arow_alliance_building.png"
+    },
+    "arow_alliance_gift.png": {
+      "sha256": "2368d1b4fe41a781c58755340d6838d8dbef5bdf91e99015628c0457306dcfb5",
+      "url": "templates/arow_alliance_gift.png"
+    },
+    "arow_alliance_help.png": {
+      "sha256": "8e3f5fec6158ebd96576886d5b6a3a03cba2cacbcec2f37da78b14abf238e7f0",
+      "url": "templates/arow_alliance_help.png"
+    },
+    "arow_alliance_treasure.png": {
+      "sha256": "f0592d32b9e143aed7ce5238d7214d19ead7146d1ee2e8c87a3159dc405392b8",
+      "url": "templates/arow_alliance_treasure.png"
+    },
+    "arow_alliance_war.png": {
+      "sha256": "911ac5b4b7af41d865cd5ea3ab48147ef362db1f268e47f3e9de9058d0ce83f2",
+      "url": "templates/arow_alliance_war.png"
+    },
     "carriage_chest.png": {
       "sha256": "7c17abc757c8ecf9c8f338764c59820998d2eb74d73f051ac0d31ae5018d1b3d",
       "url": "templates/carriage_chest.png"
@@ -3340,6 +3364,10 @@
     "carriage_plus.png": {
       "sha256": "902972f84385d3d350ea161d463ff609917e99370d4569a3e836b46c417bd200",
       "url": "templates/carriage_plus.png"
+    },
+    "ce_row_icon.png": {
+      "sha256": "930421fb9b7c3c66e85624b422db32c160599ebe4fc0dbb941ec434351327ad4",
+      "url": "templates/ce_row_icon.png"
     },
     "chat_alliance_tab.png": {
       "sha256": "27375af0e1baac4839193b073604295338bc8f2776c2ecb5e116cf611a237947",
@@ -3718,6 +3746,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "ZQ4CVgoWVtn_ZG7lJ-aNu4xBmVcI2J1d2Z8fjrnrxi_D5Fh-zEeZALOkGBZJ17y1eYKK8weQ_ZIIxBHP_4aXAA",
-  "sig": "cdec2ce90c9664db8e71b36fe14353cc17706f7fd6a1e70253d8c6c3732ca630"
+  "rsig": "iPrm7OPYzhE3rVYFEqYwnUs9Cyng1ytaMUh-R7d2vzuV1jl6Os5p1DuvENsgxKW_hYpkAwn7gLiLZmlGV6Z6BA",
+  "sig": "09e6180854076a9a9d69eaf29332a73696c8bc8d63e0ea4fb5fe835fdb91594d"
 }
