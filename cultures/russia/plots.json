@@ -1,0 +1,119 @@
+{
+ "culture": "russia",
+ "note": "Plot map (owner 1 Nov 2026). tap = safe tap point in culture-map coordinates, pre-filled by Claude from the map picture - owner reviews/moves them. checks = investigation spots, not plots. Owner 1 Nov 18:38: Arsenal (plot 1) and Warehouse (plot 4) never move - now fixed pins (pins.json), not mapped. Owner 1 Nov 18:47: Barracks (plot 2) never moves either - fixed pin.",
+ "plots": [
+  {
+   "id": 3,
+   "tap": [
+    930,
+    595
+   ],
+   "note": "",
+   "slot": 3
+  },
+  {
+   "id": 5,
+   "tap": [
+    1080,
+    725
+   ],
+   "note": "",
+   "slot": 5
+  },
+  {
+   "id": 6,
+   "tap": [
+    720,
+    785
+   ],
+   "note": "",
+   "slot": 6
+  },
+  {
+   "id": 7,
+   "tap": [
+    865,
+    848
+   ],
+   "note": "",
+   "slot": 7
+  },
+  {
+   "id": 8,
+   "tap": [
+    1291,
+    875
+   ],
+   "note": "",
+   "slot": 8
+  },
+  {
+   "id": 9,
+   "tap": [
+    1178,
+    1000
+   ],
+   "note": "",
+   "slot": 9
+  },
+  {
+   "id": 10,
+   "tap": [
+    1305,
+    1060
+   ],
+   "note": "",
+   "slot": 10
+  },
+  {
+   "id": 11,
+   "tap": [
+    1545,
+    925
+   ],
+   "note": "",
+   "slot": 11
+  },
+  {
+   "id": 12,
+   "tap": [
+    1765,
+    835
+   ],
+   "note": "War Hall (Kiravik) and Embassy (Stalds) both overlap here",
+   "slot": 12
+  },
+  {
+   "id": 13,
+   "tap": [
+    1962,
+    705
+   ],
+   "note": "",
+   "slot": 13
+  }
+ ],
+ "checks": [
+  {
+   "id": "academy",
+   "name": "Academy",
+   "tap": [
+    1318,
+    395
+   ],
+   "note": "UNKNOWN: fixed or movable - the game decides",
+   "slot": "A"
+  },
+  {
+   "id": "barracks",
+   "name": "Barracks",
+   "tap": [
+    1128,
+    515
+   ],
+   "note": "owner 4 Nov: NOT fixed - the game decides (like the Academy)",
+   "slot": "B"
+  }
+ ],
+ "slots": "slot = the same plot square in every culture (Russia numbering; A = the usual Academy spot) - 1 Nov 2026, from the fixed pins + checked on Kiravik (Japan) and Stalds (America)"
+}

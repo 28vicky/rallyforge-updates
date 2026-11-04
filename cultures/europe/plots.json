@@ -1,0 +1,118 @@
+{
+ "culture": "europe",
+ "note": "Plot map (1 Nov 2026) - pre-filled by Claude from the movable-building pins of the owner's Europe instances (owner + bot pins clustered, owner pins preferred). tap = safe tap point in culture-map coordinates. Owner rule: not hand-checked; test runs decide. Owner 1 Nov 18:38: Arsenal (plot 1) and Warehouse (plot 4) never move - now fixed pins (pins.json), not mapped. Owner 1 Nov 18:47: Barracks (plot 3) never moves either - fixed pin.",
+ "plots": [
+  {
+   "id": 2,
+   "tap": [
+    1353,
+    342
+   ],
+   "note": "seen on 1 instance only | usual Academy spot (owner 1 Nov: Academy is movable)",
+   "slot": "A"
+  },
+  {
+   "id": 5,
+   "tap": [
+    902,
+    536
+   ],
+   "note": "",
+   "slot": 3
+  },
+  {
+   "id": 6,
+   "tap": [
+    1092,
+    637
+   ],
+   "note": "",
+   "slot": 5
+  },
+  {
+   "id": 7,
+   "tap": [
+    1956,
+    642
+   ],
+   "note": "",
+   "slot": 13
+  },
+  {
+   "id": 8,
+   "tap": [
+    716,
+    682
+   ],
+   "note": "",
+   "slot": 6
+  },
+  {
+   "id": 9,
+   "tap": [
+    868,
+    758
+   ],
+   "note": "",
+   "slot": 7
+  },
+  {
+   "id": 10,
+   "tap": [
+    1368,
+    761
+   ],
+   "note": "",
+   "slot": 8
+  },
+  {
+   "id": 11,
+   "tap": [
+    1696,
+    762
+   ],
+   "note": "",
+   "slot": 12
+  },
+  {
+   "id": 12,
+   "tap": [
+    1533,
+    827
+   ],
+   "note": "",
+   "slot": 11
+  },
+  {
+   "id": 13,
+   "tap": [
+    1224,
+    938
+   ],
+   "note": "",
+   "slot": 9
+  },
+  {
+   "id": 14,
+   "tap": [
+    1382,
+    1036
+   ],
+   "note": "",
+   "slot": 10
+  }
+ ],
+ "checks": [
+  {
+   "id": "barracks",
+   "name": "Barracks",
+   "tap": [
+    1088,
+    453
+   ],
+   "note": "owner 4 Nov: NOT fixed - the game decides (like the Academy)",
+   "slot": "B"
+  }
+ ],
+ "slots": "slot = the same plot square in every culture (Russia numbering; A = the usual Academy spot) - 1 Nov 2026, from the fixed pins + checked on Kiravik (Japan) and Stalds (America)"
+}

@@ -1,0 +1,119 @@
+{
+ "culture": "korea",
+ "note": "Plot map (1 Nov 2026) - pre-filled by Claude from the movable-building pins of the owner's Korea instances (owner + bot pins clustered, owner pins preferred). tap = safe tap point in culture-map coordinates. Owner rule: not hand-checked; test runs decide. Owner 1 Nov 18:38: Arsenal (plot 1) and Warehouse (plot 3) never move - now fixed pins (pins.json), not mapped. Owner 1 Nov 18:47: Barracks (plot 2) never moves either - fixed pin.",
+ "plots": [
+  {
+   "id": 4,
+   "tap": [
+    936,
+    628
+   ],
+   "note": "",
+   "slot": 3
+  },
+  {
+   "id": 5,
+   "tap": [
+    1032,
+    707
+   ],
+   "note": "",
+   "slot": 5
+  },
+  {
+   "id": 6,
+   "tap": [
+    700,
+    724
+   ],
+   "note": "",
+   "slot": 6
+  },
+  {
+   "id": 7,
+   "tap": [
+    1935,
+    734
+   ],
+   "note": "",
+   "slot": 13
+  },
+  {
+   "id": 8,
+   "tap": [
+    842,
+    805
+   ],
+   "note": "",
+   "slot": 7
+  },
+  {
+   "id": 9,
+   "tap": [
+    1725,
+    812
+   ],
+   "note": "",
+   "slot": 12
+  },
+  {
+   "id": 10,
+   "tap": [
+    1365,
+    865
+   ],
+   "note": "",
+   "slot": 8
+  },
+  {
+   "id": 11,
+   "tap": [
+    1543,
+    925
+   ],
+   "note": "",
+   "slot": 11
+  },
+  {
+   "id": 12,
+   "tap": [
+    1203,
+    1000
+   ],
+   "note": "",
+   "slot": 9
+  },
+  {
+   "id": 13,
+   "tap": [
+    1370,
+    1083
+   ],
+   "note": "",
+   "slot": 10
+  }
+ ],
+ "checks": [
+  {
+   "id": "academy",
+   "name": "Academy",
+   "tap": [
+    1375,
+    458
+   ],
+   "note": "usual Academy spot (owner 1 Nov 18:48: 70-80% keep it here, so it is movable, not fixed)",
+   "slot": "A"
+  },
+  {
+   "id": "barracks",
+   "name": "Barracks",
+   "tap": [
+    1097,
+    510
+   ],
+   "note": "owner 4 Nov: NOT fixed - the game decides (like the Academy)",
+   "slot": "B"
+  }
+ ],
+ "slots": "slot = the same plot square in every culture (Russia numbering; A = the usual Academy spot) - 1 Nov 2026, from the fixed pins + checked on Kiravik (Japan) and Stalds (America)"
+}

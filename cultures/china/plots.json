@@ -1,0 +1,119 @@
+{
+ "culture": "china",
+ "note": "Plot map (1 Nov 2026) - pre-filled by Claude from the movable-building pins of the owner's China instances (owner + bot pins clustered, owner pins preferred). tap = safe tap point in culture-map coordinates. Owner rule: not hand-checked; test runs decide. Owner 1 Nov 18:38: Arsenal (plot 1) and Warehouse (plot 3) never move - now fixed pins (pins.json), not mapped. Owner 1 Nov 18:47: Barracks (plot 2) never moves either - fixed pin.",
+ "plots": [
+  {
+   "id": 4,
+   "tap": [
+    901,
+    596
+   ],
+   "note": "",
+   "slot": 3
+  },
+  {
+   "id": 5,
+   "tap": [
+    1065,
+    684
+   ],
+   "note": "",
+   "slot": 5
+  },
+  {
+   "id": 6,
+   "tap": [
+    1899,
+    745
+   ],
+   "note": "",
+   "slot": 13
+  },
+  {
+   "id": 7,
+   "tap": [
+    740,
+    762
+   ],
+   "note": "",
+   "slot": 6
+  },
+  {
+   "id": 8,
+   "tap": [
+    1724,
+    826
+   ],
+   "note": "",
+   "slot": 12
+  },
+  {
+   "id": 9,
+   "tap": [
+    1363,
+    844
+   ],
+   "note": "",
+   "slot": 8
+  },
+  {
+   "id": 10,
+   "tap": [
+    849,
+    868
+   ],
+   "note": "",
+   "slot": 7
+  },
+  {
+   "id": 11,
+   "tap": [
+    1570,
+    923
+   ],
+   "note": "",
+   "slot": 11
+  },
+  {
+   "id": 12,
+   "tap": [
+    1103,
+    998
+   ],
+   "note": "",
+   "slot": 9
+  },
+  {
+   "id": 13,
+   "tap": [
+    1386,
+    1062
+   ],
+   "note": "",
+   "slot": 10
+  }
+ ],
+ "checks": [
+  {
+   "id": "academy",
+   "name": "Academy",
+   "tap": [
+    1326,
+    459
+   ],
+   "note": "usual Academy spot (owner 1 Nov 18:48: 70-80% keep it here, so it is movable, not fixed)",
+   "slot": "A"
+  },
+  {
+   "id": "barracks",
+   "name": "Barracks",
+   "tap": [
+    1055,
+    505
+   ],
+   "note": "owner 4 Nov: NOT fixed - the game decides (like the Academy)",
+   "slot": "B"
+  }
+ ],
+ "slots": "slot = the same plot square in every culture (Russia numbering; A = the usual Academy spot) - 1 Nov 2026, from the fixed pins + checked on Kiravik (Japan) and Stalds (America)"
+}

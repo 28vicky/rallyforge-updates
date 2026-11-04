@@ -1,0 +1,118 @@
+{
+ "culture": "america",
+ "note": "FIRST GUESS (1 Nov 2026): Europe plots carried over by the fixed-building pins (owner: plots are the same squares in every culture). Expect some taps to miss - the first Map city run on this culture shows which; fix those from its pictures. Owner 1 Nov 18:38: Arsenal (plot 1) and Warehouse (plot 4) never move - now fixed pins (pins.json), not mapped. Owner 1 Nov 18:47: Barracks (plot 3) never moves either - fixed pin.",
+ "plots": [
+  {
+   "id": 2,
+   "tap": [
+    1275,
+    274
+   ],
+   "note": "guess | usual Academy spot (owner 1 Nov: Academy is movable)",
+   "slot": "A"
+  },
+  {
+   "id": 5,
+   "tap": [
+    847,
+    491
+   ],
+   "note": "guess",
+   "slot": 3
+  },
+  {
+   "id": 6,
+   "tap": [
+    1039,
+    578
+   ],
+   "note": "guess",
+   "slot": 5
+  },
+  {
+   "id": 7,
+   "tap": [
+    1881,
+    530
+   ],
+   "note": "guess",
+   "slot": 13
+  },
+  {
+   "id": 8,
+   "tap": [
+    675,
+    645
+   ],
+   "note": "guess",
+   "slot": 6
+  },
+  {
+   "id": 9,
+   "tap": [
+    828,
+    710
+   ],
+   "note": "guess",
+   "slot": 7
+  },
+  {
+   "id": 10,
+   "tap": [
+    1315,
+    682
+   ],
+   "note": "guess",
+   "slot": 8
+  },
+  {
+   "id": 11,
+   "tap": [
+    1635,
+    663
+   ],
+   "note": "guess",
+   "slot": 12
+  },
+  {
+   "id": 12,
+   "tap": [
+    1480,
+    736
+   ],
+   "note": "guess",
+   "slot": 11
+  },
+  {
+   "id": 13,
+   "tap": [
+    1186,
+    864
+   ],
+   "note": "guess",
+   "slot": 9
+  },
+  {
+   "id": 14,
+   "tap": [
+    1346,
+    949
+   ],
+   "note": "guess",
+   "slot": 10
+  }
+ ],
+ "checks": [
+  {
+   "id": "barracks",
+   "name": "Barracks",
+   "tap": [
+    1023,
+    399
+   ],
+   "note": "owner 4 Nov: NOT fixed - the game decides (like the Academy)",
+   "slot": "B"
+  }
+ ],
+ "slots": "slot = the same plot square in every culture (Russia numbering; A = the usual Academy spot) - 1 Nov 2026, from the fixed pins + checked on Kiravik (Japan) and Stalds (America)"
+}

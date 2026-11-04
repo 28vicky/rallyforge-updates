@@ -1,0 +1,119 @@
+{
+ "culture": "arabia",
+ "note": "FIRST GUESS (1 Nov 2026): Korea plots carried over by the fixed-building pins (owner: plots are the same squares in every culture). Expect some taps to miss - the first Map city run on this culture shows which; fix those from its pictures. 1 Nov 17:30: confirmed/probe-fixed plots marked in their notes; the rest are still guesses. Owner 1 Nov 18:38: Arsenal (plot 1) and Warehouse (plot 3) never move - now fixed pins (pins.json), not mapped. Owner 1 Nov 18:47: Barracks (plot 2) never moves either - fixed pin.",
+ "plots": [
+  {
+   "id": 4,
+   "tap": [
+    980,
+    611
+   ],
+   "note": "guess",
+   "slot": 3
+  },
+  {
+   "id": 5,
+   "tap": [
+    963,
+    742
+   ],
+   "note": "Trap Factory (Rob) - confirmed 1 Nov",
+   "slot": 5
+  },
+  {
+   "id": 6,
+   "tap": [
+    758,
+    788
+   ],
+   "note": "guess",
+   "slot": 6
+  },
+  {
+   "id": 7,
+   "tap": [
+    1846,
+    766
+   ],
+   "note": "Embassy (Rob) - confirmed 1 Nov",
+   "slot": 13
+  },
+  {
+   "id": 8,
+   "tap": [
+    864,
+    835
+   ],
+   "note": "guess",
+   "slot": 7
+  },
+  {
+   "id": 9,
+   "tap": [
+    1741,
+    832
+   ],
+   "note": "War Hall (Rob) - probe fix 1 Nov 17:28",
+   "slot": 12
+  },
+  {
+   "id": 10,
+   "tap": [
+    1351,
+    910
+   ],
+   "note": "Archer Camp (Rob) - confirmed",
+   "slot": 8
+  },
+  {
+   "id": 11,
+   "tap": [
+    1549,
+    897
+   ],
+   "note": "guess",
+   "slot": 11
+  },
+  {
+   "id": 12,
+   "tap": [
+    1148,
+    977
+   ],
+   "note": "Market (Rob) - probe fix 1 Nov 17:28",
+   "slot": 9
+  },
+  {
+   "id": 13,
+   "tap": [
+    1277,
+    1046
+   ],
+   "note": "Prison (Rob) - probe fix 1 Nov 17:28",
+   "slot": 10
+  }
+ ],
+ "checks": [
+  {
+   "id": "academy",
+   "tap": [
+    1357,
+    458
+   ],
+   "note": "usual Academy spot (owner 1 Nov 18:48: 70-80% keep it here, so it is movable, not fixed)",
+   "slot": "A",
+   "name": "Academy"
+  },
+  {
+   "id": "barracks",
+   "name": "Barracks",
+   "tap": [
+    1063,
+    550
+   ],
+   "note": "owner 4 Nov: NOT fixed - the game decides (like the Academy)",
+   "slot": "B"
+  }
+ ],
+ "slots": "slot = the same plot square in every culture (Russia numbering; A = the usual Academy spot) - 1 Nov 2026, from the fixed pins + checked on Kiravik (Japan) and Stalds (America)"
+}
