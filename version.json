@@ -1,82 +1,82 @@
 {
-  "version": "3.0.3",
-  "notes": "Monster hunts Setup screen, Vikings tab and fixes, sign-in fix",
+  "version": "3.0.4",
+  "notes": "Monster hunts: faster, beats Auto-Join to free marches, no double rallies, map-load fix; Vikings and duty fixes",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "6f3ab9d0ae2b510e047fea63c40fa83e3022abf4556bf34d2c77fe0a63180211",
-      "url": "v3.0.3/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "cc46a09dd2e994b049ca4b1771266e8e82e0dd5d8c61c032a7ee5d3343b1423e",
+      "url": "v3.0.4/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "323e1732a483e4d964525caf351848f5a2505096130870ae8c573193f2b06b8b",
-      "url": "v3.0.3/web_app.cp313-win_amd64.pyd"
+      "sha256": "f676c4f09b6ba46f64a88a79c3a6c97482ef6eeda391a7a91dff050bd5b7097e",
+      "url": "v3.0.4/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "76424d32ac815cdf64536fde96d592d43ac8820081b687481ad10ae47779ca48",
-      "url": "v3.0.3/rf_license.cp313-win_amd64.pyd"
+      "sha256": "c6d1e9c6b9e54363bff3fd583739f66c260297b2fcca70111547dd2976f1e24a",
+      "url": "v3.0.4/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "fb8e6653f05eed6ac7033f758c772aae4cdf766923fec0d0282de49d54fca88e",
-      "url": "v3.0.3/ui/app.css"
+      "sha256": "d0f6cffdfeceeb30dedaf7370ea2beb60572495f540292b26fd1d8b70d707c68",
+      "url": "v3.0.4/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "cdee5590996852962919b459d6ba6adca33487e891924e52b9947ae7626d878d",
-      "url": "v3.0.3/ui/app.js"
+      "sha256": "ce057fc82cb8500edd2dac4c67d33cad721ff415c24e072ad772d8c55e87b936",
+      "url": "v3.0.4/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "93e6ae7f155a53a9e962cc9059dd42054c32635f62802f78dc3218ca3b736406",
-      "url": "v3.0.3/ui/changelog.js"
+      "sha256": "11f33d63777711b33667f07bedd5de07775911ef967cbfc71f3a634f54ed9158",
+      "url": "v3.0.4/ui/changelog.js"
     },
     "ui/dialogs.js": {
-      "sha256": "61b19a50ed319ac9aedad1562dc8a7b00c2afc960a50ee25c52c46a4090c042e",
-      "url": "v3.0.3/ui/dialogs.js"
+      "sha256": "90c5c66d468505677d97c7e2613113bb55604e695264259229b5450a7cc0bc9e",
+      "url": "v3.0.4/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.3/ui/eula.html"
+      "url": "v3.0.4/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.3/ui/fonts.css"
+      "url": "v3.0.4/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.3/ui/index.html"
+      "url": "v3.0.4/ui/index.html"
     },
     "ui/logo-small.svg": {
-      "sha256": "afd0e759c6dadd791a6264201c6d6f594424452dd31d45b21ed1607de4845e35",
-      "url": "v3.0.3/ui/logo-small.svg"
+      "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
+      "url": "v3.0.4/ui/logo-small.svg"
     },
     "ui/logo.svg": {
-      "sha256": "afd0e759c6dadd791a6264201c6d6f594424452dd31d45b21ed1607de4845e35",
-      "url": "v3.0.3/ui/logo.svg"
+      "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
+      "url": "v3.0.4/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "ddcae1f187c3e0829337e92867986808b3255aab56aa4e533fa31e80e35c5d63",
-      "url": "v3.0.3/ui/pages.js"
+      "sha256": "53d718b337c0546faa5d57edb9a2509f8054574399b1913c0125475a55311462",
+      "url": "v3.0.4/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "e7746353acbdecc83172bb7986ff4fb4e26dcf928d6b3c752ce52b0ee3995d6a",
-      "url": "v3.0.3/ui/tour.js"
+      "url": "v3.0.4/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.3/extension/background.js"
+      "url": "v3.0.4/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.3/extension/content.js"
+      "url": "v3.0.4/extension/content.js"
     },
     "extension/manifest.json": {
-      "sha256": "d01cdd4e8977468de9ad23ca32103b55c184234af8657a7e41dc0c8c2f5a9590",
-      "url": "v3.0.3/extension/manifest.json"
+      "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
+      "url": "v3.0.4/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.3/extension/popup.html"
+      "url": "v3.0.4/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.3/extension/popup.js"
+      "url": "v3.0.4/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -307,15 +307,15 @@
       "url": "cultures/america/map.jpg"
     },
     "america/map.json": {
-      "sha256": "26f8076e7547ba2b8162f7aa542ec870a0f1d3393905cbed8fc9502222183410",
+      "sha256": "1b3cf5a197fafddad697f1addaee5ba7b09cc2dc2c50ae9bc24d544752331209",
       "url": "cultures/america/map.json"
     },
     "america/pins.json": {
-      "sha256": "49b04516223dd8f3eb40a00ad93feeb522f783c272b4deff7771dc40240b7dc1",
+      "sha256": "cf2e2d20a2123222b263490abbc33068e2458dc77153a6e7b0a1928ecbe3d0a8",
       "url": "cultures/america/pins.json"
     },
     "america/plots.json": {
-      "sha256": "cb57a84069994931bd12fc198c9d47ea2d078a1e6f3a44e90415a5ef329d838d",
+      "sha256": "1ab270d825c9ce0fbd37e5b6c95a378f9a9f8133f8eedb4db5c09190ec3105e6",
       "url": "cultures/america/plots.json"
     },
     "america/reference.jpg": {
@@ -583,15 +583,15 @@
       "url": "cultures/arabia/map.jpg"
     },
     "arabia/map.json": {
-      "sha256": "0a724d72eb463bbdd7aeaac88e06c898ea58bce126b1e08da5e4e11ad4091f3a",
+      "sha256": "193d48675dfa03694f07a30dd1a51ac4154f12e0fb8326ef61a92868d24b5a88",
       "url": "cultures/arabia/map.json"
     },
     "arabia/pins.json": {
-      "sha256": "b49804583f131166c283b489b3c5693ee000f70287ae9f02f0b50a1800e7ca7b",
+      "sha256": "74ab012bfec1337fd5a307298372899e38664ebd47dd6ef23da4571235262d43",
       "url": "cultures/arabia/pins.json"
     },
     "arabia/plots.json": {
-      "sha256": "fddb0be2fb5cb3d8ce012a9c071ec5422832d39963f90ec3f699ba230ec91bea",
+      "sha256": "144b18f182e45ef103b036776363d69a488678cb8e619f381e04188807440c45",
       "url": "cultures/arabia/plots.json"
     },
     "arabia/reference.jpg": {
@@ -771,15 +771,15 @@
       "url": "cultures/china/map.jpg"
     },
     "china/map.json": {
-      "sha256": "39f359425d4b5595b0d5de44271ea2bcb6d05e3ca2987cdfc84716f60cacd80f",
+      "sha256": "8fe887e765a340456cc1c435e2f253d6c9734b7fb16a7aa37e43e197bbc68418",
       "url": "cultures/china/map.json"
     },
     "china/pins.json": {
-      "sha256": "1949021e4b77491fcfe82afb9a06256e667f804fc65b2b9bf656cee5b3fb177d",
+      "sha256": "5ca79a4a421d511539abf66e928efb4dc1c2d939ed87af1a4f83da574002192f",
       "url": "cultures/china/pins.json"
     },
     "china/plots.json": {
-      "sha256": "de92227521a301974c2f47a717f8b635c16d995defb28eb7f3c632ce5f2be899",
+      "sha256": "cd000531095081fa3bea13b0776ef7a0f1254698881b0f77c746a7676300ac86",
       "url": "cultures/china/plots.json"
     },
     "china/reference.jpg": {
@@ -991,15 +991,15 @@
       "url": "cultures/europe/map.jpg"
     },
     "europe/map.json": {
-      "sha256": "e505e3731cf38be4fa165dd2406785121cab58314cf3bd61adb7a6f8882d2363",
+      "sha256": "d22d461457ff25fd6fdd707912016add748bc4418ff9504db4ec5c9a27bb2eed",
       "url": "cultures/europe/map.json"
     },
     "europe/pins.json": {
-      "sha256": "1fded9b8bf64cfca62a75c855cbe0521df1fe82a410c096a4a4b3b16e20fd8d5",
+      "sha256": "dd538a50a00c566ac10f2c29f06e1f8742dbb8a77858bd1beb6f448b0d4307f7",
       "url": "cultures/europe/pins.json"
     },
     "europe/plots.json": {
-      "sha256": "751ded74d86d026af4c5a330ddc1c47f102cc77ad9bc668b1c1a24643cfece53",
+      "sha256": "b52e5f259ca66ea0d25de8159e4d6ba78d5aec5dc82353461de2e6a4dec1f350",
       "url": "cultures/europe/plots.json"
     },
     "europe/reference.jpg": {
@@ -1231,15 +1231,15 @@
       "url": "cultures/japan/map.jpg"
     },
     "japan/map.json": {
-      "sha256": "e2f6b1de50140c5d838ff53d946bedef1499dc7cc012371167fa1a084e7824f7",
+      "sha256": "87b3cd2ff40de878b32f49bf2f3373c162b1090eb3cb0d89ce3f9a802a716db0",
       "url": "cultures/japan/map.json"
     },
     "japan/pins.json": {
-      "sha256": "1c35459edcd03cabd486d90aa61b3541ed566b028bd6366e7611131dacee6170",
+      "sha256": "5a04f218fea167029d2b29ddc1dcd9196aadf52c7721fca3693ae5400bcbd2be",
       "url": "cultures/japan/pins.json"
     },
     "japan/plots.json": {
-      "sha256": "f15b23858975368500a6f1674b747cc5aab59f037c8c05b1025254e48f7aab44",
+      "sha256": "753e09bef6d52071147df3712469db2821ee7733012e13cb7960f9934cba9ec6",
       "url": "cultures/japan/plots.json"
     },
     "japan/reference.jpg": {
@@ -1491,15 +1491,15 @@
       "url": "cultures/korea/map.jpg"
     },
     "korea/map.json": {
-      "sha256": "7172b1bba29b75891ea951ead088f69c0a3718cca56ff8916e767dcf1282a95f",
+      "sha256": "5328084b87030135e821855ff243409f9ffbe6ff1fe6fa9fdb2211f833568c61",
       "url": "cultures/korea/map.json"
     },
     "korea/pins.json": {
-      "sha256": "aae7928c0f476df6020f40c904849d2dc27ab62b02bba998dcfe49342bb3ab27",
+      "sha256": "e69df9f79fb1e61fc2419e4dbc81f32e16107553dd19ee9fec9a483f4483796a",
       "url": "cultures/korea/pins.json"
     },
     "korea/plots.json": {
-      "sha256": "6f7d82a085683894a516db5ab21ca93751bdc7ae706e670d97fe576d02d425d6",
+      "sha256": "f039c13121b65712c91e9d9eb8e066ef8eec93868ee3c94855c053c7984dd09b",
       "url": "cultures/korea/plots.json"
     },
     "korea/reference.jpg": {
@@ -1735,15 +1735,15 @@
       "url": "cultures/russia/map.jpg"
     },
     "russia/map.json": {
-      "sha256": "a5201160bb5b1e90b67c3c3397c1e570bb2e6e2bd38cf2e0fbae2e4d2e857262",
+      "sha256": "94d33cef4c7edbedc8f4f5ae3b9d4c5725b0d0f83383399e06867fb112f9ed4c",
       "url": "cultures/russia/map.json"
     },
     "russia/pins.json": {
-      "sha256": "491df93b4803cdbe8e2491806e3621d81e75954e5e2abed4a2fef26ca83ca608",
+      "sha256": "2908da9a89960c1a83502bb3d2bd6d6fe086a64c064622b5f2db3f81883eac53",
       "url": "cultures/russia/pins.json"
     },
     "russia/plots.json": {
-      "sha256": "04ae3d81b8b5fc90c66f6d2ea4218df8f284b89eb755f143453800c2117589fc",
+      "sha256": "969419195b240a9301f04763e25eec419f97e213d6e8739f5974cbdfc377a096",
       "url": "cultures/russia/plots.json"
     },
     "russia/reference.jpg": {
@@ -1757,7 +1757,7 @@
   },
   "catalog": {
     "catalog.json": {
-      "sha256": "256899393fed654b7ebe3019f3c1437f2ab631a3c8346045fa298ca14d33fc4e",
+      "sha256": "bcf78ba63adb93569399fc7a0ee6528b473e4da4f108df5515cc72ef6da860f2",
       "url": "catalog/catalog.json"
     },
     "art/Abd al-Rahman I.png": {
@@ -1926,6 +1926,10 @@
       "sha256": "0dec7a38554a71f26d59517d3f7e83cfce4e8ee2ac692aa998105913c773a2f4",
       "url": "catalog/art/Charles%20Martel.png"
     },
+    "art/Charles the Great.png": {
+      "sha256": "4bb312073c8916af9984d08f920b29c8798c88979afc0bf80e121f6a428c5a12",
+      "url": "catalog/art/Charles%20the%20Great.png"
+    },
     "art/Charles V.png": {
       "sha256": "5534b7d87ce89ab7c713cd021f28edddbe4be14274797a300a11d2204183c8d8",
       "url": "catalog/art/Charles%20V.png"
@@ -1937,10 +1941,6 @@
     "art/Charles XII.png": {
       "sha256": "900586277b8b914f7ef151275b5e96c327206aac0484df3f43c3012991ca3a06",
       "url": "catalog/art/Charles%20XII.png"
-    },
-    "art/Charles the Great.png": {
-      "sha256": "4bb312073c8916af9984d08f920b29c8798c88979afc0bf80e121f6a428c5a12",
-      "url": "catalog/art/Charles%20the%20Great.png"
     },
     "art/Cheng Yaojin.png": {
       "sha256": "c6f92177515d2b4d6a6d9ee3c479a392fbee88d317bdd3aa6505014bc7254f49",
@@ -3421,13 +3421,13 @@
       "sha256": "4899d6da1c8d05479b1cba97a08800e0dcdc232e0b882cf7fcf0395c66e455c5",
       "url": "templates/mk_Artwork_Fragment_Chest_IV_x5.png"
     },
-    "mk_Artwork_Fragment_Chest_VI_x5.png": {
-      "sha256": "91463983e51625ee65f481ad93810174cc60b78a3d70298afcaa322df3713e00",
-      "url": "templates/mk_Artwork_Fragment_Chest_VI_x5.png"
-    },
     "mk_Artwork_Fragment_Chest_V_x5.png": {
       "sha256": "4f3d1205de653975c6fa84402d46d0fc7e6f40493efd14f7b5b7a4d779b88f07",
       "url": "templates/mk_Artwork_Fragment_Chest_V_x5.png"
+    },
+    "mk_Artwork_Fragment_Chest_VI_x5.png": {
+      "sha256": "91463983e51625ee65f481ad93810174cc60b78a3d70298afcaa322df3713e00",
+      "url": "templates/mk_Artwork_Fragment_Chest_VI_x5.png"
     },
     "mk_Champions_Armor.png": {
       "sha256": "e397c195b5ebe7697a1a1c3839ee11d6f0114774c830f3afbe55e32dae12eb2e",
@@ -3721,6 +3721,26 @@
       "sha256": "c48684d0db42262f9e0206910b0b52af7491f4f288ebf86ce144949f136119cd",
       "url": "templates/ring_wheel.png"
     },
+    "vk_seed_label_0.png": {
+      "sha256": "a18462d249f788cc3778a34d2b36fc0772f2cf10d907fca6b2d871c0c9bfa562",
+      "url": "templates/vk_seed_label_0.png"
+    },
+    "vk_seed_label_1.png": {
+      "sha256": "344ed6640da3bbad14e8bc55c21fe9743a44df8a0181a3c8367dcdc79dfd0bcc",
+      "url": "templates/vk_seed_label_1.png"
+    },
+    "vk_seed_map_0.png": {
+      "sha256": "357bc177c2e6f20ec3395278adfb2a7e3637a887eed320a873c06340db9c9a99",
+      "url": "templates/vk_seed_map_0.png"
+    },
+    "vk_seed_word_0.png": {
+      "sha256": "657088f544bf16a04825aaeb3297af22828dca24e8b5cc0d7cb0251a101c612f",
+      "url": "templates/vk_seed_word_0.png"
+    },
+    "vk_seed_word_1.png": {
+      "sha256": "78bd10337cc45d80b5b3658c73f1505adbc1a5a4ebd6080b53160cc0fca89314",
+      "url": "templates/vk_seed_word_1.png"
+    },
     "war_button.png": {
       "sha256": "fbd54ed9520be3b6c1694d2b32a447f486e7b56624c901f6ba3d392761fe6ec5",
       "url": "templates/war_button.png"
@@ -3746,6 +3766,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "iPrm7OPYzhE3rVYFEqYwnUs9Cyng1ytaMUh-R7d2vzuV1jl6Os5p1DuvENsgxKW_hYpkAwn7gLiLZmlGV6Z6BA",
-  "sig": "09e6180854076a9a9d69eaf29332a73696c8bc8d63e0ea4fb5fe835fdb91594d"
+  "rsig": "OwCS0iaH-91i8Jurqtq_BMnyvEghtr07Ec6XJ0OWqmNs5N-RSVGLw4m4K4YGSY5xzSnh6GuwZ6PSAS0I7UD3BA",
+  "sig": "fa09340ac5b697665523e8893a8cdacfd0c2364b3bec94a2e1f36a8f03b05cba"
 }
