@@ -1,82 +1,82 @@
 {
-  "version": "3.0.4",
-  "notes": "Monster hunts: faster, beats Auto-Join to free marches, no double rallies, map-load fix; Vikings and duty fixes",
+  "version": "3.0.5",
+  "notes": "Share monster coordinates on every PC of an Owner account; clearer Monster hunts order switch; spacing fixes",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "cc46a09dd2e994b049ca4b1771266e8e82e0dd5d8c61c032a7ee5d3343b1423e",
-      "url": "v3.0.4/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "9b050de39aebf6f61997f1cd577daa8627948c4b2a2ad3704283c677e376c29a",
+      "url": "v3.0.5/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "f676c4f09b6ba46f64a88a79c3a6c97482ef6eeda391a7a91dff050bd5b7097e",
-      "url": "v3.0.4/web_app.cp313-win_amd64.pyd"
+      "sha256": "3a51e4556578efd1857cf983310832c716952c3b7a73c2a31379604fc436fdb6",
+      "url": "v3.0.5/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "c6d1e9c6b9e54363bff3fd583739f66c260297b2fcca70111547dd2976f1e24a",
-      "url": "v3.0.4/rf_license.cp313-win_amd64.pyd"
+      "sha256": "a6ee5813173c37344be85ce4db148133f4bbaf3f0115dc78931780e2b8021cce",
+      "url": "v3.0.5/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "d0f6cffdfeceeb30dedaf7370ea2beb60572495f540292b26fd1d8b70d707c68",
-      "url": "v3.0.4/ui/app.css"
+      "sha256": "90516b875deb985698af4f54f6d278143b95d626e94acfc10bad446be3135715",
+      "url": "v3.0.5/ui/app.css"
     },
     "ui/app.js": {
       "sha256": "ce057fc82cb8500edd2dac4c67d33cad721ff415c24e072ad772d8c55e87b936",
-      "url": "v3.0.4/ui/app.js"
+      "url": "v3.0.5/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "11f33d63777711b33667f07bedd5de07775911ef967cbfc71f3a634f54ed9158",
-      "url": "v3.0.4/ui/changelog.js"
+      "sha256": "7d304802d6180c40b0a80c61fb5f35a9a0360ebe435444061d8d64c0a2de4a87",
+      "url": "v3.0.5/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "90c5c66d468505677d97c7e2613113bb55604e695264259229b5450a7cc0bc9e",
-      "url": "v3.0.4/ui/dialogs.js"
+      "url": "v3.0.5/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.4/ui/eula.html"
+      "url": "v3.0.5/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.4/ui/fonts.css"
+      "url": "v3.0.5/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.4/ui/index.html"
+      "url": "v3.0.5/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.4/ui/logo-small.svg"
+      "url": "v3.0.5/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.4/ui/logo.svg"
+      "url": "v3.0.5/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "53d718b337c0546faa5d57edb9a2509f8054574399b1913c0125475a55311462",
-      "url": "v3.0.4/ui/pages.js"
+      "sha256": "dd4bdee164fd8ccd74363254b4f9487ec75d93b3a0cd996487b9a3584e575807",
+      "url": "v3.0.5/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "e7746353acbdecc83172bb7986ff4fb4e26dcf928d6b3c752ce52b0ee3995d6a",
-      "url": "v3.0.4/ui/tour.js"
+      "url": "v3.0.5/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.4/extension/background.js"
+      "url": "v3.0.5/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.4/extension/content.js"
+      "url": "v3.0.5/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.4/extension/manifest.json"
+      "url": "v3.0.5/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.4/extension/popup.html"
+      "url": "v3.0.5/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.4/extension/popup.js"
+      "url": "v3.0.5/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3766,6 +3766,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "OwCS0iaH-91i8Jurqtq_BMnyvEghtr07Ec6XJ0OWqmNs5N-RSVGLw4m4K4YGSY5xzSnh6GuwZ6PSAS0I7UD3BA",
-  "sig": "fa09340ac5b697665523e8893a8cdacfd0c2364b3bec94a2e1f36a8f03b05cba"
+  "rsig": "OBxl6ESWnbPi-in6FGOm__8jur1K8sxX0QoK0aiVZlISK0kr9lzu2FRXFK3XupH6jt5gjVxTEiw0JiUAbfvDDA",
+  "sig": "9ad741a7d2c7ca50cd54d351539ac757f01cd92551bb26e7751f9e5733fc3067"
 }
