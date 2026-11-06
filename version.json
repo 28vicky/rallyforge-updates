@@ -1,82 +1,82 @@
 {
-  "version": "3.0.6",
-  "notes": "Feature + fixes\n\nNew\n\u2022 Safety: the bot never breaks your Truce Agreement. If the game asks to give up your truce to attack or scout a player, it always taps Cancel and never goes to that spot again.\n\u2022 Profiles: change a setting on an account that shares its profile and the app asks who gets it - every account on the profile, only this account, a new profile, or the accounts you pick.\n\u2022 Profiles: save a change as a new profile in one step. Each profile shows its accounts and what makes it different from the one it came from.\n\u2022 Profiles: copy one part (for example Black Market) from a profile to other profiles and accounts.\n\u2022 Saved settings in Tools: load, update, rename or delete each saved set in one place. Loading can be undone.\n\u2022 New events and tasks: Dailies offers once to turn a new one on for every profile and account.\n\nImproved\n\u2022 Logs (was History): the time on every line, look back 1 hour, 6 hours, 24 hours or 3 days, and a single scroll bar. Technical steps shows the details.\n\u2022 Monster hunts: remove a monster from the hunt order with one click on its x. The hunt order lists monsters only.\n\u2022 Monster hunts: Normal Bosses sit in one card, highest level first.\n\u2022 Shorter, clearer status line, for example \u201cGoing to rally Lv5 Warlord\u201d.\n\u2022 More monsters are recognised from the start.\n\u2022 Tidier tabs, menus and settings: \u201cSame as Standard \u00b7 Use own setting\u201d, Schedule & breaks, Hunt log and one Update button.\n\u2022 Labor runs once a day.\n\u2022 Opening the app while it is still closing now says so and opens it as soon as it can.\n\u2022 Your accent colour now changes every button and highlight. Page size stops at what fits your window, so menus and tabs keep opening.\n\u2022 Black Market knows more resource packs: Food 20M and Ore 50M.\n\nFixed\n\u2022 Shrine offering no longer runs again after it worked.\n\u2022 Champions stops for the day once your greets are done.\n\u2022 Run now no longer waits behind other tasks.\n\u2022 Monster hunts only sends presets that have that monster in their list.\n\u2022 Barbarians, Arctic Barbarians and Pyramid are no longer flown to.\n\u2022 \u201cLoad a saved list\u201d no longer shows a blank page.\n\u2022 Level chips are no longer cut off, and the add-monster list no longer jumps to the top.\n\u2022 \u201cnull\u201d no longer shows under Right now.\n\u2022 Category buttons stay visible in small windows.\n\u2022 Event Center checks wait for the page to finish loading.\n\u2022 Fewer stuck pop-ups, and faster recovery when the game hangs or the account is opened elsewhere.\n\u2022 Black Market recognises the 5M Lumber pack reliably.\n\u2022 The bot no longer sits on a screen it does not know - if nothing changes for a few seconds it goes back.\n\u2022 Star Trail no longer gets stuck on its page.\n\u2022 While waiting for a free march, the bot keeps checking it is still on the world map.\n\u2022 The status says \u201cWaiting for a free march\u201d when every march is out.",
+  "version": "3.0.7",
+  "notes": "Feature + fixes\n\nNew\n\u2022 Black Market: new switches \u201cBuy everything priced in gold\u201d and \u201cBuy everything priced in resources\u201d. No picking and no pictures needed, and gems are never spent. Items it has not seen before are named and remembered by themselves.\n\nImproved\n\u2022 Dailies and Events are listed A-Z, and a row you switch on stays where it is.\n\nFixed\n\u2022 Black Market recognises Stone 50M, Gold 100K and Lumber 5M reliably - their old pictures are replaced by themselves.\n\u2022 Monster hunts: the bot no longer leaves the world map because of one unclear look - it checks twice, and never presses Back on the map itself.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "0da855b01aaa50e5d0395cf5ce16da3da51088e31cb212682cf593d385a22ecb",
-      "url": "v3.0.6/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "3382a0ef00f4fa59943747250a4db0c0938f8fddabfcc6c56cb471d410ed9a7c",
+      "url": "v3.0.7/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "91bdee8063a0aa618c9c8f045011db90ead125dd074728c8e1aad0dde2fb6627",
-      "url": "v3.0.6/web_app.cp313-win_amd64.pyd"
+      "sha256": "b8027cb0502226623e27be60851358ead69a355fac6035626d239f4b87814c73",
+      "url": "v3.0.7/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "426555a75c6f1d6d534cccb5505d8b2e366386b06f3b67e32c33af4d74b6d839",
-      "url": "v3.0.6/rf_license.cp313-win_amd64.pyd"
+      "sha256": "fe3beb81bb632876ade0b624db2cdbcd801ab9833116472a784b889a495d8c11",
+      "url": "v3.0.7/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "fd962cd34db3711b15d2faa137b21eb585585f2705ba487a340161cc22d32bfa",
-      "url": "v3.0.6/ui/app.css"
+      "sha256": "ed252bece4443d906f32f0345fb87ea4317ad537e8dc7df8e3c910e834960a77",
+      "url": "v3.0.7/ui/app.css"
     },
     "ui/app.js": {
       "sha256": "b3ff5b546f74ef1f9920322707b8da9c2a7d072cdfd918998bf917bbf147ad9b",
-      "url": "v3.0.6/ui/app.js"
+      "url": "v3.0.7/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "9a7576b6680272be91095de9a4bf1425f058520b5deded3ee5b6100ecbb33ae9",
-      "url": "v3.0.6/ui/changelog.js"
+      "sha256": "2d9b6511c0b7a35a5430188471550c0255b576f45583c4be6a445f10bdcd765a",
+      "url": "v3.0.7/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "06c15bbad98e75359ba0204e8ca173a5649e7c5d6315b19ee7ce46958b7f9c0e",
-      "url": "v3.0.6/ui/dialogs.js"
+      "url": "v3.0.7/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.6/ui/eula.html"
+      "url": "v3.0.7/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.6/ui/fonts.css"
+      "url": "v3.0.7/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.6/ui/index.html"
+      "url": "v3.0.7/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.6/ui/logo-small.svg"
+      "url": "v3.0.7/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.6/ui/logo.svg"
+      "url": "v3.0.7/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "5ca480301e64163e5963c75f58e2908f9cd0823447aee39fa83235524fb766dc",
-      "url": "v3.0.6/ui/pages.js"
+      "sha256": "b701669939def35a13e713d6f72a27c8cbdad0f8bc15fe16b6b9b03a718a56a3",
+      "url": "v3.0.7/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
-      "url": "v3.0.6/ui/tour.js"
+      "url": "v3.0.7/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.6/extension/background.js"
+      "url": "v3.0.7/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.6/extension/content.js"
+      "url": "v3.0.7/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.6/extension/manifest.json"
+      "url": "v3.0.7/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.6/extension/popup.html"
+      "url": "v3.0.7/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.6/extension/popup.js"
+      "url": "v3.0.7/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3686,7 +3686,7 @@
       "url": "templates/mk_Generals_Sword.png"
     },
     "mk_Gold_100K.png": {
-      "sha256": "7c1934cfb1cc69f2ec11340ead10401c05a7cc0e2790f93494d4d5c9166bd6fb",
+      "sha256": "0d2155d4f17756cca6e339325a53319184cb0507b2a739d13d623d6f00f9f852",
       "url": "templates/mk_Gold_100K.png"
     },
     "mk_Leather_Boots.png": {
@@ -3770,7 +3770,7 @@
       "url": "templates/mk_Stone_200M.png"
     },
     "mk_Stone_50M.png": {
-      "sha256": "a8d7f461c4a6924af0077fd6cc60d0ecb12d50c6a9575b1a4d6e20d26ebe21c8",
+      "sha256": "ed066194368343cf604efd4f055178eb9a0b744c77d08394200f8c17da1b334a",
       "url": "templates/mk_Stone_50M.png"
     },
     "mk_Tactic_Scroll_x10.png": {
@@ -3902,6 +3902,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "PgoWuFNXxWuVJUt55NxY76xBHTyrmn87LSGRV1wsDkQRw7TqT8L1u7-8UTiY6Gp9XOa_i6ThFUaqCjfis9yrCA",
-  "sig": "db9dde1d67f52a60f226e7c66df93eecee53a20e6e7485ee9b639802cb897fc4"
+  "rsig": "pevr3EcjSKl-xrJZ_Z0tdtiO--CcuGYhubjo9dHmsTB_1RxI4YdMIVkxf0B9UFTTY3IcNg51lZ1LxUIyJ0CbAw",
+  "sig": "0071be5816ed1a3579c03def33d94069b04cca211d8a5adf4cfe51e1a6acc6f0"
 }
