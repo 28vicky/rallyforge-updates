@@ -1,82 +1,82 @@
 {
-  "version": "3.0.7",
-  "notes": "Feature + fixes\n\nNew\n\u2022 Black Market: new switches \u201cBuy everything priced in gold\u201d and \u201cBuy everything priced in resources\u201d. No picking and no pictures needed, and gems are never spent. Items it has not seen before are named and remembered by themselves.\n\nImproved\n\u2022 Dailies and Events are listed A-Z, and a row you switch on stays where it is.\n\nFixed\n\u2022 Black Market recognises Stone 50M, Gold 100K and Lumber 5M reliably - their old pictures are replaced by themselves.\n\u2022 Monster hunts: the bot no longer leaves the world map because of one unclear look - it checks twice, and never presses Back on the map itself.",
+  "version": "3.0.8",
+  "notes": "Feature + fixes\n\nNew\n\u2022 Profiles: Standard is now a profile like any other. New accounts start with blank settings and no profile - set them up yourself or link them to a profile.\n\nImproved\n\u2022 The bot now recognises the world map by how the whole screen looks, not by one button - a covered button or a window over the map no longer confuses it.\n\u2022 Settings pages are simpler: the \u201cSame as Standard / Use own setting\u201d line is gone.\n\nFixed\n\u2022 Game opened on another device: the bot closes the game at once, waits the minutes you chose, then waits until the game has fully loaded before doing anything - it no longer fights the game while it loads.\n\u2022 The city with a building menu open, or a window over the map, is no longer taken for the world map.\n\u2022 The bot never presses Back while the game is loading.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "3382a0ef00f4fa59943747250a4db0c0938f8fddabfcc6c56cb471d410ed9a7c",
-      "url": "v3.0.7/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "039c89e6a4fe5d437416944b1a4f18b2c04bb2d466aadfe2fdafbb239e3c5fb7",
+      "url": "v3.0.8/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "b8027cb0502226623e27be60851358ead69a355fac6035626d239f4b87814c73",
-      "url": "v3.0.7/web_app.cp313-win_amd64.pyd"
+      "sha256": "b4a6ee4be779cddc50de5a1cf0875cd7a6eaebd977d4193a0863c0a9d2c728ac",
+      "url": "v3.0.8/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "fe3beb81bb632876ade0b624db2cdbcd801ab9833116472a784b889a495d8c11",
-      "url": "v3.0.7/rf_license.cp313-win_amd64.pyd"
+      "sha256": "b0b291c395f89812c5545719938d8c9bfc337da95f3fe11912191dd037ddb66a",
+      "url": "v3.0.8/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
       "sha256": "ed252bece4443d906f32f0345fb87ea4317ad537e8dc7df8e3c910e834960a77",
-      "url": "v3.0.7/ui/app.css"
+      "url": "v3.0.8/ui/app.css"
     },
     "ui/app.js": {
       "sha256": "b3ff5b546f74ef1f9920322707b8da9c2a7d072cdfd918998bf917bbf147ad9b",
-      "url": "v3.0.7/ui/app.js"
+      "url": "v3.0.8/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "2d9b6511c0b7a35a5430188471550c0255b576f45583c4be6a445f10bdcd765a",
-      "url": "v3.0.7/ui/changelog.js"
+      "sha256": "58d9cf7a967c91d9b427db1a1ffd1c0e651aa87e9ab164dd9fba1424d3eb0eee",
+      "url": "v3.0.8/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "06c15bbad98e75359ba0204e8ca173a5649e7c5d6315b19ee7ce46958b7f9c0e",
-      "url": "v3.0.7/ui/dialogs.js"
+      "url": "v3.0.8/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.7/ui/eula.html"
+      "url": "v3.0.8/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.7/ui/fonts.css"
+      "url": "v3.0.8/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.7/ui/index.html"
+      "url": "v3.0.8/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.7/ui/logo-small.svg"
+      "url": "v3.0.8/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.7/ui/logo.svg"
+      "url": "v3.0.8/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "b701669939def35a13e713d6f72a27c8cbdad0f8bc15fe16b6b9b03a718a56a3",
-      "url": "v3.0.7/ui/pages.js"
+      "sha256": "c857afa2b3a2635a9cb31b23244cee8df36a71e9039b912f2217baa10a247544",
+      "url": "v3.0.8/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
-      "url": "v3.0.7/ui/tour.js"
+      "url": "v3.0.8/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.7/extension/background.js"
+      "url": "v3.0.8/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.7/extension/content.js"
+      "url": "v3.0.8/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.7/extension/manifest.json"
+      "url": "v3.0.8/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.7/extension/popup.html"
+      "url": "v3.0.8/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.7/extension/popup.js"
+      "url": "v3.0.8/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3517,6 +3517,10 @@
       "sha256": "87b27e637e0de7ceeb05d4e19baf1bc5ad3243d08332ff23173797455b33d438",
       "url": "templates/lag_wifi.png"
     },
+    "look_atlas_v1.png": {
+      "sha256": "c9beb9ac8b5c2b573c94d1a2a272ccd31872d33d901aecda68e4f1fb9f1e2d7c",
+      "url": "templates/look_atlas_v1.png"
+    },
     "mk_24h_Farm_Speed-up_x2.png": {
       "sha256": "db53eb4586cea4901937061ba76c30f14ffb9c1fecfcc6a9efbcc6be4660ea61",
       "url": "templates/mk_24h_Farm_Speed-up_x2.png"
@@ -3902,6 +3906,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "pevr3EcjSKl-xrJZ_Z0tdtiO--CcuGYhubjo9dHmsTB_1RxI4YdMIVkxf0B9UFTTY3IcNg51lZ1LxUIyJ0CbAw",
-  "sig": "0071be5816ed1a3579c03def33d94069b04cca211d8a5adf4cfe51e1a6acc6f0"
+  "rsig": "Qc18uexmeuBk6IrXA2WF7ENLn6x8WZgxbtBZ8OMz795NMbqzhLdXoUoIYpvbDUQbmdP_uwx4IuEPPtxCZd0ZCA",
+  "sig": "613f9eda4799e7c66dabdfb0b28b9a1a9f30a1269ca3b1967bd5278dfff83679"
 }
