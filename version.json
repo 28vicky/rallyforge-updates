@@ -1,82 +1,82 @@
 {
-  "version": "3.0.5",
-  "notes": "Share monster coordinates on every PC of an Owner account; clearer Monster hunts order switch; spacing fixes",
+  "version": "3.0.6",
+  "notes": "Feature + fixes\n\nNew\n\u2022 Safety: the bot never breaks your Truce Agreement. If the game asks to give up your truce to attack or scout a player, it always taps Cancel and never goes to that spot again.\n\u2022 Profiles: change a setting on an account that shares its profile and the app asks who gets it - every account on the profile, only this account, a new profile, or the accounts you pick.\n\u2022 Profiles: save a change as a new profile in one step. Each profile shows its accounts and what makes it different from the one it came from.\n\u2022 Profiles: copy one part (for example Black Market) from a profile to other profiles and accounts.\n\u2022 Saved settings in Tools: load, update, rename or delete each saved set in one place. Loading can be undone.\n\u2022 New events and tasks: Dailies offers once to turn a new one on for every profile and account.\n\nImproved\n\u2022 Logs (was History): the time on every line, look back 1 hour, 6 hours, 24 hours or 3 days, and a single scroll bar. Technical steps shows the details.\n\u2022 Monster hunts: remove a monster from the hunt order with one click on its x. The hunt order lists monsters only.\n\u2022 Monster hunts: Normal Bosses sit in one card, highest level first.\n\u2022 Shorter, clearer status line, for example \u201cGoing to rally Lv5 Warlord\u201d.\n\u2022 More monsters are recognised from the start.\n\u2022 Tidier tabs, menus and settings: \u201cSame as Standard \u00b7 Use own setting\u201d, Schedule & breaks, Hunt log and one Update button.\n\u2022 Labor runs once a day.\n\u2022 Opening the app while it is still closing now says so and opens it as soon as it can.\n\u2022 Your accent colour now changes every button and highlight. Page size stops at what fits your window, so menus and tabs keep opening.\n\u2022 Black Market knows more resource packs: Food 20M and Ore 50M.\n\nFixed\n\u2022 Shrine offering no longer runs again after it worked.\n\u2022 Champions stops for the day once your greets are done.\n\u2022 Run now no longer waits behind other tasks.\n\u2022 Monster hunts only sends presets that have that monster in their list.\n\u2022 Barbarians, Arctic Barbarians and Pyramid are no longer flown to.\n\u2022 \u201cLoad a saved list\u201d no longer shows a blank page.\n\u2022 Level chips are no longer cut off, and the add-monster list no longer jumps to the top.\n\u2022 \u201cnull\u201d no longer shows under Right now.\n\u2022 Category buttons stay visible in small windows.\n\u2022 Event Center checks wait for the page to finish loading.\n\u2022 Fewer stuck pop-ups, and faster recovery when the game hangs or the account is opened elsewhere.\n\u2022 Black Market recognises the 5M Lumber pack reliably.\n\u2022 The bot no longer sits on a screen it does not know - if nothing changes for a few seconds it goes back.\n\u2022 Star Trail no longer gets stuck on its page.\n\u2022 While waiting for a free march, the bot keeps checking it is still on the world map.\n\u2022 The status says \u201cWaiting for a free march\u201d when every march is out.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "9b050de39aebf6f61997f1cd577daa8627948c4b2a2ad3704283c677e376c29a",
-      "url": "v3.0.5/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "0da855b01aaa50e5d0395cf5ce16da3da51088e31cb212682cf593d385a22ecb",
+      "url": "v3.0.6/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "3a51e4556578efd1857cf983310832c716952c3b7a73c2a31379604fc436fdb6",
-      "url": "v3.0.5/web_app.cp313-win_amd64.pyd"
+      "sha256": "91bdee8063a0aa618c9c8f045011db90ead125dd074728c8e1aad0dde2fb6627",
+      "url": "v3.0.6/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "a6ee5813173c37344be85ce4db148133f4bbaf3f0115dc78931780e2b8021cce",
-      "url": "v3.0.5/rf_license.cp313-win_amd64.pyd"
+      "sha256": "426555a75c6f1d6d534cccb5505d8b2e366386b06f3b67e32c33af4d74b6d839",
+      "url": "v3.0.6/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "90516b875deb985698af4f54f6d278143b95d626e94acfc10bad446be3135715",
-      "url": "v3.0.5/ui/app.css"
+      "sha256": "fd962cd34db3711b15d2faa137b21eb585585f2705ba487a340161cc22d32bfa",
+      "url": "v3.0.6/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "ce057fc82cb8500edd2dac4c67d33cad721ff415c24e072ad772d8c55e87b936",
-      "url": "v3.0.5/ui/app.js"
+      "sha256": "b3ff5b546f74ef1f9920322707b8da9c2a7d072cdfd918998bf917bbf147ad9b",
+      "url": "v3.0.6/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "7d304802d6180c40b0a80c61fb5f35a9a0360ebe435444061d8d64c0a2de4a87",
-      "url": "v3.0.5/ui/changelog.js"
+      "sha256": "9a7576b6680272be91095de9a4bf1425f058520b5deded3ee5b6100ecbb33ae9",
+      "url": "v3.0.6/ui/changelog.js"
     },
     "ui/dialogs.js": {
-      "sha256": "90c5c66d468505677d97c7e2613113bb55604e695264259229b5450a7cc0bc9e",
-      "url": "v3.0.5/ui/dialogs.js"
+      "sha256": "06c15bbad98e75359ba0204e8ca173a5649e7c5d6315b19ee7ce46958b7f9c0e",
+      "url": "v3.0.6/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.5/ui/eula.html"
+      "url": "v3.0.6/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.5/ui/fonts.css"
+      "url": "v3.0.6/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.5/ui/index.html"
+      "url": "v3.0.6/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.5/ui/logo-small.svg"
+      "url": "v3.0.6/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.5/ui/logo.svg"
+      "url": "v3.0.6/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "dd4bdee164fd8ccd74363254b4f9487ec75d93b3a0cd996487b9a3584e575807",
-      "url": "v3.0.5/ui/pages.js"
+      "sha256": "5ca480301e64163e5963c75f58e2908f9cd0823447aee39fa83235524fb766dc",
+      "url": "v3.0.6/ui/pages.js"
     },
     "ui/tour.js": {
-      "sha256": "e7746353acbdecc83172bb7986ff4fb4e26dcf928d6b3c752ce52b0ee3995d6a",
-      "url": "v3.0.5/ui/tour.js"
+      "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
+      "url": "v3.0.6/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.5/extension/background.js"
+      "url": "v3.0.6/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.5/extension/content.js"
+      "url": "v3.0.6/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.5/extension/manifest.json"
+      "url": "v3.0.6/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.5/extension/popup.html"
+      "url": "v3.0.6/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.5/extension/popup.js"
+      "url": "v3.0.6/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3111,6 +3111,14 @@
     }
   },
   "monsters": {
+    "Aglaope.png": {
+      "sha256": "e5edf4680f460db041068dc7c0cd5547c71506a145e94a2fe17b6b03ea0d9689",
+      "url": "monsters/Aglaope.png"
+    },
+    "Ammit #2.png": {
+      "sha256": "0c18714bcf641100b67f4a4c8e41cdb6a908d53b3b9bf65c4b1c9caba1d49772",
+      "url": "monsters/Ammit%20%232.png"
+    },
     "Ammit.png": {
       "sha256": "075ebc7204c3ae426b3d1cda862fe89dc85b723b10f78893b102f23e0db19c36",
       "url": "monsters/Ammit.png"
@@ -3123,9 +3131,25 @@
       "sha256": "d1616064cb0e029acf8329e6f923cfb05ea616869be886589f664c43646f64c4",
       "url": "monsters/Azazel.png"
     },
+    "Barbary Pirate.png": {
+      "sha256": "fba55467e692445184d66d9960237bdf16856c3c2b8b4979a620022ff53bce59",
+      "url": "monsters/Barbary%20Pirate.png"
+    },
+    "Basilisk.png": {
+      "sha256": "863f43bf25543faf449b7ab3db4c2e5b3da75c0c5c6ae5ed0679099f24c19789",
+      "url": "monsters/Basilisk.png"
+    },
     "Bayar Knight.png": {
       "sha256": "1ed3b797d5a274a5124c781a23d8eec5a4873031eaf9b52ab33ca0e016ab76d0",
       "url": "monsters/Bayar%20Knight.png"
+    },
+    "Behemoth #2.png": {
+      "sha256": "4165d1d8c43ad4069d3a7b3a2eab7a669728bb885f5de4cee069e2ba6996624a",
+      "url": "monsters/Behemoth%20%232.png"
+    },
+    "Behemoth #3.png": {
+      "sha256": "351cd1e28cdfe44ae02777f8cf217afccf112b72eb7fc68f16d3a7ed2d5ebe32",
+      "url": "monsters/Behemoth%20%233.png"
     },
     "Behemoth.png": {
       "sha256": "cd5391aa195f0d101b7d036b98cf92bf01650d6475db5ffabba8d48861cba8e2",
@@ -3135,21 +3159,61 @@
       "sha256": "8608613b6abce2fa8b1c040ce10dc07db8f618ba07361c9cb536ac85f58eaf0c",
       "url": "monsters/Bird%20of%20Hurricane.png"
     },
+    "Cerberus #2.png": {
+      "sha256": "71640735fdad35fa093b27bb0fd5ffe679fdd0d82b30e096abb5f92fd2fd827e",
+      "url": "monsters/Cerberus%20%232.png"
+    },
+    "Cerberus #3.png": {
+      "sha256": "04959c6289539564e666306a04781dc7a226852530de591ff09153b2920a16bc",
+      "url": "monsters/Cerberus%20%233.png"
+    },
     "Cerberus.png": {
       "sha256": "170942996446f624f9d37cd19f7243c601d4beb46c8744e7d627a11b9c06d9c5",
       "url": "monsters/Cerberus.png"
+    },
+    "Draugr.png": {
+      "sha256": "bdec4aa3e329d3dd929f5bc9a3a002aae5383bc543c39db8715f6195c7240ee5",
+      "url": "monsters/Draugr.png"
+    },
+    "Fafnir.png": {
+      "sha256": "a539e73338a56f0e09da266ed2b97f8a683e76ba369049149ae5ff9e80b84d2c",
+      "url": "monsters/Fafnir.png"
     },
     "Garmr.png": {
       "sha256": "8a448a7cf7c717f27f74d48e1f1506409bd4d961f2a5b55eb66e6af296a03461",
       "url": "monsters/Garmr.png"
     },
+    "Garuda.png": {
+      "sha256": "25fbae22a9b6be3127a5ab13b2ed7fec30f7564bf7141d29f67eaac8225828e3",
+      "url": "monsters/Garuda.png"
+    },
+    "Hydra #2.png": {
+      "sha256": "ccb172e1cc57b193a984986ab44fbeae6cb5c4143579c53adbfc65cb13d289ac",
+      "url": "monsters/Hydra%20%232.png"
+    },
     "Hydra.png": {
       "sha256": "41b35051b41a3562bb197ad3c4c89e45b3e1c4c079c527c9d8b5f118ee9ca5ff",
       "url": "monsters/Hydra.png"
     },
+    "Ifrit.png": {
+      "sha256": "305d7b7c3d1a5dff102f7f09b2168da0cb93665879e0c66afbc9eeeb22e81d70",
+      "url": "monsters/Ifrit.png"
+    },
     "Jormungandr.png": {
       "sha256": "8cc74f20d7a480341de101858868ee277480b0116c7cc430a0d91a491228a9f8",
       "url": "monsters/Jormungandr.png"
+    },
+    "Junior Hydra.png": {
+      "sha256": "41b35051b41a3562bb197ad3c4c89e45b3e1c4c079c527c9d8b5f118ee9ca5ff",
+      "url": "monsters/Junior%20Hydra.png"
+    },
+    "Kamaitachi.png": {
+      "sha256": "b22b248f04fa90336edc089343daf443ba5aa0686d82cb89868586d5d107d466",
+      "url": "monsters/Kamaitachi.png"
+    },
+    "Knight Bayard #2.png": {
+      "sha256": "d997e78ab28b46c30efc1ea39374336bfa552adff0b7f19bfe93b423ab4b05c3",
+      "url": "monsters/Knight%20Bayard%20%232.png"
     },
     "Knight Bayard.png": {
       "sha256": "1ed3b797d5a274a5124c781a23d8eec5a4873031eaf9b52ab33ca0e016ab76d0",
@@ -3167,6 +3231,18 @@
       "sha256": "10d3e6face039ab4db69577b405f27a8900819647e1d52f59881ff7afd33f341",
       "url": "monsters/Leviathan.png"
     },
+    "Manticore.png": {
+      "sha256": "f1a5f84e59ac6283dcb3a7a9608dfbf59b42b1e965079a2eb605bf237184cbec",
+      "url": "monsters/Manticore.png"
+    },
+    "Minotaur.png": {
+      "sha256": "d938d358e4c5a7a77eaea5188ba260cc6b14dcb61daf616b33f323ea63062785",
+      "url": "monsters/Minotaur.png"
+    },
+    "Pan #2.png": {
+      "sha256": "0a53165c2b7e7cfae5168d7233226d19a5373be499225c528479a68f443f1d4a",
+      "url": "monsters/Pan%20%232.png"
+    },
     "Pan.png": {
       "sha256": "88fcc982ca5d78149d12220f8a856cce0bdc24f8e76534f65f6c281388d3380e",
       "url": "monsters/Pan.png"
@@ -3174,6 +3250,14 @@
     "Phoenix.png": {
       "sha256": "4ad9ff94e3889c26f99f0058bdff35ea4ba1a2d0f1930e6bdd8711e1af46013a",
       "url": "monsters/Phoenix.png"
+    },
+    "Pumpkin Monster #2.png": {
+      "sha256": "4b246c70d1b705a99ce1c94ad5d01ad3812d8c969d79ab1bb9ade065c3a9b111",
+      "url": "monsters/Pumpkin%20Monster%20%232.png"
+    },
+    "Pumpkin Monster #3.png": {
+      "sha256": "7316e0ac9d77be6c7cfdae033536d5697a553fd2414eff9b80cafb62a76da1ee",
+      "url": "monsters/Pumpkin%20Monster%20%233.png"
     },
     "Pumpkin Monster.png": {
       "sha256": "67c48539b30bc9cb31e751415f190924396730a12c41de0c24e908d46925485d",
@@ -3195,9 +3279,21 @@
       "sha256": "80ed9e22b3da441f270c93bd458c72d936db28e70a33254b37a2800104c2f584",
       "url": "monsters/Sphinx.png"
     },
+    "Stymphalian Bird #2.png": {
+      "sha256": "4b66983911b4fb6fc367ea39d7e31281a040df7833f1af9aeb7606103c3f8f5d",
+      "url": "monsters/Stymphalian%20Bird%20%232.png"
+    },
     "Stymphalian Bird.png": {
       "sha256": "cce472c4479f3b3d8e430c4e8a445816cdb85fdbb67a09c1dc6a2feda76c60ad",
       "url": "monsters/Stymphalian%20Bird.png"
+    },
+    "Surtr.png": {
+      "sha256": "b55e10b07dc20aa5ddede4bb25e2adc760344dcf6301a8248b5e88a2bc8a123c",
+      "url": "monsters/Surtr.png"
+    },
+    "Taotie #2.png": {
+      "sha256": "8e41f01b81a7fc2ffa87f04d4712f5e57f90ba65bcbae18ddb3d4c36f2d51618",
+      "url": "monsters/Taotie%20%232.png"
     },
     "Taotie.png": {
       "sha256": "05b2daa86f8963c8069e10cb77e1cb69306262be8309b3028d84637739498e49",
@@ -3215,6 +3311,10 @@
       "sha256": "12f12603caf3c9f69ecf269c25b461c9acfef5b0ce2be59a5817acda93342c72",
       "url": "monsters/Typhon.png"
     },
+    "Viking #2.png": {
+      "sha256": "6908ec5fa4b0f6c3e28e04ac525b31446dd28d23d718e3156cb92f94a1ecd54e",
+      "url": "monsters/Viking%20%232.png"
+    },
     "Viking #3.png": {
       "sha256": "1776c7401c89c02f4933090b684571955307623ab2697204bfc84f717d74929b",
       "url": "monsters/Viking%20%233.png"
@@ -3223,13 +3323,29 @@
       "sha256": "c8c84446c2b8896b8d1c036bb9e2bb6383993d41308ed0bcd6f3375ed3cf7a41",
       "url": "monsters/Viking.png"
     },
+    "Warlord.png": {
+      "sha256": "7f963754aa9daa10bca09d97a65d6b1f0b48e4e9d1003e2dd7915c4a2ce0fc39",
+      "url": "monsters/Warlord.png"
+    },
+    "Werewolf.png": {
+      "sha256": "55bb733489b5622bc0d49eaf507dda3709d17ccc0e9bdf226c33ab1b887d5700",
+      "url": "monsters/Werewolf.png"
+    },
     "Witch #2.png": {
       "sha256": "839ff35c62ae98b388dc1934e5b717784d5ab1bee258510988a69d447b264c64",
       "url": "monsters/Witch%20%232.png"
     },
+    "Witch #3.png": {
+      "sha256": "73eeee4471f3a36430fba13ea9c3c3c2c640b72290de82c6822fce0ff20a6eae",
+      "url": "monsters/Witch%20%233.png"
+    },
     "Witch.png": {
       "sha256": "ac394b658002e4cc611f77c3be72d6df12f52ff81baab3885483593887192316",
       "url": "monsters/Witch.png"
+    },
+    "Ymir #2.png": {
+      "sha256": "7f55a39b65a2426813ed434e109160765ad1ba5c1deee59fd2cf6972a0836200",
+      "url": "monsters/Ymir%20%232.png"
     },
     "Ymir.png": {
       "sha256": "e1137411ab93fbe618aa3a08e62d60c79bd033b38e496ba1ac52ab8f12bd9b48",
@@ -3369,6 +3485,10 @@
       "sha256": "930421fb9b7c3c66e85624b422db32c160599ebe4fc0dbb941ec434351327ad4",
       "url": "templates/ce_row_icon.png"
     },
+    "ch_glove.png": {
+      "sha256": "ac7e2b7a43f9c4caf27fdb5efc2c906ee7b00b19f14f491d2c19d9412c1faea8",
+      "url": "templates/ch_glove.png"
+    },
     "chat_alliance_tab.png": {
       "sha256": "27375af0e1baac4839193b073604295338bc8f2776c2ecb5e116cf611a237947",
       "url": "templates/chat_alliance_tab.png"
@@ -3477,6 +3597,10 @@
       "sha256": "8a24f96c39ec4d1b58d94877d28368a61e8acd20eb0f907ebd96011aa3504ab3",
       "url": "templates/mk_Food_200M.png"
     },
+    "mk_Food_20M.png": {
+      "sha256": "e6e04bfd6f33e98a6ecfd6994224ea3722c29bd625026759abe239f1467ae8bb",
+      "url": "templates/mk_Food_20M.png"
+    },
     "mk_Food_500M.png": {
       "sha256": "81bcd6440189bff6a081491ca3fe25234f580992e9cc380b17834d0ef4449e84",
       "url": "templates/mk_Food_500M.png"
@@ -3574,7 +3698,7 @@
       "url": "templates/mk_Lumber_200M.png"
     },
     "mk_Lumber_5M.png": {
-      "sha256": "6b77a43e927cbbc9b76ac750ca5a1d89af89c47cf91ead4be7c002701bbce4d5",
+      "sha256": "7946a7945f86f3bb3e7f0246a8e50ac4223f02c826d187acaad6057ed7a6d201",
       "url": "templates/mk_Lumber_5M.png"
     },
     "mk_Medal_x500.png": {
@@ -3600,6 +3724,10 @@
     "mk_Ore_500M.png": {
       "sha256": "71c8a65f2042b7d531638af5f8102ffbfd634b2a978714c88652399e0d98f4f0",
       "url": "templates/mk_Ore_500M.png"
+    },
+    "mk_Ore_50M.png": {
+      "sha256": "f25314bf9e9949b008fc4aa4b4e9c9133c7687dfd2ae986fcdc52461e6bf9e40",
+      "url": "templates/mk_Ore_50M.png"
     },
     "mk_Refining_Stone_x50.png": {
       "sha256": "26f66bd019c14e60bf44d0b955b84ad3f98ed06ea69e0ad65f20645532fd612b",
@@ -3689,6 +3817,10 @@
       "sha256": "a399e84b56694582c83169ba9d0c27a90261b2c4c2022856260532e60eae7c17",
       "url": "templates/mk_VIP_60_Minutes_x1.png"
     },
+    "pkg_buy_btn.png": {
+      "sha256": "c1a9ecce0da7993a85d413d53bf8c5e6656ad9f306b63987b1681cd58c12d434",
+      "url": "templates/pkg_buy_btn.png"
+    },
     "rally_icon.png": {
       "sha256": "a8e83f9d54048e01c976346571b9df98cc8112da9d0c5054a1b7ec71f836686e",
       "url": "templates/rally_icon.png"
@@ -3720,6 +3852,10 @@
     "ring_wheel.png": {
       "sha256": "c48684d0db42262f9e0206910b0b52af7491f4f288ebf86ce144949f136119cd",
       "url": "templates/ring_wheel.png"
+    },
+    "valuable_event_icon.png": {
+      "sha256": "005995d69dac99abf63906b1c8d9e1714929432bcc1d6862901406b630c451b0",
+      "url": "templates/valuable_event_icon.png"
     },
     "vk_seed_label_0.png": {
       "sha256": "a18462d249f788cc3778a34d2b36fc0772f2cf10d907fca6b2d871c0c9bfa562",
@@ -3766,6 +3902,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "OBxl6ESWnbPi-in6FGOm__8jur1K8sxX0QoK0aiVZlISK0kr9lzu2FRXFK3XupH6jt5gjVxTEiw0JiUAbfvDDA",
-  "sig": "9ad741a7d2c7ca50cd54d351539ac757f01cd92551bb26e7751f9e5733fc3067"
+  "rsig": "PgoWuFNXxWuVJUt55NxY76xBHTyrmn87LSGRV1wsDkQRw7TqT8L1u7-8UTiY6Gp9XOa_i6ThFUaqCjfis9yrCA",
+  "sig": "db9dde1d67f52a60f226e7c66df93eecee53a20e6e7485ee9b639802cb897fc4"
 }
