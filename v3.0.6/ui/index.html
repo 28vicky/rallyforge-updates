@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-pal="ivory" data-mode="light">
+<head>
+<meta charset="utf-8">
+<title>RallyForge Bot</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="/logo-small.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/app.css">
+<script>window.KEY="__KEY__";try{var t=JSON.parse(localStorage.getItem("rf_theme")||"null");if(t){var m=t.mode==="auto"?(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"):t.mode;document.documentElement.dataset.pal=t.pal||"ivory";document.documentElement.dataset.mode="light";}}catch(e){}</script>
+<style>.boot-splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:var(--bg,#f8f6f0);color:var(--fg,#2b2b2b);font:500 15px Inter,system-ui,sans-serif}.boot-splash img{width:64px;height:64px;animation:bsp 1.4s ease-in-out infinite}.boot-splash b{font-size:20px;letter-spacing:.2px}.boot-splash span{opacity:.65}@keyframes bsp{50%{opacity:.55;transform:scale(.96)}}@media (prefers-reduced-motion:reduce){.boot-splash img{animation:none}}</style>
+</head>
+<body>
+<div id="root"><div class="boot-splash" role="status" aria-live="polite"><img src="/logo.svg" alt="" onerror="this.remove()"><b>RallyForge</b><span>Starting&hellip;</span></div></div>
+<div class="toasts" id="toasts"></div>
+<script src="/changelog.js"></script>
+<script src="/app.js"></script>
+<script src="/dialogs.js"></script>
+<script src="/pages.js"></script>
+<script src="/tour.js"></script>
+<script>boot();</script>
+</body>
+</html>
