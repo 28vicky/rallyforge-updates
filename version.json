@@ -1,82 +1,82 @@
 {
-  "version": "3.0.8",
-  "notes": "Feature + fixes\n\nNew\n\u2022 Profiles: Standard is now a profile like any other. New accounts start with blank settings and no profile - set them up yourself or link them to a profile.\n\nImproved\n\u2022 The bot now recognises the world map by how the whole screen looks, not by one button - a covered button or a window over the map no longer confuses it.\n\u2022 Settings pages are simpler: the \u201cSame as Standard / Use own setting\u201d line is gone.\n\nFixed\n\u2022 Game opened on another device: the bot closes the game at once, waits the minutes you chose, then waits until the game has fully loaded before doing anything - it no longer fights the game while it loads.\n\u2022 The city with a building menu open, or a window over the map, is no longer taken for the world map.\n\u2022 The bot never presses Back while the game is loading.",
+  "version": "3.0.10",
+  "notes": "3.0.10: faster, more reliable rally joining and monster hunts; a pop-up after a game restart is closed at once; the account-opened-elsewhere box is always handled; Barbarian rallies are never joined; new monster and Black Market pictures.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "039c89e6a4fe5d437416944b1a4f18b2c04bb2d466aadfe2fdafbb239e3c5fb7",
-      "url": "v3.0.8/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "1c11de0a3361406ea50e4fe359faa8bac097fc64b5a9447732f203b3e9b45f85",
+      "url": "v3.0.10/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "b4a6ee4be779cddc50de5a1cf0875cd7a6eaebd977d4193a0863c0a9d2c728ac",
-      "url": "v3.0.8/web_app.cp313-win_amd64.pyd"
+      "sha256": "50f793e805196e4218a80df1af89a02954cb67aa21213c0135e112793f3fd885",
+      "url": "v3.0.10/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "b0b291c395f89812c5545719938d8c9bfc337da95f3fe11912191dd037ddb66a",
-      "url": "v3.0.8/rf_license.cp313-win_amd64.pyd"
+      "sha256": "9862a432d9bbf56c7daf6c30426eb9df560254de1b211438424a533ed98c5ea9",
+      "url": "v3.0.10/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "ed252bece4443d906f32f0345fb87ea4317ad537e8dc7df8e3c910e834960a77",
-      "url": "v3.0.8/ui/app.css"
+      "sha256": "83eacf6cb0d5115b4e463cd078078d05ee0aeddaadb9bbd12ef4360e02c36a80",
+      "url": "v3.0.10/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "b3ff5b546f74ef1f9920322707b8da9c2a7d072cdfd918998bf917bbf147ad9b",
-      "url": "v3.0.8/ui/app.js"
+      "sha256": "dfe3a2d084b78756a048ec50fb03cc06ef72e818513ae827ba5f0ca333f2c5e5",
+      "url": "v3.0.10/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "58d9cf7a967c91d9b427db1a1ffd1c0e651aa87e9ab164dd9fba1424d3eb0eee",
-      "url": "v3.0.8/ui/changelog.js"
+      "sha256": "ee9cf05ac469a934c251a3eb4ba08dedfdf9443f52ca88a7aaab062cabdf108e",
+      "url": "v3.0.10/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "06c15bbad98e75359ba0204e8ca173a5649e7c5d6315b19ee7ce46958b7f9c0e",
-      "url": "v3.0.8/ui/dialogs.js"
+      "url": "v3.0.10/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.8/ui/eula.html"
+      "url": "v3.0.10/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.8/ui/fonts.css"
+      "url": "v3.0.10/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.8/ui/index.html"
+      "url": "v3.0.10/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.8/ui/logo-small.svg"
+      "url": "v3.0.10/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.8/ui/logo.svg"
+      "url": "v3.0.10/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "c857afa2b3a2635a9cb31b23244cee8df36a71e9039b912f2217baa10a247544",
-      "url": "v3.0.8/ui/pages.js"
+      "sha256": "f3a421fbf5d88c9b442f3544b4f9a1899bd37f6804e60fa6c5f333ec06cc6905",
+      "url": "v3.0.10/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
-      "url": "v3.0.8/ui/tour.js"
+      "url": "v3.0.10/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.8/extension/background.js"
+      "url": "v3.0.10/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.8/extension/content.js"
+      "url": "v3.0.10/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.8/extension/manifest.json"
+      "url": "v3.0.10/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.8/extension/popup.html"
+      "url": "v3.0.10/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.8/extension/popup.js"
+      "url": "v3.0.10/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3350,6 +3350,10 @@
     "Ymir.png": {
       "sha256": "e1137411ab93fbe618aa3a08e62d60c79bd033b38e496ba1ac52ab8f12bd9b48",
       "url": "monsters/Ymir.png"
+    },
+    "Zombie.png": {
+      "sha256": "2e46ba9e38cb77be9e585f3e59d08dd66d6bf1f8342567a51c3bc29983d004c6",
+      "url": "monsters/Zombie.png"
     }
   },
   "templates": {
@@ -3465,6 +3469,10 @@
       "sha256": "8e3f5fec6158ebd96576886d5b6a3a03cba2cacbcec2f37da78b14abf238e7f0",
       "url": "templates/arow_alliance_help.png"
     },
+    "arow_alliance_science.png": {
+      "sha256": "8bf5873453b7299fe8352dbd9c0e8c3e6eee4aa2367b1dbe2028f4f6402dcfb3",
+      "url": "templates/arow_alliance_science.png"
+    },
     "arow_alliance_treasure.png": {
       "sha256": "f0592d32b9e143aed7ce5238d7214d19ead7146d1ee2e8c87a3159dc405392b8",
       "url": "templates/arow_alliance_treasure.png"
@@ -3489,6 +3497,10 @@
       "sha256": "ac7e2b7a43f9c4caf27fdb5efc2c906ee7b00b19f14f491d2c19d9412c1faea8",
       "url": "templates/ch_glove.png"
     },
+    "ch_greet.png": {
+      "sha256": "3fab382a742d0b04064e07037f68f140158f9710148d30e78b0a9f4595221ba8",
+      "url": "templates/ch_greet.png"
+    },
     "chat_alliance_tab.png": {
       "sha256": "27375af0e1baac4839193b073604295338bc8f2776c2ecb5e116cf611a237947",
       "url": "templates/chat_alliance_tab.png"
@@ -3504,6 +3516,14 @@
     "event_center_icon.png": {
       "sha256": "ba4652d418bcd84af9971d507314c5aec49ef1de8273d3a1029f23d181c31219",
       "url": "templates/event_center_icon.png"
+    },
+    "eyes_lag_mask.png": {
+      "sha256": "fc634dc0d6a00b507c8285124bf2aa47428dd9d9d8eb4c2be17eec1f6c76fb1b",
+      "url": "templates/eyes_lag_mask.png"
+    },
+    "eyes_splash.png": {
+      "sha256": "003761acd33d1be23f66c1ae1c8ba27ee7da0ddfc05c69e71316902105bcb274",
+      "url": "templates/eyes_splash.png"
     },
     "icon_invite.png": {
       "sha256": "0c21d24e803bd425fc85c44655c03d428ff8ae23e2c049eaa1bbc07fba25d572",
@@ -3524,6 +3544,10 @@
     "mk_24h_Farm_Speed-up_x2.png": {
       "sha256": "db53eb4586cea4901937061ba76c30f14ffb9c1fecfcc6a9efbcc6be4660ea61",
       "url": "templates/mk_24h_Farm_Speed-up_x2.png"
+    },
+    "mk_24h_Iron_Mine_Speed-up_x2.png": {
+      "sha256": "6682fd101df534a299b037ebc3d2b92675f8dad6d995af2fc30ee76f3ff96d5a",
+      "url": "templates/mk_24h_Iron_Mine_Speed-up_x2.png"
     },
     "mk_24h_Iron_Mine_Speed-up_x5.png": {
       "sha256": "cbd706b616636b395277f173c8ddcf7980bbdefbd25b5e7071baf6fe4e5f163e",
@@ -3906,6 +3930,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "Qc18uexmeuBk6IrXA2WF7ENLn6x8WZgxbtBZ8OMz795NMbqzhLdXoUoIYpvbDUQbmdP_uwx4IuEPPtxCZd0ZCA",
-  "sig": "613f9eda4799e7c66dabdfb0b28b9a1a9f30a1269ca3b1967bd5278dfff83679"
+  "rsig": "obij_eBhWEQVjp8k7ydffhkhJ7b9vg9dXNdqrqVt5wO7dEAKUOgY47s9FM2lDLkpXl_dT2NdibcvCU3G9ohsDg",
+  "sig": "f2da0658702926d2f75632233d096f0e810db37acb0d6c4bce17a0a252c214e0"
 }
