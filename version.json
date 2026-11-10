@@ -1,82 +1,82 @@
 {
-  "version": "3.0.10",
-  "notes": "3.0.10: faster, more reliable rally joining and monster hunts; a pop-up after a game restart is closed at once; the account-opened-elsewhere box is always handled; Barbarian rallies are never joined; new monster and Black Market pictures.",
+  "version": "3.0.11",
+  "notes": "3.0.11: safer monster choice (skips what it can't fully identify), looks before it taps, closed emulator / game detected and restarted, own search window never closed as a pop-up, Arch / Crazy Eggs / Wheel / Alliance tasks more reliable, Black Market gem setting.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "1c11de0a3361406ea50e4fe359faa8bac097fc64b5a9447732f203b3e9b45f85",
-      "url": "v3.0.10/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "48fe7d0d87204e9cd030b88d0599edf838a50ab8165b37e6453a3100e84057ca",
+      "url": "v3.0.11/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "50f793e805196e4218a80df1af89a02954cb67aa21213c0135e112793f3fd885",
-      "url": "v3.0.10/web_app.cp313-win_amd64.pyd"
+      "sha256": "4c1805463774d0133bb7512b8b69cc38bc176a0b37ae2dac0a07256e2e2e1561",
+      "url": "v3.0.11/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "9862a432d9bbf56c7daf6c30426eb9df560254de1b211438424a533ed98c5ea9",
-      "url": "v3.0.10/rf_license.cp313-win_amd64.pyd"
+      "sha256": "05228670af745f0732390be3f2795f44bb3072ae65ef3ce9ba3bd3f45d1c6953",
+      "url": "v3.0.11/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
       "sha256": "83eacf6cb0d5115b4e463cd078078d05ee0aeddaadb9bbd12ef4360e02c36a80",
-      "url": "v3.0.10/ui/app.css"
+      "url": "v3.0.11/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "dfe3a2d084b78756a048ec50fb03cc06ef72e818513ae827ba5f0ca333f2c5e5",
-      "url": "v3.0.10/ui/app.js"
+      "sha256": "b08446b586d3cf10aa27d509f7f6984a93b76dbe83ab56871966f261d2c5536c",
+      "url": "v3.0.11/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "ee9cf05ac469a934c251a3eb4ba08dedfdf9443f52ca88a7aaab062cabdf108e",
-      "url": "v3.0.10/ui/changelog.js"
+      "sha256": "101d67e0cb004f3e745d484bbda7dabbef0b1639faaa6fd4740eb8a16749bd43",
+      "url": "v3.0.11/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "06c15bbad98e75359ba0204e8ca173a5649e7c5d6315b19ee7ce46958b7f9c0e",
-      "url": "v3.0.10/ui/dialogs.js"
+      "url": "v3.0.11/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.10/ui/eula.html"
+      "url": "v3.0.11/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.10/ui/fonts.css"
+      "url": "v3.0.11/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.10/ui/index.html"
+      "url": "v3.0.11/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.10/ui/logo-small.svg"
+      "url": "v3.0.11/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.10/ui/logo.svg"
+      "url": "v3.0.11/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "f3a421fbf5d88c9b442f3544b4f9a1899bd37f6804e60fa6c5f333ec06cc6905",
-      "url": "v3.0.10/ui/pages.js"
+      "sha256": "ee431f87701f25669b55555432657cff66c28b4d5b503b9c080e4e7f5804f4f5",
+      "url": "v3.0.11/ui/pages.js"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
-      "url": "v3.0.10/ui/tour.js"
+      "url": "v3.0.11/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.10/extension/background.js"
+      "url": "v3.0.11/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.10/extension/content.js"
+      "url": "v3.0.11/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.10/extension/manifest.json"
+      "url": "v3.0.11/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.10/extension/popup.html"
+      "url": "v3.0.11/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.10/extension/popup.js"
+      "url": "v3.0.11/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -3565,6 +3565,10 @@
       "sha256": "bb524ea3c64470d981f05ea721c73caeae8d637aed28030fb04afcb8f7893981",
       "url": "templates/mk_24h_Sawmill_Speed-up_x5.png"
     },
+    "mk_Artwork_Fragment_Chest_III_x5.png": {
+      "sha256": "43e185d353af910f5aeadcef27a3a01ea828f861abce009a39a8e8e7914748e2",
+      "url": "templates/mk_Artwork_Fragment_Chest_III_x5.png"
+    },
     "mk_Artwork_Fragment_Chest_IV_x5.png": {
       "sha256": "4899d6da1c8d05479b1cba97a08800e0dcdc232e0b882cf7fcf0395c66e455c5",
       "url": "templates/mk_Artwork_Fragment_Chest_IV_x5.png"
@@ -3633,6 +3637,10 @@
       "sha256": "81bcd6440189bff6a081491ca3fe25234f580992e9cc380b17834d0ef4449e84",
       "url": "templates/mk_Food_500M.png"
     },
+    "mk_Food_5M.png": {
+      "sha256": "47417938c7e8d083cfa4f97e225a69a035853e0cc4b74f05a236283ce79c8c94",
+      "url": "templates/mk_Food_5M.png"
+    },
     "mk_Gear_Lv3_Crystal.png": {
       "sha256": "72cede78e101eeffc6f675cbfdd9bd963ddac7d456fdab921e1aa915796ce2b0",
       "url": "templates/mk_Gear_Lv3_Crystal.png"
@@ -3668,6 +3676,10 @@
     "mk_General_EXP_10000_x20.png": {
       "sha256": "c2ea68c5acde9ac36849441b3f50d34aec2b806240e08be1515ff030167e051d",
       "url": "templates/mk_General_EXP_10000_x20.png"
+    },
+    "mk_General_EXP_10000_x5.png": {
+      "sha256": "62a3362a08bcfdb48f385ab937d62d06eec4feef8096ead50b523be1607a19a4",
+      "url": "templates/mk_General_EXP_10000_x5.png"
     },
     "mk_General_EXP_20000_x20.png": {
       "sha256": "fc9ad2bd7648c885e6a051b371614104b0ddb09af93fbea84ba8aef1a6761db2",
@@ -3717,6 +3729,10 @@
       "sha256": "0d2155d4f17756cca6e339325a53319184cb0507b2a739d13d623d6f00f9f852",
       "url": "templates/mk_Gold_100K.png"
     },
+    "mk_Gold_50K.png": {
+      "sha256": "c215c74e5db9ca85015b53a270d002ba9c184ccd3defae76ceb8a464904b4e41",
+      "url": "templates/mk_Gold_50K.png"
+    },
     "mk_Leather_Boots.png": {
       "sha256": "2af2cde680a1164e995458644e726ca4cf4666e01dc0a1738fb7389e98e20ade",
       "url": "templates/mk_Leather_Boots.png"
@@ -3728,6 +3744,10 @@
     "mk_Lumber_5M.png": {
       "sha256": "7946a7945f86f3bb3e7f0246a8e50ac4223f02c826d187acaad6057ed7a6d201",
       "url": "templates/mk_Lumber_5M.png"
+    },
+    "mk_Medal_x200.png": {
+      "sha256": "7c75f2024f969eebf57f35e4b840721e607dd648b82aa9314b428d3e12f41710",
+      "url": "templates/mk_Medal_x200.png"
     },
     "mk_Medal_x500.png": {
       "sha256": "b5d028a0019533aaabba50810df8e2fe70cae753cf67f4771ce523d62082700d",
@@ -3757,6 +3777,10 @@
       "sha256": "f25314bf9e9949b008fc4aa4b4e9c9133c7687dfd2ae986fcdc52461e6bf9e40",
       "url": "templates/mk_Ore_50M.png"
     },
+    "mk_Ore_5M.png": {
+      "sha256": "fbfd48c40c3aabac2218fccd311977c41e70fd3c294d1e16c0fad06630dc4967",
+      "url": "templates/mk_Ore_5M.png"
+    },
     "mk_Refining_Stone_x50.png": {
       "sha256": "26f66bd019c14e60bf44d0b955b84ad3f98ed06ea69e0ad65f20645532fd612b",
       "url": "templates/mk_Refining_Stone_x50.png"
@@ -3768,6 +3792,10 @@
     "mk_Research_Stone_x50.png": {
       "sha256": "7c8d0fdcb4c3af5f193f07605064d32d1260fc4cee7785a24de76ec6b8104a03",
       "url": "templates/mk_Research_Stone_x50.png"
+    },
+    "mk_Runestone_Chest_x10.png": {
+      "sha256": "35224c1dd56036510f429ae167d24f8948cd0f620ba4ea9fc9804a1aa4d78d8f",
+      "url": "templates/mk_Runestone_Chest_x10.png"
     },
     "mk_Runestone_Chest_x50.png": {
       "sha256": "df034f1edb3f7f64ded84944d37d13debf2510bbf29ad55c8f422baf84245fc8",
@@ -3801,6 +3829,10 @@
       "sha256": "ed066194368343cf604efd4f055178eb9a0b744c77d08394200f8c17da1b334a",
       "url": "templates/mk_Stone_50M.png"
     },
+    "mk_Stone_5M.png": {
+      "sha256": "001122e1165325e05505de93403ee2819a7c7884f0ad760482caaaba81a44b3c",
+      "url": "templates/mk_Stone_5M.png"
+    },
     "mk_Tactic_Scroll_x10.png": {
       "sha256": "c2a0ffaea535334391573e51897f9995fed459114eb45d347564f21092a26124",
       "url": "templates/mk_Tactic_Scroll_x10.png"
@@ -3808,6 +3840,10 @@
     "mk_Tactic_Scroll_x20.png": {
       "sha256": "88f2c2edd0f8d814369668bfefd25b84ba1843c39fda23238d3ce87f9c73e1bd",
       "url": "templates/mk_Tactic_Scroll_x20.png"
+    },
+    "mk_Tactic_Scroll_x5.png": {
+      "sha256": "25c3bf2d86506c21fa20df7c1ae75ee2a67a1d4e726fc82300d39971f2622523",
+      "url": "templates/mk_Tactic_Scroll_x5.png"
     },
     "mk_Transcendence_Boots.png": {
       "sha256": "74b3da7ecde476fa64d04b6d3d521ad2e632e82274328d36fd45082815cd03ec",
@@ -3844,6 +3880,10 @@
     "mk_VIP_60_Minutes_x1.png": {
       "sha256": "a399e84b56694582c83169ba9d0c27a90261b2c4c2022856260532e60eae7c17",
       "url": "templates/mk_VIP_60_Minutes_x1.png"
+    },
+    "mk_VIP_7_Days_x1.png": {
+      "sha256": "ad4bb9278bf9cb17ab1869df951f63f367f83398345edbb3fa2219674b118826",
+      "url": "templates/mk_VIP_7_Days_x1.png"
     },
     "pkg_buy_btn.png": {
       "sha256": "c1a9ecce0da7993a85d413d53bf8c5e6656ad9f306b63987b1681cd58c12d434",
@@ -3930,6 +3970,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "obij_eBhWEQVjp8k7ydffhkhJ7b9vg9dXNdqrqVt5wO7dEAKUOgY47s9FM2lDLkpXl_dT2NdibcvCU3G9ohsDg",
-  "sig": "f2da0658702926d2f75632233d096f0e810db37acb0d6c4bce17a0a252c214e0"
+  "rsig": "WXrA-Yx5SY1AHl86U4mtiIvQq25YvybCzQrxMjy4ISfL5qsfwPkGep5SV3_zIvxMa5ChZKtA6yDNcPt1Z7AACQ",
+  "sig": "e1ea9a7545a7b4dffe0e1355ad1b0fa7c37d713ce5bffbd6314eaaffb323c87b"
 }
