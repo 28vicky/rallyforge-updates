@@ -1,0 +1,81 @@
+{
+ "_note": "Monster library (owner 16 Nov 11:44): pictures see_body_* (map), see_face_* (window), see_digit_* (level digits) + this table. Level range per monster family; a level outside it = can't read -> close, skip, back to the pool. Add a monster = add its pictures + one line here, publish with make_update --library monster_library. No code change.",
+ "levels": {
+  "warlord": [
+   1,
+   7
+  ],
+  "cerberus": [
+   1,
+   5
+  ],
+  "sphinx": [
+   1,
+   8
+  ],
+  "pan": [
+   1,
+   7
+  ],
+  "ymir": [
+   1,
+   7
+  ],
+  "hydra": [
+   1,
+   6
+  ],
+  "witch": [
+   1,
+   7
+  ],
+  "golem": [
+   1,
+   7
+  ],
+  "lava_turtle": [
+   1,
+   7
+  ],
+  "knight_bayard": [
+   1,
+   5
+  ],
+  "kraken": [
+   20,
+   20
+  ],
+  "stymphalian_bird": [
+   19,
+   19
+  ],
+  "azazel": [
+   21,
+   21
+  ],
+  "leviathan": [
+   22,
+   22
+  ],
+  "garmr": [
+   23,
+   23
+  ],
+  "aglaope": [
+   1,
+   1
+  ],
+  "mysterious_witch": [
+   1,
+   1
+  ],
+  "royal_thief": [
+   1,
+   1
+  ],
+  "viking": [
+   1,
+   50
+  ]
+ }
+}
