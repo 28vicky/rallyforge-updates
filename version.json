@@ -1,82 +1,86 @@
 {
-  "version": "3.0.11",
-  "notes": "3.0.11: safer monster choice (skips what it can't fully identify), looks before it taps, closed emulator / game detected and restarted, own search window never closed as a pop-up, Arch / Crazy Eggs / Wheel / Alliance tasks more reliable, Black Market gem setting.",
+  "version": "3.0.12",
+  "notes": "Feature + fixes\nImproved\n\u2022 Monster hunts: faster and smarter. Before it waits, the bot reads the game's March panel - it never waits on its own guess of when a march is back.\n\u2022 Monster hunts: no time blocks. A monster is skipped only when it is gone, taken by someone else, or outside your settings.\n\u2022 Marches never leave without a general: checked right before March on every rally start, hunt and solo attack. Joins follow your per-preset \"Skip if no general\" tick.\n\u2022 Monster hunts: a monster already being rallied by you, your other accounts or your share-code group is skipped. Fewer trips to monsters that are already gone.\n\u2022 Needs you: one list at the top of the left sidebar. The \u00d7 on a row clears it.\nFixed\n\u2022 Black Market: every gem buy is checked - gems are read before and after, and a buy counts only when the drop matches the price. No more false \"gems spent\" alarms.\n\u2022 Black Market: your gem floor is the limit. 'Buy everything' never buys gem items; an unreadable price or gem total never buys.\n\u2022 Black Market: Confirm only when the box names the picked item; Rebuy only when the price still matches.\n\u2022 Stamina items are found by picture and every use is checked.\n\u2022 Stop and Pause: a stopped task stays stopped until you press Run; a paused account is never reopened by a timer.\nKnown issues\n\u2022 The coordinate search can misread a coordinate (for example 444). The bot then refuses to fly there - fix coming in the next update.\n\u2022 The \"gem check\" status wording can be confusing - being improved in 3.0.13.\n\u2022 Keep \"Offering with gems\" and \"Wisdom Dome tokens\" off - those gem spends are not checked yet.\n\u2022 Vikings: the bot can pause on an empty spot for 1-5 minutes before moving on. Fix coming in the next update.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "48fe7d0d87204e9cd030b88d0599edf838a50ab8165b37e6453a3100e84057ca",
-      "url": "v3.0.11/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "93cf8c9e7e89c319b2a39d19e3f5cfac60f92b976d104752cf284aa70b8d5d56",
+      "url": "v3.0.12/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "4c1805463774d0133bb7512b8b69cc38bc176a0b37ae2dac0a07256e2e2e1561",
-      "url": "v3.0.11/web_app.cp313-win_amd64.pyd"
+      "sha256": "5ddf6bc81758895fbcb17f94c47b95cb4b4f4c9f58b14c39b0c9d1f156d461b0",
+      "url": "v3.0.12/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "05228670af745f0732390be3f2795f44bb3072ae65ef3ce9ba3bd3f45d1c6953",
-      "url": "v3.0.11/rf_license.cp313-win_amd64.pyd"
+      "sha256": "389d47e1f25253362ca0e0705867bc8458a7e886a4ee38343dfee99b2499e497",
+      "url": "v3.0.12/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "83eacf6cb0d5115b4e463cd078078d05ee0aeddaadb9bbd12ef4360e02c36a80",
-      "url": "v3.0.11/ui/app.css"
+      "sha256": "6000ec6939fad74359b6c832dff9eaad4c0c0774966b4186e9bad20a4c85ec5d",
+      "url": "v3.0.12/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "b08446b586d3cf10aa27d509f7f6984a93b76dbe83ab56871966f261d2c5536c",
-      "url": "v3.0.11/ui/app.js"
+      "sha256": "f07243ef00e2b074261e96f286e9758e0acc6496e154232698276435e09635e7",
+      "url": "v3.0.12/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "101d67e0cb004f3e745d484bbda7dabbef0b1639faaa6fd4740eb8a16749bd43",
-      "url": "v3.0.11/ui/changelog.js"
+      "sha256": "305cf93fd36b4ffbfe3b430ba0dbc7620f37ee8f31059373829a69ec18c6913a",
+      "url": "v3.0.12/ui/changelog.js"
     },
     "ui/dialogs.js": {
-      "sha256": "06c15bbad98e75359ba0204e8ca173a5649e7c5d6315b19ee7ce46958b7f9c0e",
-      "url": "v3.0.11/ui/dialogs.js"
+      "sha256": "27ad864f5ef05cee26e2b6f8e191397663ded5acbf09dcbc86b240e16cf08a4c",
+      "url": "v3.0.12/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
-      "url": "v3.0.11/ui/eula.html"
+      "url": "v3.0.12/ui/eula.html"
     },
     "ui/fonts.css": {
-      "sha256": "4eeaf48a44c36f06b8dec295c9af80770b2809a7bfbee71b7ec5e6abd79e3d75",
-      "url": "v3.0.11/ui/fonts.css"
+      "sha256": "d26015a2cdc6da076fc2977667a0527a8bdeedce83e7ce36e6578af3ade7ccd1",
+      "url": "v3.0.12/ui/fonts.css"
     },
     "ui/index.html": {
-      "sha256": "a90733e60fc522f0cac4401052fc31fc2d78bcc99e33eb433e19f998c249f235",
-      "url": "v3.0.11/ui/index.html"
+      "sha256": "6f64dbfb41faff19513b7964173a17c93e10e5d04631630b662b70febbdea211",
+      "url": "v3.0.12/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.11/ui/logo-small.svg"
+      "url": "v3.0.12/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
-      "url": "v3.0.11/ui/logo.svg"
+      "url": "v3.0.12/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "ee431f87701f25669b55555432657cff66c28b4d5b503b9c080e4e7f5804f4f5",
-      "url": "v3.0.11/ui/pages.js"
+      "sha256": "8b84c684301ce01235172b10bf4ed0194e1426358ece01f232509e5f4ab126fe",
+      "url": "v3.0.12/ui/pages.js"
+    },
+    "ui/rf.css": {
+      "sha256": "ec25615b031c4f75d26042b6ab1f8e1d3998041e59f4f7f44144b9008bc81102",
+      "url": "v3.0.12/ui/rf.css"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
-      "url": "v3.0.11/ui/tour.js"
+      "url": "v3.0.12/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
-      "url": "v3.0.11/extension/background.js"
+      "url": "v3.0.12/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
-      "url": "v3.0.11/extension/content.js"
+      "url": "v3.0.12/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
-      "url": "v3.0.11/extension/manifest.json"
+      "url": "v3.0.12/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
-      "url": "v3.0.11/extension/popup.html"
+      "url": "v3.0.12/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
-      "url": "v3.0.11/extension/popup.js"
+      "url": "v3.0.12/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -1753,6 +1757,420 @@
     "russia/reference.json": {
       "sha256": "060c6272e6bb512a2ae831b193d8abfc0436496c8e727a8dad2cd1f21c964c14",
       "url": "cultures/russia/reference.json"
+    }
+  },
+  "library": {
+    "levels.json": {
+      "sha256": "41c158569eb72307f468efe6b0360a0efcb818bdf429e298281cd8edbc4c46e7",
+      "url": "monster_library/levels.json"
+    },
+    "see_body_cerberus_0.png": {
+      "sha256": "350766c32090d4ad240f61f2232faa457ca411e90cbbb1c6586519a9b84b479a",
+      "url": "monster_library/see_body_cerberus_0.png"
+    },
+    "see_body_cerberus_1.png": {
+      "sha256": "cd334e655a1fbd622c68805c1e7c624787a41b1e0c56e3d0648f54ed80fc921b",
+      "url": "monster_library/see_body_cerberus_1.png"
+    },
+    "see_body_cerberus_10.png": {
+      "sha256": "cbb278536fe18f01907a15236b7d56087c593008c5352fdb66ccdc849c64a4cb",
+      "url": "monster_library/see_body_cerberus_10.png"
+    },
+    "see_body_cerberus_11.png": {
+      "sha256": "a6458f17c96461e0b8e6749216d909d05efcabad876066fad7105d98d0a45c36",
+      "url": "monster_library/see_body_cerberus_11.png"
+    },
+    "see_body_cerberus_12.png": {
+      "sha256": "3e7117fd43c7a3a2bcf25479374f5ded47a94ce8ba6f4e4cc0bec3a506c33ba7",
+      "url": "monster_library/see_body_cerberus_12.png"
+    },
+    "see_body_cerberus_13.png": {
+      "sha256": "a61ba6e5e7b4d0823a33abe380a6e5a136c829695181c94ea18468f9de044d2a",
+      "url": "monster_library/see_body_cerberus_13.png"
+    },
+    "see_body_cerberus_14.png": {
+      "sha256": "86c1561a5de693085fc465db22179542387ced8c7354560a043fbed18d57d55f",
+      "url": "monster_library/see_body_cerberus_14.png"
+    },
+    "see_body_cerberus_2.png": {
+      "sha256": "0ba65a8937a7d6420b96ffa4be4cf45b15a8a660d13befc0314d9d3c63e5e6b6",
+      "url": "monster_library/see_body_cerberus_2.png"
+    },
+    "see_body_cerberus_3.png": {
+      "sha256": "d887fe0a0149a3fbbb5564df2bfbabbb52df2a9383ff30ff46bbb91b8b14e6f7",
+      "url": "monster_library/see_body_cerberus_3.png"
+    },
+    "see_body_cerberus_4.png": {
+      "sha256": "2ead0f854e3f359bc91e3875139a16f07cc732b9b64c1a23286d87656339b6c8",
+      "url": "monster_library/see_body_cerberus_4.png"
+    },
+    "see_body_cerberus_5.png": {
+      "sha256": "28c15b01313119b7f33152e7b8ae3155eb99574302f5e16b2e63de339cd138e6",
+      "url": "monster_library/see_body_cerberus_5.png"
+    },
+    "see_body_cerberus_6.png": {
+      "sha256": "ef18d6f5498046e4e7b1aa8048cd01eec66efe2866adae7919269bfee378a2aa",
+      "url": "monster_library/see_body_cerberus_6.png"
+    },
+    "see_body_cerberus_7.png": {
+      "sha256": "24c329f1b57a5d462af5315fc640dfed048da2b1f5f663db76297c6614df1c6b",
+      "url": "monster_library/see_body_cerberus_7.png"
+    },
+    "see_body_cerberus_8.png": {
+      "sha256": "18c13f5ed03949dfae4676a3cc6137099e968437c1f340147a8fc6da61897062",
+      "url": "monster_library/see_body_cerberus_8.png"
+    },
+    "see_body_cerberus_9.png": {
+      "sha256": "21ace7fac650c2e4a3e4ada7bba969433d3bec81916bb494f3d7bdff2dfbf727",
+      "url": "monster_library/see_body_cerberus_9.png"
+    },
+    "see_body_kraken_0.png": {
+      "sha256": "35c0fc5c85b29075a7af8336b7e497253dc5f3edda1ad47d51e41e5ec73165fe",
+      "url": "monster_library/see_body_kraken_0.png"
+    },
+    "see_body_kraken_1.png": {
+      "sha256": "b29e527cd48a24cf344c838781a9393660101d81765c7c7a9f1b52001f5744cc",
+      "url": "monster_library/see_body_kraken_1.png"
+    },
+    "see_body_kraken_2.png": {
+      "sha256": "dce81fc6bea6f4e5de9cec76ef644fcdec50c378e0c1fb40a2bdb7f3d06cc17a",
+      "url": "monster_library/see_body_kraken_2.png"
+    },
+    "see_body_pan_0.png": {
+      "sha256": "7054e4830b5f5b868079196796cf16d1f225622ff0536fe7fdfb3581eac16093",
+      "url": "monster_library/see_body_pan_0.png"
+    },
+    "see_body_pan_1.png": {
+      "sha256": "67d244d2aad3a1b75a1c2786ac59b3d6b96d4b7c13ee62bd6d6191b2ffffa359",
+      "url": "monster_library/see_body_pan_1.png"
+    },
+    "see_body_pan_10.png": {
+      "sha256": "91c983f9c809bc6f094abbf896927e79e017711ee0f8b2c8aa29f80626a4914e",
+      "url": "monster_library/see_body_pan_10.png"
+    },
+    "see_body_pan_11.png": {
+      "sha256": "dd84128a71816fcadcd7bb248b47509e61a6b1b5d0b136db2b48844010dcbda2",
+      "url": "monster_library/see_body_pan_11.png"
+    },
+    "see_body_pan_12.png": {
+      "sha256": "cb0a1306447f58208a7047d22b010ee1d2066aafcc8c081fa99bd9baca29d7e4",
+      "url": "monster_library/see_body_pan_12.png"
+    },
+    "see_body_pan_13.png": {
+      "sha256": "66723df1ae4b9ed216893702437ea974221188bd4ab8bfa1cddf2aff9bdc467c",
+      "url": "monster_library/see_body_pan_13.png"
+    },
+    "see_body_pan_14.png": {
+      "sha256": "1cbea9b18e7291d70f971d00c3be674ef23fac6ab06cd02203a0c85c9735eb0c",
+      "url": "monster_library/see_body_pan_14.png"
+    },
+    "see_body_pan_2.png": {
+      "sha256": "448fc10985fca95e0583a9c9a006d61be185f2f32ce550c54a996f63807afa82",
+      "url": "monster_library/see_body_pan_2.png"
+    },
+    "see_body_pan_3.png": {
+      "sha256": "d88369371b383f4b4c6230fbca4e6bdb764c8d01580e6fe1f868944e6cc356af",
+      "url": "monster_library/see_body_pan_3.png"
+    },
+    "see_body_pan_4.png": {
+      "sha256": "ef325ecfff7061b94bc2db9d5aac5959c1125b9702157f9e74a4f2d9f0a3f471",
+      "url": "monster_library/see_body_pan_4.png"
+    },
+    "see_body_pan_5.png": {
+      "sha256": "e63c79993177527a1c4cd2e1c93901b7bc32654ce228dcb9dd898d22d0a385b7",
+      "url": "monster_library/see_body_pan_5.png"
+    },
+    "see_body_pan_6.png": {
+      "sha256": "ae85dbee335946a0467fe4b3d9a40799f0ed0e292f0cc675efc4adf6c99d860b",
+      "url": "monster_library/see_body_pan_6.png"
+    },
+    "see_body_pan_7.png": {
+      "sha256": "443a7b8964118792a9b3dbb6eb36af615ebab1422273dcf63dc98bf8aa13a8e3",
+      "url": "monster_library/see_body_pan_7.png"
+    },
+    "see_body_pan_8.png": {
+      "sha256": "a8c613c47840e9d3ff004b1a8cbff330fa6d519ef7ae6ad9e2b39321b4bf249c",
+      "url": "monster_library/see_body_pan_8.png"
+    },
+    "see_body_pan_9.png": {
+      "sha256": "4e1f4649b48d8d13d917f1ddab2e1204ed69c8dccf45912097b10b35501b2fe3",
+      "url": "monster_library/see_body_pan_9.png"
+    },
+    "see_body_sphinx_0.png": {
+      "sha256": "d0dde483710fc818b23190db9897096f7f848bdcc8f44dda37171a0bf19c0fc3",
+      "url": "monster_library/see_body_sphinx_0.png"
+    },
+    "see_body_sphinx_1.png": {
+      "sha256": "df30a805ca0edb8b884d15d7d1249991c36f4e0be7b72d793efba8d9cda0078c",
+      "url": "monster_library/see_body_sphinx_1.png"
+    },
+    "see_body_sphinx_2.png": {
+      "sha256": "2724ef219400be06255cd81eb6382d883cf5f960ec8bda45a64385f35081de24",
+      "url": "monster_library/see_body_sphinx_2.png"
+    },
+    "see_body_stymphalian_bird_0.png": {
+      "sha256": "30373a40ed33c677b49cd388c800e070fca92aa4e67a27e110fbe1e09962d3fa",
+      "url": "monster_library/see_body_stymphalian_bird_0.png"
+    },
+    "see_body_stymphalian_bird_1.png": {
+      "sha256": "4e8f4d455b1f4a0a9d54dcd933abe6a550f749384c2ecccd06d72119f9f203fb",
+      "url": "monster_library/see_body_stymphalian_bird_1.png"
+    },
+    "see_body_stymphalian_bird_2.png": {
+      "sha256": "f8fba91edf114f22e1a7935e736048dbf2a5f6b773f9138c95fc1c72af75b9ff",
+      "url": "monster_library/see_body_stymphalian_bird_2.png"
+    },
+    "see_body_viking_0.png": {
+      "sha256": "a543160cc63e1dc049d53e7b243af94a9b6afa7c9fd273b168337a6e8ee6a76c",
+      "url": "monster_library/see_body_viking_0.png"
+    },
+    "see_body_viking_1.png": {
+      "sha256": "e694dfadbe0742497f6ac68c7274862459843c3469a5274313331e746f9407b2",
+      "url": "monster_library/see_body_viking_1.png"
+    },
+    "see_body_viking_10.png": {
+      "sha256": "0df5b0f0a468ddc97b3e6e8194dc9990296bf12d5422626f3356b67467dc20bd",
+      "url": "monster_library/see_body_viking_10.png"
+    },
+    "see_body_viking_2.png": {
+      "sha256": "25e6cdd1191ceae4e6b48c5e8bc818e849632db8dc655a5a3cba01bd7e078e86",
+      "url": "monster_library/see_body_viking_2.png"
+    },
+    "see_body_viking_3.png": {
+      "sha256": "139196062bf44a58dc05799a4abd99a40f9d2d87f0f57a70c0d2d0ffc98d21b8",
+      "url": "monster_library/see_body_viking_3.png"
+    },
+    "see_body_viking_4.png": {
+      "sha256": "4e336334acd2846bf0bb368bcfab1ecdf465377badb548f161be65b811bc9d00",
+      "url": "monster_library/see_body_viking_4.png"
+    },
+    "see_body_viking_5.png": {
+      "sha256": "6f9227297e9d998cf3aa2f5e7b93be70e90708638343c892b9a09d991eb18c0c",
+      "url": "monster_library/see_body_viking_5.png"
+    },
+    "see_body_viking_6.png": {
+      "sha256": "549044d4647d5f0610053dfec8fbf8caa035167bd32d3d436b6e6d80baed71b6",
+      "url": "monster_library/see_body_viking_6.png"
+    },
+    "see_body_viking_7.png": {
+      "sha256": "1b34e04b3c7467997bb4a84ccbdaa121fd569d19ad85ba947356593e7409e1b7",
+      "url": "monster_library/see_body_viking_7.png"
+    },
+    "see_body_viking_8.png": {
+      "sha256": "2cc3453bd3e3d001dcc5861ef9fa19f3da1f019ed6b93d672e8ad98aec508775",
+      "url": "monster_library/see_body_viking_8.png"
+    },
+    "see_body_viking_9.png": {
+      "sha256": "75dc5e1b28c9b62ae5f0c0074efaad71fc533d2e1d64479a9ea752136b418d9c",
+      "url": "monster_library/see_body_viking_9.png"
+    },
+    "see_body_warlord_0.png": {
+      "sha256": "172261a3ef3e5ffd5899d08b4edf572ad2b2f45c02934ea9a65d3f476ec38ca8",
+      "url": "monster_library/see_body_warlord_0.png"
+    },
+    "see_body_warlord_1.png": {
+      "sha256": "63a0fc9ea34fc75c0668e60423c1a065bad60285d6748bddfdb8d276a82a821d",
+      "url": "monster_library/see_body_warlord_1.png"
+    },
+    "see_body_warlord_2.png": {
+      "sha256": "b7fde1736e2ee2e97592122289357dea5593be0972ee442d30277110d4bdfd35",
+      "url": "monster_library/see_body_warlord_2.png"
+    },
+    "see_body_warlord_3.png": {
+      "sha256": "2cd485488b74dcf868cc8b7c00967deab3e6ae60b59e7b9ff19e2cc6b16247ed",
+      "url": "monster_library/see_body_warlord_3.png"
+    },
+    "see_body_warlord_4.png": {
+      "sha256": "7bc8f1656690598fbbaab4b26034730a7a9c5d194cef48a9500d99a511175bd5",
+      "url": "monster_library/see_body_warlord_4.png"
+    },
+    "see_body_warlord_5.png": {
+      "sha256": "9381135dca3bec32d037ec48caff2e497e11997ddd3d8268f46c266d2aa07ffb",
+      "url": "monster_library/see_body_warlord_5.png"
+    },
+    "see_digit_0_0.png": {
+      "sha256": "334dc5f1166640ec00dbb38af60a68b3723bf4747068fb63bccac13eefe654e3",
+      "url": "monster_library/see_digit_0_0.png"
+    },
+    "see_digit_0_1.png": {
+      "sha256": "334dc5f1166640ec00dbb38af60a68b3723bf4747068fb63bccac13eefe654e3",
+      "url": "monster_library/see_digit_0_1.png"
+    },
+    "see_digit_1_0.png": {
+      "sha256": "77a51e4df32e35dc7209baea9f346e1cf3dad034998b4084f8876497317a4043",
+      "url": "monster_library/see_digit_1_0.png"
+    },
+    "see_digit_1_1.png": {
+      "sha256": "55555021ca9d8204da0a95f105df2e64f80066f834d935db864acf836a5cdc83",
+      "url": "monster_library/see_digit_1_1.png"
+    },
+    "see_digit_1_2.png": {
+      "sha256": "8bb621fc245aa0e3127c5dff2975573d0c353d8b634e0c82abfe6e44ce9495fb",
+      "url": "monster_library/see_digit_1_2.png"
+    },
+    "see_digit_1_3.png": {
+      "sha256": "9b9f02e82fdfa95957b383305bc2c92dc59370df9624e770dbc9cd61bc28ef0f",
+      "url": "monster_library/see_digit_1_3.png"
+    },
+    "see_digit_2_0.png": {
+      "sha256": "1e011995ee697f043d1813907663591eaba62631bde7f3f5ea1c8d922ae4bdaa",
+      "url": "monster_library/see_digit_2_0.png"
+    },
+    "see_digit_2_1.png": {
+      "sha256": "1e011995ee697f043d1813907663591eaba62631bde7f3f5ea1c8d922ae4bdaa",
+      "url": "monster_library/see_digit_2_1.png"
+    },
+    "see_digit_2_2.png": {
+      "sha256": "1e011995ee697f043d1813907663591eaba62631bde7f3f5ea1c8d922ae4bdaa",
+      "url": "monster_library/see_digit_2_2.png"
+    },
+    "see_digit_2_3.png": {
+      "sha256": "1e011995ee697f043d1813907663591eaba62631bde7f3f5ea1c8d922ae4bdaa",
+      "url": "monster_library/see_digit_2_3.png"
+    },
+    "see_digit_3_0.png": {
+      "sha256": "018a934fcb2045766b0671c155ca2801bc96c6d296cd962140c1e8eb207e9575",
+      "url": "monster_library/see_digit_3_0.png"
+    },
+    "see_digit_4_0.png": {
+      "sha256": "3447a41b80cb241d98b0d74d4197dcb724ec5f8246cb6116e2a90920b216078c",
+      "url": "monster_library/see_digit_4_0.png"
+    },
+    "see_digit_4_1.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_1.png"
+    },
+    "see_digit_4_2.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_2.png"
+    },
+    "see_digit_4_3.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_3.png"
+    },
+    "see_digit_4_4.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_4.png"
+    },
+    "see_digit_4_5.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_5.png"
+    },
+    "see_digit_4_6.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_6.png"
+    },
+    "see_digit_4_7.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_7.png"
+    },
+    "see_digit_4_8.png": {
+      "sha256": "2ee1583310f5698182f49c851c54dc584c922ef13e7f60bfbfadd214b76283fa",
+      "url": "monster_library/see_digit_4_8.png"
+    },
+    "see_digit_5_0.png": {
+      "sha256": "207223f4c8a486385791442fde530c94fb905bb5c0f7185ae607adc752a8427d",
+      "url": "monster_library/see_digit_5_0.png"
+    },
+    "see_digit_5_1.png": {
+      "sha256": "7ce25c85cfa15e76f2d0007678050f873836565b790e598da94f325837748671",
+      "url": "monster_library/see_digit_5_1.png"
+    },
+    "see_digit_5_2.png": {
+      "sha256": "9fd6afb42d3b45a4b60627f2958eb3be97a8a5c66d05269b2da07384b4eeccb8",
+      "url": "monster_library/see_digit_5_2.png"
+    },
+    "see_digit_5_3.png": {
+      "sha256": "9fd6afb42d3b45a4b60627f2958eb3be97a8a5c66d05269b2da07384b4eeccb8",
+      "url": "monster_library/see_digit_5_3.png"
+    },
+    "see_digit_6_0.png": {
+      "sha256": "96036bbbe099c8032978ed623ea73e95fccd6a9448b2354861e2565b0fd510a6",
+      "url": "monster_library/see_digit_6_0.png"
+    },
+    "see_digit_6_1.png": {
+      "sha256": "6aa80e6b8be938ec5f1dd9bebc19c5a30ac924a90f4bf016ef86bbfeb01dead3",
+      "url": "monster_library/see_digit_6_1.png"
+    },
+    "see_digit_6_2.png": {
+      "sha256": "6aa80e6b8be938ec5f1dd9bebc19c5a30ac924a90f4bf016ef86bbfeb01dead3",
+      "url": "monster_library/see_digit_6_2.png"
+    },
+    "see_digit_6_3.png": {
+      "sha256": "6aa80e6b8be938ec5f1dd9bebc19c5a30ac924a90f4bf016ef86bbfeb01dead3",
+      "url": "monster_library/see_digit_6_3.png"
+    },
+    "see_digit_7_0.png": {
+      "sha256": "0a4622ca55dd1cf53d054a52102d2baa0bf856451e43e43ad17a44b03d2db8cd",
+      "url": "monster_library/see_digit_7_0.png"
+    },
+    "see_digit_7_1.png": {
+      "sha256": "0a4622ca55dd1cf53d054a52102d2baa0bf856451e43e43ad17a44b03d2db8cd",
+      "url": "monster_library/see_digit_7_1.png"
+    },
+    "see_digit_7_2.png": {
+      "sha256": "0a4622ca55dd1cf53d054a52102d2baa0bf856451e43e43ad17a44b03d2db8cd",
+      "url": "monster_library/see_digit_7_2.png"
+    },
+    "see_digit_7_3.png": {
+      "sha256": "0f721cc04e239ef07c0e409b87dc903aa653738286c02aa6b17f607018218362",
+      "url": "monster_library/see_digit_7_3.png"
+    },
+    "see_digit_7_4.png": {
+      "sha256": "0f721cc04e239ef07c0e409b87dc903aa653738286c02aa6b17f607018218362",
+      "url": "monster_library/see_digit_7_4.png"
+    },
+    "see_digit_8_0.png": {
+      "sha256": "c78113eab2671382c56197836efaa7e674dd6460e8e04cf6eb162424921988ce",
+      "url": "monster_library/see_digit_8_0.png"
+    },
+    "see_digit_8_1.png": {
+      "sha256": "c78113eab2671382c56197836efaa7e674dd6460e8e04cf6eb162424921988ce",
+      "url": "monster_library/see_digit_8_1.png"
+    },
+    "see_digit_9_0.png": {
+      "sha256": "a12d72c9a7809a83f78085068886817c01ef8fd7f4fb5231742ff92561b94c11",
+      "url": "monster_library/see_digit_9_0.png"
+    },
+    "see_digit_9_1.png": {
+      "sha256": "a12d72c9a7809a83f78085068886817c01ef8fd7f4fb5231742ff92561b94c11",
+      "url": "monster_library/see_digit_9_1.png"
+    },
+    "see_face_cerberus_0.png": {
+      "sha256": "281fa7c7637e23d46e41b29273aaf18d2145060c2e1c6b1989802df05f82f07b",
+      "url": "monster_library/see_face_cerberus_0.png"
+    },
+    "see_face_kraken_0.png": {
+      "sha256": "e6761dc61a46f1c684cbda39c53be67a6b5ab17cf3668ead5cd827a094067fe4",
+      "url": "monster_library/see_face_kraken_0.png"
+    },
+    "see_face_pan_0.png": {
+      "sha256": "7009873a071f03499b2718a995f669e0f20cc1b642233e5693624ce6d146a852",
+      "url": "monster_library/see_face_pan_0.png"
+    },
+    "see_face_pan_1.png": {
+      "sha256": "251596ba6786c4d6e168f1765b15d0ddc504222e6f7249673d6a08289a4de5df",
+      "url": "monster_library/see_face_pan_1.png"
+    },
+    "see_face_pan_2.png": {
+      "sha256": "6972e0a963e4c74a57ac62aad49b3f003adc910f9b672d7c32f9044f7d2c7fff",
+      "url": "monster_library/see_face_pan_2.png"
+    },
+    "see_face_sphinx_0.png": {
+      "sha256": "98f623ca5b7243a268e80a4fad354bd3777671be563c1e5922bbe5f28a11d0ad",
+      "url": "monster_library/see_face_sphinx_0.png"
+    },
+    "see_face_stymphalian_bird_0.png": {
+      "sha256": "9e6a351b7b995a038c93a78899c402e6f5c4f895f166b3d2c356a8300e4d9b13",
+      "url": "monster_library/see_face_stymphalian_bird_0.png"
+    },
+    "see_face_viking_0.png": {
+      "sha256": "fe6f9ead9d01b0c4d11af40afba2848baca535f646d1a31a5cbee0ba545329a1",
+      "url": "monster_library/see_face_viking_0.png"
+    },
+    "see_face_warlord_0.png": {
+      "sha256": "2e5fdf59384fe378e16f6bcec3528d3ac5bd91d7a256960147ddc73ea01385a5",
+      "url": "monster_library/see_face_warlord_0.png"
     }
   },
   "catalog": {
@@ -3453,6 +3871,18 @@
       "sha256": "e53ed01ea7366b35bf659ac235ceba8d3708a689f2bfbeeb1ddadf00d42366d8",
       "url": "templates/alliance_help_hand.png"
     },
+    "anchor_hud_gem.png": {
+      "sha256": "6b07b9879b6f4fec4e81f8a3bd99b0325bebec0db07ff3e236caeb2f08d283ab",
+      "url": "templates/anchor_hud_gem.png"
+    },
+    "anchor_price_gem.png": {
+      "sha256": "7c5beaeb8f19dcbfc096450ae72f19880b8f32b6864643524d41b47ba2548303",
+      "url": "templates/anchor_price_gem.png"
+    },
+    "anchor_total_gem.png": {
+      "sha256": "05b4c395ed89209affa99ad31f12d6adcbb95180fb778e90186acc475e7c284e",
+      "url": "templates/anchor_total_gem.png"
+    },
     "arch_ring_item.png": {
       "sha256": "d0e08044180ed9d8ac0bdd94ece539d2904e032ad535ef12c0b97ed469b459ca",
       "url": "templates/arch_ring_item.png"
@@ -3480,6 +3910,14 @@
     "arow_alliance_war.png": {
       "sha256": "911ac5b4b7af41d865cd5ea3ab48147ef362db1f268e47f3e9de9058d0ce83f2",
       "url": "templates/arow_alliance_war.png"
+    },
+    "bookmarks_btn.png": {
+      "sha256": "9c894ec7907dc53412fa62b3eb51b30b3bc5e8eff1bde51a158f3e52321125f0",
+      "url": "templates/bookmarks_btn.png"
+    },
+    "bookmarks_title.png": {
+      "sha256": "923795b98f6a235f4d2604dd67108ad8fc0eb1644675ce7eb810c7544afc5b0e",
+      "url": "templates/bookmarks_title.png"
     },
     "carriage_chest.png": {
       "sha256": "7c17abc757c8ecf9c8f338764c59820998d2eb74d73f051ac0d31ae5018d1b3d",
@@ -3540,6 +3978,14 @@
     "look_atlas_v1.png": {
       "sha256": "c9beb9ac8b5c2b573c94d1a2a272ccd31872d33d901aecda68e4f1fb9f1e2d7c",
       "url": "templates/look_atlas_v1.png"
+    },
+    "march_magnifier.png": {
+      "sha256": "68ccb2e0dfa5a6da2f14d57ae7815b1484472471d465da123c598f0e11a831b4",
+      "url": "templates/march_magnifier.png"
+    },
+    "march_plus.png": {
+      "sha256": "2a761a027aaca9244daa1d54820ea2f185816dfe1f66ee1daa63b0c86a7adae1",
+      "url": "templates/march_plus.png"
     },
     "mk_24h_Farm_Speed-up_x2.png": {
       "sha256": "db53eb4586cea4901937061ba76c30f14ffb9c1fecfcc6a9efbcc6be4660ea61",
@@ -3913,6 +4359,10 @@
       "sha256": "1a0c0daa9d6ea872c23650115bddb9dda0177fe4d4e3cf6d01d736e60c69c73d",
       "url": "templates/ring_rare_books.png"
     },
+    "ring_share.png": {
+      "sha256": "efec9a7e7d30690a3ec15dce92fa2db118261a0d7d304a0379fb66ae33473efc",
+      "url": "templates/ring_share.png"
+    },
     "ring_train.png": {
       "sha256": "78d9fda10ca0435f342ec426f11a01adccbcf792c8e966ad7c22da6a5242f684",
       "url": "templates/ring_train.png"
@@ -3970,6 +4420,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "WXrA-Yx5SY1AHl86U4mtiIvQq25YvybCzQrxMjy4ISfL5qsfwPkGep5SV3_zIvxMa5ChZKtA6yDNcPt1Z7AACQ",
-  "sig": "e1ea9a7545a7b4dffe0e1355ad1b0fa7c37d713ce5bffbd6314eaaffb323c87b"
+  "rsig": "f4XR2sEOR4OPRnBsjVJRN42-GOzzSEC7DQ_iEEoCpbHaAHYtlXG5Z8agYYgIrz56-JYerKJCWUOsdFg-YC_SBQ",
+  "sig": "9547b75ce0f2432476ab10923a38b6c8832c588945ff25c86dc6cc774ec0dc84"
 }
