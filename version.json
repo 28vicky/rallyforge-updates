@@ -3,88 +3,108 @@
   "notes": "Feature + fixes\nImproved\n\u2022 Monster hunts: faster and smarter. Before it waits, the bot reads the game's March panel - it never waits on its own guess of when a march is back.\n\u2022 Monster hunts: no time blocks. A monster is skipped only when it is gone, taken by someone else, or outside your settings.\n\u2022 Marches never leave without a general: checked right before March on every rally start, hunt and solo attack. Joins follow your per-preset \"Skip if no general\" tick.\n\u2022 Monster hunts: a monster already being rallied by you, your other accounts or your share-code group is skipped. Fewer trips to monsters that are already gone.\n\u2022 Needs you: one list at the top of the left sidebar. The \u00d7 on a row clears it.\nFixed\n\u2022 Black Market: every gem buy is checked - gems are read before and after, and a buy counts only when the drop matches the price. No more false \"gems spent\" alarms.\n\u2022 Black Market: your gem floor is the limit. 'Buy everything' never buys gem items; an unreadable price or gem total never buys.\n\u2022 Black Market: Confirm only when the box names the picked item; Rebuy only when the price still matches.\n\u2022 Stamina items are found by picture and every use is checked.\n\u2022 Stop and Pause: a stopped task stays stopped until you press Run; a paused account is never reopened by a timer.\nKnown issues\n\u2022 The coordinate search can misread a coordinate (for example 444). The bot then refuses to fly there - fix coming in the next update.\n\u2022 The \"gem check\" status wording can be confusing - being improved in 3.0.13.\n\u2022 Keep \"Offering with gems\" and \"Wisdom Dome tokens\" off - those gem spends are not checked yet.\n\u2022 Vikings: the bot can pause on an empty spot for 1-5 minutes before moving on. Fix coming in the next update.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "93cf8c9e7e89c319b2a39d19e3f5cfac60f92b976d104752cf284aa70b8d5d56",
+      "sha256": "788b75fcb94a310c857825a57a001e152a8fe8f1ca66a32216ed6d802c44c745",
+      "size": 14692864,
       "url": "v3.0.12/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "5ddf6bc81758895fbcb17f94c47b95cb4b4f4c9f58b14c39b0c9d1f156d461b0",
+      "sha256": "396f63767719271257cd2193f1a00f73772b850189d6124ccb592f61579b0038",
+      "size": 2404352,
       "url": "v3.0.12/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "389d47e1f25253362ca0e0705867bc8458a7e886a4ee38343dfee99b2499e497",
+      "sha256": "8da25ef94627393447a2a42c7e8c2390e34d45c3c3f985131289760fe8e0e630",
+      "size": 470528,
       "url": "v3.0.12/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
       "sha256": "6000ec6939fad74359b6c832dff9eaad4c0c0774966b4186e9bad20a4c85ec5d",
+      "size": 238619,
       "url": "v3.0.12/ui/app.css"
     },
     "ui/app.js": {
       "sha256": "f07243ef00e2b074261e96f286e9758e0acc6496e154232698276435e09635e7",
+      "size": 98325,
       "url": "v3.0.12/ui/app.js"
     },
     "ui/changelog.js": {
       "sha256": "305cf93fd36b4ffbfe3b430ba0dbc7620f37ee8f31059373829a69ec18c6913a",
+      "size": 16530,
       "url": "v3.0.12/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "27ad864f5ef05cee26e2b6f8e191397663ded5acbf09dcbc86b240e16cf08a4c",
+      "size": 57831,
       "url": "v3.0.12/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
+      "size": 7679,
       "url": "v3.0.12/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "d26015a2cdc6da076fc2977667a0527a8bdeedce83e7ce36e6578af3ade7ccd1",
+      "size": 112690,
       "url": "v3.0.12/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "6f64dbfb41faff19513b7964173a17c93e10e5d04631630b662b70febbdea211",
+      "size": 1688,
       "url": "v3.0.12/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
+      "size": 267,
       "url": "v3.0.12/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
+      "size": 267,
       "url": "v3.0.12/ui/logo.svg"
     },
     "ui/pages.js": {
       "sha256": "8b84c684301ce01235172b10bf4ed0194e1426358ece01f232509e5f4ab126fe",
+      "size": 360057,
       "url": "v3.0.12/ui/pages.js"
     },
     "ui/rf.css": {
       "sha256": "ec25615b031c4f75d26042b6ab1f8e1d3998041e59f4f7f44144b9008bc81102",
+      "size": 15563,
       "url": "v3.0.12/ui/rf.css"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
+      "size": 6892,
       "url": "v3.0.12/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
+      "size": 976,
       "url": "v3.0.12/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
+      "size": 1473,
       "url": "v3.0.12/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
+      "size": 628,
       "url": "v3.0.12/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
+      "size": 2342,
       "url": "v3.0.12/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
+      "size": 1184,
       "url": "v3.0.12/extension/popup.js"
     }
   },
   "mode": "ask",
-  "abi": ".cp313-win_amd64.pyd",
+  "abi": ".cp313-win_amd64.pyd|u2",
   "cultures": {
     "america/feats.npz": {
       "sha256": "c145e15d76eea088db3c2f3b4786899ff0452961f9219e0d29366ef04c6e40ed",
@@ -4420,6 +4440,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "f4XR2sEOR4OPRnBsjVJRN42-GOzzSEC7DQ_iEEoCpbHaAHYtlXG5Z8agYYgIrz56-JYerKJCWUOsdFg-YC_SBQ",
-  "sig": "9547b75ce0f2432476ab10923a38b6c8832c588945ff25c86dc6cc774ec0dc84"
+  "rsig": "5VCMTVyh3VCp3KQw7BoLmKyyEigYeT0bzXG7gfaG-C2ovXR4bFPV10VlRFE4QLpmkrf8HLN2Shl6JYau9S-oBw",
+  "sig": "abc6255ec5d584d27fefdc9fd520ed6d61f163b4122ae7bce93e17702d8cca1d"
 }
