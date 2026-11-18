@@ -1,106 +1,106 @@
 {
-  "version": "3.0.12",
-  "notes": "Feature + fixes\nImproved\n\u2022 Monster hunts: faster and smarter. Before it waits, the bot reads the game's March panel - it never waits on its own guess of when a march is back.\n\u2022 Monster hunts: no time blocks. A monster is skipped only when it is gone, taken by someone else, or outside your settings.\n\u2022 Marches never leave without a general: checked right before March on every rally start, hunt and solo attack. Joins follow your per-preset \"Skip if no general\" tick.\n\u2022 Monster hunts: a monster already being rallied by you, your other accounts or your share-code group is skipped. Fewer trips to monsters that are already gone.\n\u2022 Needs you: one list at the top of the left sidebar. The \u00d7 on a row clears it.\nFixed\n\u2022 Black Market: every gem buy is checked - gems are read before and after, and a buy counts only when the drop matches the price. No more false \"gems spent\" alarms.\n\u2022 Black Market: your gem floor is the limit. 'Buy everything' never buys gem items; an unreadable price or gem total never buys.\n\u2022 Black Market: Confirm only when the box names the picked item; Rebuy only when the price still matches.\n\u2022 Stamina items are found by picture and every use is checked.\n\u2022 Stop and Pause: a stopped task stays stopped until you press Run; a paused account is never reopened by a timer.\nKnown issues\n\u2022 The coordinate search can misread a coordinate (for example 444). The bot then refuses to fly there - fix coming in the next update.\n\u2022 The \"gem check\" status wording can be confusing - being improved in 3.0.13.\n\u2022 Keep \"Offering with gems\" and \"Wisdom Dome tokens\" off - those gem spends are not checked yet.\n\u2022 Vikings: the bot can pause on an empty spot for 1-5 minutes before moving on. Fix coming in the next update.",
+  "version": "3.0.12.2",
+  "notes": "Monster hunts: the same monster from Telegram and iScout counts as one, and the bot goes down your hunt order to a monster whose preset is home. Stamina items are no longer switched off after a missed reading. Royal Thief finds the thief again. Champions, kicked accounts and game loading are handled better. Recruit Citizens is hidden while it is being fixed.",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "788b75fcb94a310c857825a57a001e152a8fe8f1ca66a32216ed6d802c44c745",
-      "size": 14692864,
-      "url": "v3.0.12/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "5df05123fb8a829035f6670b717b3a9499488d4d843b24705ff53ebcd4b709e5",
+      "size": 14711296,
+      "url": "v3.0.12.2/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "396f63767719271257cd2193f1a00f73772b850189d6124ccb592f61579b0038",
-      "size": 2404352,
-      "url": "v3.0.12/web_app.cp313-win_amd64.pyd"
+      "sha256": "8047c05c8fbee99e4a7a8721f3e4d7e4797ad5d6b5d34005a1906d74b1127ecf",
+      "size": 2408960,
+      "url": "v3.0.12.2/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "8da25ef94627393447a2a42c7e8c2390e34d45c3c3f985131289760fe8e0e630",
+      "sha256": "68bdb7ccd340e287bb606b2f99b91eadd3eabf4a94aba1d0d058f3a9ffdfbb32",
       "size": 470528,
-      "url": "v3.0.12/rf_license.cp313-win_amd64.pyd"
+      "url": "v3.0.12.2/rf_license.cp313-win_amd64.pyd"
     },
     "ui/app.css": {
-      "sha256": "6000ec6939fad74359b6c832dff9eaad4c0c0774966b4186e9bad20a4c85ec5d",
-      "size": 238619,
-      "url": "v3.0.12/ui/app.css"
+      "sha256": "185420523e56deec216993f2348e89bd10ce1ab096e1b178e9ec75844d83343b",
+      "size": 238820,
+      "url": "v3.0.12.2/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "f07243ef00e2b074261e96f286e9758e0acc6496e154232698276435e09635e7",
-      "size": 98325,
-      "url": "v3.0.12/ui/app.js"
+      "sha256": "bb8440d548e4dd282bd1a53f42a00863058a33cdb54318e4ffde68dd539afdf3",
+      "size": 99604,
+      "url": "v3.0.12.2/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "305cf93fd36b4ffbfe3b430ba0dbc7620f37ee8f31059373829a69ec18c6913a",
-      "size": 16530,
-      "url": "v3.0.12/ui/changelog.js"
+      "sha256": "54db1c181e97fbf714e53eb3b067c97c0832b904fe335885b7425016b74cc043",
+      "size": 17949,
+      "url": "v3.0.12.2/ui/changelog.js"
     },
     "ui/dialogs.js": {
       "sha256": "27ad864f5ef05cee26e2b6f8e191397663ded5acbf09dcbc86b240e16cf08a4c",
       "size": 57831,
-      "url": "v3.0.12/ui/dialogs.js"
+      "url": "v3.0.12.2/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
       "size": 7679,
-      "url": "v3.0.12/ui/eula.html"
+      "url": "v3.0.12.2/ui/eula.html"
     },
     "ui/fonts.css": {
       "sha256": "d26015a2cdc6da076fc2977667a0527a8bdeedce83e7ce36e6578af3ade7ccd1",
       "size": 112690,
-      "url": "v3.0.12/ui/fonts.css"
+      "url": "v3.0.12.2/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "6f64dbfb41faff19513b7964173a17c93e10e5d04631630b662b70febbdea211",
       "size": 1688,
-      "url": "v3.0.12/ui/index.html"
+      "url": "v3.0.12.2/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
       "size": 267,
-      "url": "v3.0.12/ui/logo-small.svg"
+      "url": "v3.0.12.2/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "2a86fa6709504cbc3b36e319b3d0176467637be863492b68f8d514545f97ded1",
       "size": 267,
-      "url": "v3.0.12/ui/logo.svg"
+      "url": "v3.0.12.2/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "8b84c684301ce01235172b10bf4ed0194e1426358ece01f232509e5f4ab126fe",
-      "size": 360057,
-      "url": "v3.0.12/ui/pages.js"
+      "sha256": "d1f731163277652b0aeb1b57e288e1711a3b23a406046011a679e172a15ec6a9",
+      "size": 358690,
+      "url": "v3.0.12.2/ui/pages.js"
     },
     "ui/rf.css": {
       "sha256": "ec25615b031c4f75d26042b6ab1f8e1d3998041e59f4f7f44144b9008bc81102",
       "size": 15563,
-      "url": "v3.0.12/ui/rf.css"
+      "url": "v3.0.12.2/ui/rf.css"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
       "size": 6892,
-      "url": "v3.0.12/ui/tour.js"
+      "url": "v3.0.12.2/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
       "size": 976,
-      "url": "v3.0.12/extension/background.js"
+      "url": "v3.0.12.2/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
       "size": 1473,
-      "url": "v3.0.12/extension/content.js"
+      "url": "v3.0.12.2/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "09e4a290e646b4221555604805e7bcb2375de65550ef764bdb9d3aa3f631f5ee",
       "size": 628,
-      "url": "v3.0.12/extension/manifest.json"
+      "url": "v3.0.12.2/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
       "size": 2342,
-      "url": "v3.0.12/extension/popup.html"
+      "url": "v3.0.12.2/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
       "size": 1184,
-      "url": "v3.0.12/extension/popup.js"
+      "url": "v3.0.12.2/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -1785,15 +1785,15 @@
       "url": "monster_library/levels.json"
     },
     "see_body_cerberus_0.png": {
-      "sha256": "350766c32090d4ad240f61f2232faa457ca411e90cbbb1c6586519a9b84b479a",
+      "sha256": "3beb7e6f3f0f974fe10d520062c8c026076810256e5a92269a6208531a4cb4bd",
       "url": "monster_library/see_body_cerberus_0.png"
     },
     "see_body_cerberus_1.png": {
-      "sha256": "cd334e655a1fbd622c68805c1e7c624787a41b1e0c56e3d0648f54ed80fc921b",
+      "sha256": "2626428df0583746541027ca2eb25c7fcd63f1e04b55c5d86cc79efecd76dec2",
       "url": "monster_library/see_body_cerberus_1.png"
     },
     "see_body_cerberus_10.png": {
-      "sha256": "cbb278536fe18f01907a15236b7d56087c593008c5352fdb66ccdc849c64a4cb",
+      "sha256": "ea3eff2109eb8186a94b76e0578b03892374e4d10df21b64c029a9e9de218d0b",
       "url": "monster_library/see_body_cerberus_10.png"
     },
     "see_body_cerberus_11.png": {
@@ -1813,36 +1813,76 @@
       "url": "monster_library/see_body_cerberus_14.png"
     },
     "see_body_cerberus_2.png": {
-      "sha256": "0ba65a8937a7d6420b96ffa4be4cf45b15a8a660d13befc0314d9d3c63e5e6b6",
+      "sha256": "cfed433d94c49282e543a3d4ae16b15bd7846aba6b93ce4319449abe4358d2cf",
       "url": "monster_library/see_body_cerberus_2.png"
     },
     "see_body_cerberus_3.png": {
-      "sha256": "d887fe0a0149a3fbbb5564df2bfbabbb52df2a9383ff30ff46bbb91b8b14e6f7",
+      "sha256": "933620ed5a23864d03e764037e0a1d62fccff85e3db62305a45061a4f0762cd2",
       "url": "monster_library/see_body_cerberus_3.png"
     },
     "see_body_cerberus_4.png": {
-      "sha256": "2ead0f854e3f359bc91e3875139a16f07cc732b9b64c1a23286d87656339b6c8",
+      "sha256": "197a7c231a03feec2704c2aedc67ee5bc467a4ae4ff94d03701c3868d76451dd",
       "url": "monster_library/see_body_cerberus_4.png"
     },
     "see_body_cerberus_5.png": {
-      "sha256": "28c15b01313119b7f33152e7b8ae3155eb99574302f5e16b2e63de339cd138e6",
+      "sha256": "920b27411bc2e96e19a0310b9bf6a2de8172fe0638ac2d09c6dfb962a4cbe534",
       "url": "monster_library/see_body_cerberus_5.png"
     },
     "see_body_cerberus_6.png": {
-      "sha256": "ef18d6f5498046e4e7b1aa8048cd01eec66efe2866adae7919269bfee378a2aa",
+      "sha256": "e8597966bac313cc8a59804962f24ed28e0a237fedb937682e7b25b8fd142e04",
       "url": "monster_library/see_body_cerberus_6.png"
     },
     "see_body_cerberus_7.png": {
-      "sha256": "24c329f1b57a5d462af5315fc640dfed048da2b1f5f663db76297c6614df1c6b",
+      "sha256": "ed20a97e8ebed5fad9ef9762bdd7abdfc44732a6e39856f8e46745629d4a25c2",
       "url": "monster_library/see_body_cerberus_7.png"
     },
     "see_body_cerberus_8.png": {
-      "sha256": "18c13f5ed03949dfae4676a3cc6137099e968437c1f340147a8fc6da61897062",
+      "sha256": "e82194ce69bdd531bac15eac433ebe707aaf40c33ca4de64a578a220e4b28300",
       "url": "monster_library/see_body_cerberus_8.png"
     },
     "see_body_cerberus_9.png": {
-      "sha256": "21ace7fac650c2e4a3e4ada7bba969433d3bec81916bb494f3d7bdff2dfbf727",
+      "sha256": "b3d1ab0d757619d7e7ba2031b6e2b2f74c30dd991df8b33d578f31b7df591c84",
       "url": "monster_library/see_body_cerberus_9.png"
+    },
+    "see_body_hydra_0.png": {
+      "sha256": "e981cbce901b9c9e254e9c7d7c7464e4303eace64ecab482c684a52f405bc5fe",
+      "url": "monster_library/see_body_hydra_0.png"
+    },
+    "see_body_hydra_1.png": {
+      "sha256": "e784e49fcddd97dfb57f3e6cdfce4c7332f2fffde63a98ca3a1e9690987fd4f0",
+      "url": "monster_library/see_body_hydra_1.png"
+    },
+    "see_body_hydra_2.png": {
+      "sha256": "d9fb077049df8588a7be0ded9dfa30b1f73369cb81283a782f6e291a785f7703",
+      "url": "monster_library/see_body_hydra_2.png"
+    },
+    "see_body_hydra_3.png": {
+      "sha256": "cb0485f2291a08ff8bf02e026206334c833307088f88da02710cb6e37052594f",
+      "url": "monster_library/see_body_hydra_3.png"
+    },
+    "see_body_hydra_4.png": {
+      "sha256": "3748ecd85994055d69634135e062f4612b1bdbcfe199d13f2c5c37e94cabe8be",
+      "url": "monster_library/see_body_hydra_4.png"
+    },
+    "see_body_hydra_5.png": {
+      "sha256": "7d8acadbf64c4d2c82b4d387877981776bd51c9c7bc0aa1432116686d9e98ebf",
+      "url": "monster_library/see_body_hydra_5.png"
+    },
+    "see_body_hydra_6.png": {
+      "sha256": "d92fd329fbfb7d4cc05ded6cdbca5fc8d9be084bba01855cffeb80fd0d43e760",
+      "url": "monster_library/see_body_hydra_6.png"
+    },
+    "see_body_hydra_7.png": {
+      "sha256": "b0f8f1dc9e9cc82b9139ae80a507d18da2e0d881271ac623293093b92208f889",
+      "url": "monster_library/see_body_hydra_7.png"
+    },
+    "see_body_hydra_8.png": {
+      "sha256": "002e26f393b7c63ff93d99e94ad731a4229b48b6006185537732fe91c04f2da2",
+      "url": "monster_library/see_body_hydra_8.png"
+    },
+    "see_body_hydra_9.png": {
+      "sha256": "739591dab5f72747de171435050c05fbc034ffef4c746d15d19f5f13deba9e66",
+      "url": "monster_library/see_body_hydra_9.png"
     },
     "see_body_kraken_0.png": {
       "sha256": "35c0fc5c85b29075a7af8336b7e497253dc5f3edda1ad47d51e41e5ec73165fe",
@@ -1916,6 +1956,154 @@
       "sha256": "4e1f4649b48d8d13d917f1ddab2e1204ed69c8dccf45912097b10b35501b2fe3",
       "url": "monster_library/see_body_pan_9.png"
     },
+    "see_body_royal_thief_0.png": {
+      "sha256": "f981de57726dd7240df1543eb1ec768435950544570dfd2ff0766d53f17cdf73",
+      "url": "monster_library/see_body_royal_thief_0.png"
+    },
+    "see_body_royal_thief_1.png": {
+      "sha256": "81d2be23a3cf0060ebab83e8ed95e9d8ee2efb961d2a659a349a2f93c97d39d0",
+      "url": "monster_library/see_body_royal_thief_1.png"
+    },
+    "see_body_royal_thief_10.png": {
+      "sha256": "b62fde54fa155d289d101ec063e40440f5d0067ed79eef5a4334cc271424db52",
+      "url": "monster_library/see_body_royal_thief_10.png"
+    },
+    "see_body_royal_thief_11.png": {
+      "sha256": "e86e4eb8e0909c82a4a7929bd81dc0127c19e6da4ad4fdb2c8d92a7ae7694494",
+      "url": "monster_library/see_body_royal_thief_11.png"
+    },
+    "see_body_royal_thief_12.png": {
+      "sha256": "c50554f407b84add076ee16cb77a145b1924d46344b903ab1bb35fbbf88182fb",
+      "url": "monster_library/see_body_royal_thief_12.png"
+    },
+    "see_body_royal_thief_13.png": {
+      "sha256": "4a577aa819581add46614d330d81dd1ce82317ccbdab63b9b24b30089f9984c6",
+      "url": "monster_library/see_body_royal_thief_13.png"
+    },
+    "see_body_royal_thief_14.png": {
+      "sha256": "eccf43674a2ca21cf8f39009fdf2abca842a4cf43b9b8a4a323ce27bafac7c8c",
+      "url": "monster_library/see_body_royal_thief_14.png"
+    },
+    "see_body_royal_thief_15.png": {
+      "sha256": "eac20bba57ec9ba1b6c37c8d5f7a229b73ded89b5bae8cffcb6807799c983b70",
+      "url": "monster_library/see_body_royal_thief_15.png"
+    },
+    "see_body_royal_thief_16.png": {
+      "sha256": "47a733700e848da2ed9fe47c068e8ccc71e74058176105d217465b027a4b362c",
+      "url": "monster_library/see_body_royal_thief_16.png"
+    },
+    "see_body_royal_thief_17.png": {
+      "sha256": "fc5e02c0d333920e64077e3cfcc0fa7b210b91ae85f7d472527bc77541174ff0",
+      "url": "monster_library/see_body_royal_thief_17.png"
+    },
+    "see_body_royal_thief_18.png": {
+      "sha256": "cdb3a986b27398ab4dda5187df7a2f55aeca90b76b4b40e26ecddd19650dfe9e",
+      "url": "monster_library/see_body_royal_thief_18.png"
+    },
+    "see_body_royal_thief_19.png": {
+      "sha256": "689270049556994fe0d18434b14d13949f6246162391cdaadf4545595a936416",
+      "url": "monster_library/see_body_royal_thief_19.png"
+    },
+    "see_body_royal_thief_2.png": {
+      "sha256": "19fa4457b167c9729eabba9de60c19ebdec97703710fdd8530637cf24d5ed131",
+      "url": "monster_library/see_body_royal_thief_2.png"
+    },
+    "see_body_royal_thief_20.png": {
+      "sha256": "60b5e502eea9b9f000c8abfa62339969190e77aeccd0ebfa95ddca404490e0be",
+      "url": "monster_library/see_body_royal_thief_20.png"
+    },
+    "see_body_royal_thief_21.png": {
+      "sha256": "1d0f21106b70073fe636a28a8eaf6d1247a0ef9e1734392e100d6ef6760aefcd",
+      "url": "monster_library/see_body_royal_thief_21.png"
+    },
+    "see_body_royal_thief_22.png": {
+      "sha256": "a7e37860eadb2694f18acfdfa87d55bceb30d7a338cc72f6cf063d329917319d",
+      "url": "monster_library/see_body_royal_thief_22.png"
+    },
+    "see_body_royal_thief_23.png": {
+      "sha256": "656b89ef20a27bbe0365e7998ec546bd29dea66ff9052e82606bcc226d93aeab",
+      "url": "monster_library/see_body_royal_thief_23.png"
+    },
+    "see_body_royal_thief_24.png": {
+      "sha256": "2540f0b9ed5d7e4dc6f65c2b13b9f29cf4fa9c3442e76b4bb447e07fb8a3e058",
+      "url": "monster_library/see_body_royal_thief_24.png"
+    },
+    "see_body_royal_thief_25.png": {
+      "sha256": "31ce71e6f76a252a6d93fd4f2bfe9c4c6e0380c345d1262093b6dbc4c8bebfd1",
+      "url": "monster_library/see_body_royal_thief_25.png"
+    },
+    "see_body_royal_thief_26.png": {
+      "sha256": "f2755b4bb18b2fb6b3a6d1d150d4d8592329b5bff4e22f88e976fedda0092ad4",
+      "url": "monster_library/see_body_royal_thief_26.png"
+    },
+    "see_body_royal_thief_27.png": {
+      "sha256": "afe412ab54e67537711953843546ad1f47b507ba874cd2d3059901620d96aee3",
+      "url": "monster_library/see_body_royal_thief_27.png"
+    },
+    "see_body_royal_thief_28.png": {
+      "sha256": "e16b13e91202abfb79d86454abe7a50e4a003d0951b8fe6bf390c04f375c51a9",
+      "url": "monster_library/see_body_royal_thief_28.png"
+    },
+    "see_body_royal_thief_29.png": {
+      "sha256": "4423188f6d35c6e9b9a4a4bbe836152c1cfdf5991e322c86d6e327b8fe1960c9",
+      "url": "monster_library/see_body_royal_thief_29.png"
+    },
+    "see_body_royal_thief_3.png": {
+      "sha256": "a6d6ecf6f59db95f2a38b861ff10352feb6646c1c90378bda3ba62835e765d78",
+      "url": "monster_library/see_body_royal_thief_3.png"
+    },
+    "see_body_royal_thief_30.png": {
+      "sha256": "6c05f950408584c5dbb7c45d50ba57b9b35d7b2908eb62994d46480973458bf8",
+      "url": "monster_library/see_body_royal_thief_30.png"
+    },
+    "see_body_royal_thief_31.png": {
+      "sha256": "2e41904c1f8a18119beec0c1820e75af7fb4a96336a9b8b7315467c24496dd4d",
+      "url": "monster_library/see_body_royal_thief_31.png"
+    },
+    "see_body_royal_thief_32.png": {
+      "sha256": "b734bf929d044a99a784dbf2b9a69d5422a6dc8874d3b96990185000ad2e2394",
+      "url": "monster_library/see_body_royal_thief_32.png"
+    },
+    "see_body_royal_thief_33.png": {
+      "sha256": "2bd83ceb37b5640951705a114f10c5c4a9b5c80673da6a83b667a21d280a0e4a",
+      "url": "monster_library/see_body_royal_thief_33.png"
+    },
+    "see_body_royal_thief_34.png": {
+      "sha256": "9cea8db284af8c9690a1f5bafc0611ee5ad68aa4fff1d0c23cc2b03aa6e3d8e3",
+      "url": "monster_library/see_body_royal_thief_34.png"
+    },
+    "see_body_royal_thief_35.png": {
+      "sha256": "cea6bf26bb7feed13672eba2eab6d3580c8c3b9ace7650c5eb689112cbfd9786",
+      "url": "monster_library/see_body_royal_thief_35.png"
+    },
+    "see_body_royal_thief_36.png": {
+      "sha256": "939e9f086d68051f437a969f3c9e550771470f90cb0b4898a59fc8b866790269",
+      "url": "monster_library/see_body_royal_thief_36.png"
+    },
+    "see_body_royal_thief_4.png": {
+      "sha256": "dc7f383a58ee3c2643ad7d70fa6e640b46c22878f476e31d7039e0ef61649a04",
+      "url": "monster_library/see_body_royal_thief_4.png"
+    },
+    "see_body_royal_thief_5.png": {
+      "sha256": "814098ae36d2247fd672ae361bae13e16426ef47b5f13e7584d8dcac51aa6a1f",
+      "url": "monster_library/see_body_royal_thief_5.png"
+    },
+    "see_body_royal_thief_6.png": {
+      "sha256": "4c8e6dcb85d8d6151a092e0b8c935d45d6fab7f978a4c16f5a6a02ef8c64b138",
+      "url": "monster_library/see_body_royal_thief_6.png"
+    },
+    "see_body_royal_thief_7.png": {
+      "sha256": "abd18be19137691933124053ed1440958ec644f250146af79b269a12adaeb48e",
+      "url": "monster_library/see_body_royal_thief_7.png"
+    },
+    "see_body_royal_thief_8.png": {
+      "sha256": "6be1f3ec728cf35e0447d05ed18b30aa703de76154c774a45c494c10c2a29b04",
+      "url": "monster_library/see_body_royal_thief_8.png"
+    },
+    "see_body_royal_thief_9.png": {
+      "sha256": "dbb6f17215d6a69c90956b29c4a818fd27315c9013f061fe19b3743a5304ce74",
+      "url": "monster_library/see_body_royal_thief_9.png"
+    },
     "see_body_sphinx_0.png": {
       "sha256": "d0dde483710fc818b23190db9897096f7f848bdcc8f44dda37171a0bf19c0fc3",
       "url": "monster_library/see_body_sphinx_0.png"
@@ -1927,6 +2115,10 @@
     "see_body_sphinx_2.png": {
       "sha256": "2724ef219400be06255cd81eb6382d883cf5f960ec8bda45a64385f35081de24",
       "url": "monster_library/see_body_sphinx_2.png"
+    },
+    "see_body_sphinx_3.png": {
+      "sha256": "81aaf7fd7e854a21bda35116ac4bd781ade75c4b064e794a7ff729dfe877a094",
+      "url": "monster_library/see_body_sphinx_3.png"
     },
     "see_body_stymphalian_bird_0.png": {
       "sha256": "30373a40ed33c677b49cd388c800e070fca92aa4e67a27e110fbe1e09962d3fa",
@@ -2007,6 +2199,10 @@
     "see_body_warlord_5.png": {
       "sha256": "9381135dca3bec32d037ec48caff2e497e11997ddd3d8268f46c266d2aa07ffb",
       "url": "monster_library/see_body_warlord_5.png"
+    },
+    "see_body_warlord_6.png": {
+      "sha256": "b73aa37429614abc0a6cda90e5bba66166d59fc2f81fe5d24fc627abc53c5686",
+      "url": "monster_library/see_body_warlord_6.png"
     },
     "see_digit_0_0.png": {
       "sha256": "334dc5f1166640ec00dbb38af60a68b3723bf4747068fb63bccac13eefe654e3",
@@ -2156,9 +2352,45 @@
       "sha256": "a12d72c9a7809a83f78085068886817c01ef8fd7f4fb5231742ff92561b94c11",
       "url": "monster_library/see_digit_9_1.png"
     },
+    "see_face_aglaope_0.png": {
+      "sha256": "5c6df043b2f440fa30ae5f79a0416611ef716bf30e788252dd44ce4efc078790",
+      "url": "monster_library/see_face_aglaope_0.png"
+    },
+    "see_face_aglaope_1.png": {
+      "sha256": "df3d4d2207d7cbca2bd608921ade399b073fb035b963571387eb1517ab63db1c",
+      "url": "monster_library/see_face_aglaope_1.png"
+    },
+    "see_face_ammit_0.png": {
+      "sha256": "55cacb22c519fc0294dc301ab7f3847e4bd9dc0f04e6020454ac6b1ade64749a",
+      "url": "monster_library/see_face_ammit_0.png"
+    },
     "see_face_cerberus_0.png": {
       "sha256": "281fa7c7637e23d46e41b29273aaf18d2145060c2e1c6b1989802df05f82f07b",
       "url": "monster_library/see_face_cerberus_0.png"
+    },
+    "see_face_cerberus_1.png": {
+      "sha256": "23c8b8e459eb7bf7f7d742165336b0b6e3d0b0d50aec0e4a5d9e35c0cbd653d3",
+      "url": "monster_library/see_face_cerberus_1.png"
+    },
+    "see_face_cerberus_2.png": {
+      "sha256": "523f700688cf06ccd1aa98d4dc376fefef4232914c1bf07f910bd9690db35fd2",
+      "url": "monster_library/see_face_cerberus_2.png"
+    },
+    "see_face_cerberus_3.png": {
+      "sha256": "b1c81f1b0b4d2ac39ad6d35463a48c2caa98cc8ecc2a44a35c50575bc66fc263",
+      "url": "monster_library/see_face_cerberus_3.png"
+    },
+    "see_face_hydra_0.png": {
+      "sha256": "b246887875ab11388b417d7f3337c40606cead281dfd1e2ba1ff24bcfe356fa5",
+      "url": "monster_library/see_face_hydra_0.png"
+    },
+    "see_face_hydra_1.png": {
+      "sha256": "672a8ad884a9cb4b1d658e07c2ad09b1aca283ac5b9d26a06eefa292b4c0c419",
+      "url": "monster_library/see_face_hydra_1.png"
+    },
+    "see_face_hydra_2.png": {
+      "sha256": "bcb92c899b42c2764db25a34ed2050d8bdb0e99e0b9080f4982df0857abeb9c2",
+      "url": "monster_library/see_face_hydra_2.png"
     },
     "see_face_kraken_0.png": {
       "sha256": "e6761dc61a46f1c684cbda39c53be67a6b5ab17cf3668ead5cd827a094067fe4",
@@ -2176,6 +2408,50 @@
       "sha256": "6972e0a963e4c74a57ac62aad49b3f003adc910f9b672d7c32f9044f7d2c7fff",
       "url": "monster_library/see_face_pan_2.png"
     },
+    "see_face_pan_3.png": {
+      "sha256": "49213c8bd698d34058d7d1da1c2f65375aec123f15114b1ebb303c36a9e80af4",
+      "url": "monster_library/see_face_pan_3.png"
+    },
+    "see_face_pan_4.png": {
+      "sha256": "8dc12ff3208a77495b11aadcbdf12f778e9cfb854269bf493d4ed892b5d09011",
+      "url": "monster_library/see_face_pan_4.png"
+    },
+    "see_face_pan_5.png": {
+      "sha256": "69a552b438423f436f78430e693826d2648c7d1025f4ab9bf206ba77e2305ad4",
+      "url": "monster_library/see_face_pan_5.png"
+    },
+    "see_face_royal_thief_0.png": {
+      "sha256": "bab49d8413bebd5277bc7f81f7d5b330889ff33666058fbb614ed620c65783dc",
+      "url": "monster_library/see_face_royal_thief_0.png"
+    },
+    "see_face_royal_thief_1.png": {
+      "sha256": "30b6259698a4f3439bd4a3968ab4b09ec873996fedf45a33e607c7a745293f98",
+      "url": "monster_library/see_face_royal_thief_1.png"
+    },
+    "see_face_royal_thief_2.png": {
+      "sha256": "50c77d924bb5cf47a02ddbc34917989ea0e3f5f29826a6876976f5ffd55eecbe",
+      "url": "monster_library/see_face_royal_thief_2.png"
+    },
+    "see_face_royal_thief_3.png": {
+      "sha256": "50c77d924bb5cf47a02ddbc34917989ea0e3f5f29826a6876976f5ffd55eecbe",
+      "url": "monster_library/see_face_royal_thief_3.png"
+    },
+    "see_face_royal_thief_4.png": {
+      "sha256": "a52b737ce81f14703062445751132138caa08e1e28846dacd0f106e6d18fd9d3",
+      "url": "monster_library/see_face_royal_thief_4.png"
+    },
+    "see_face_royal_thief_5.png": {
+      "sha256": "fb62876df7d0c33bf1716d482eb77925ee429a0d9039790c50dd361c7d0a2f51",
+      "url": "monster_library/see_face_royal_thief_5.png"
+    },
+    "see_face_royal_thief_6.png": {
+      "sha256": "4b379bc83d081eb2468ec7dfcef24fb4aa03e4abcec38de2f8f69ff4ec81890c",
+      "url": "monster_library/see_face_royal_thief_6.png"
+    },
+    "see_face_royal_thief_7.png": {
+      "sha256": "a52b737ce81f14703062445751132138caa08e1e28846dacd0f106e6d18fd9d3",
+      "url": "monster_library/see_face_royal_thief_7.png"
+    },
     "see_face_sphinx_0.png": {
       "sha256": "98f623ca5b7243a268e80a4fad354bd3777671be563c1e5922bbe5f28a11d0ad",
       "url": "monster_library/see_face_sphinx_0.png"
@@ -2188,9 +2464,49 @@
       "sha256": "fe6f9ead9d01b0c4d11af40afba2848baca535f646d1a31a5cbee0ba545329a1",
       "url": "monster_library/see_face_viking_0.png"
     },
+    "see_face_viking_1.png": {
+      "sha256": "b9bb8dd056a1cf6586b9d7d160866330a47b0724413d5b9f267526ea60f77448",
+      "url": "monster_library/see_face_viking_1.png"
+    },
+    "see_face_viking_2.png": {
+      "sha256": "d45476b69d2449ade3e3b87bfaf567f4cf59ffabc5b4c089f40e125b5aaa23a6",
+      "url": "monster_library/see_face_viking_2.png"
+    },
+    "see_face_viking_3.png": {
+      "sha256": "a1363a929db7b7cb8f973db3e799c32055dfa313391b9f32c721018763404bf1",
+      "url": "monster_library/see_face_viking_3.png"
+    },
     "see_face_warlord_0.png": {
       "sha256": "2e5fdf59384fe378e16f6bcec3528d3ac5bd91d7a256960147ddc73ea01385a5",
       "url": "monster_library/see_face_warlord_0.png"
+    },
+    "see_face_warlord_1.png": {
+      "sha256": "df9d586669697d9b86d99d7c89adb5dc437a82449bbc31575f5b6326c2dfadaa",
+      "url": "monster_library/see_face_warlord_1.png"
+    },
+    "see_face_warlord_2.png": {
+      "sha256": "96c92338e8d4ab268945fc483dcaafbabf3ffc88d8c1ca1c09655e5d77f9542d",
+      "url": "monster_library/see_face_warlord_2.png"
+    },
+    "see_face_warlord_3.png": {
+      "sha256": "35431e4c7822d878b0adc7d367351dda498a6ad2997f79958291185fd3d9204f",
+      "url": "monster_library/see_face_warlord_3.png"
+    },
+    "see_face_ymir_0.png": {
+      "sha256": "978bb20888fa6c6e8f9447dc522e11d17616d9ba129ea3f03d03f45139d0781a",
+      "url": "monster_library/see_face_ymir_0.png"
+    },
+    "see_face_ymir_1.png": {
+      "sha256": "824e0e320ea214aeb7a2d84d962bcefa78d45f1c30431b7109e120ab0bc84430",
+      "url": "monster_library/see_face_ymir_1.png"
+    },
+    "see_face_ymir_2.png": {
+      "sha256": "cfb7c870ede83fafe552ea229435c685b39c99f7a7545e4623bbfe2491b70338",
+      "url": "monster_library/see_face_ymir_2.png"
+    },
+    "see_face_ymir_3.png": {
+      "sha256": "978bb20888fa6c6e8f9447dc522e11d17616d9ba129ea3f03d03f45139d0781a",
+      "url": "monster_library/see_face_ymir_3.png"
     }
   },
   "catalog": {
@@ -4440,6 +4756,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "5VCMTVyh3VCp3KQw7BoLmKyyEigYeT0bzXG7gfaG-C2ovXR4bFPV10VlRFE4QLpmkrf8HLN2Shl6JYau9S-oBw",
-  "sig": "abc6255ec5d584d27fefdc9fd520ed6d61f163b4122ae7bce93e17702d8cca1d"
+  "rsig": "7VtJRVtfzkCdQFSJ9c-9yygShU7mr7gkQbVraefXd9kRqm7uuicG0kdkMbc4CXzE3H_Rhk_8XKLaAYyEJ5XWCA",
+  "sig": "602e72168c1f84bfa69e56458efa2d80905d0e86b6070031921e4db9cc4652fa"
 }
