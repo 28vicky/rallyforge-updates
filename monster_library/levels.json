@@ -1,5 +1,5 @@
 {
- "_note": "Monster library (owner 16 Nov 11:44): pictures see_body_* (map), see_face_* (window), see_digit_* (level digits) + this table. Level range per monster family; a level outside it = can't read -> close, skip, back to the pool. Add a monster = add its pictures + one line here, publish with make_update --library monster_library. No code change.",
+ "_note": "Monster library: pictures see_body_* (map), see_face_* (window), see_digit_* (level digits) + this table. Level range per monster family; a level outside it = can't read -> close, skip, back to the pool. Add a monster = add its pictures + one line here, publish with make_update --library monster_library. No code change.",
  "levels": {
   "warlord": [
    1,
