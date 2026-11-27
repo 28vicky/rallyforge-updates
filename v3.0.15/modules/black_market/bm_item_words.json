@@ -1,0 +1,527 @@
+{
+ "_note": "Each offered pack's purchase-box LINE 1 words (learned from saved boxes; '' = not learned yet -> 'it is the purchase box' is checked and line 1 is learned on the first buy) + its picture bar.",
+ "24h Farm Speed-up x1": {
+  "words": "24 Hour Farm Speedup",
+  "bar": 0.8
+ },
+ "24h Farm Speed-up x2": {
+  "words": "24 Hour Farm Speedup",
+  "bar": 0.8
+ },
+ "24h Farm Speed-up x20": {
+  "words": "24 Hour Farm Speedup",
+  "bar": 0.8
+ },
+ "24h Farm Speed-up x5": {
+  "words": "24 Hour Farm Speedup",
+  "bar": 0.8
+ },
+ "24h Iron Mine Speed-up x1": {
+  "words": "24 Hour Mine Speedup",
+  "bar": 0.8
+ },
+ "24h Iron Mine Speed-up x2": {
+  "words": "24 Hour Mine Speedup",
+  "bar": 0.8
+ },
+ "24h Iron Mine Speed-up x5": {
+  "words": "24 Hour Mine Speedup",
+  "bar": 0.8
+ },
+ "24h Quarry Speed-up x1": {
+  "words": "24 Hour Quarry Speedup",
+  "bar": 0.8
+ },
+ "24h Quarry Speed-up x2": {
+  "words": "24 Hour Quarry Speedup",
+  "bar": 0.8
+ },
+ "24h Quarry Speed-up x20": {
+  "words": "24 Hour Quarry Speedup",
+  "bar": 0.8
+ },
+ "24h Quarry Speed-up x5": {
+  "words": "24 Hour Quarry Speedup",
+  "bar": 0.8
+ },
+ "24h Sawmill Speed-up x1": {
+  "words": "24 Hour Sawmill Speedup",
+  "bar": 0.8
+ },
+ "24h Sawmill Speed-up x2": {
+  "words": "24 Hour Sawmill Speedup",
+  "bar": 0.8
+ },
+ "24h Sawmill Speed-up x20": {
+  "words": "24 Hour Sawmill Speedup",
+  "bar": 0.8
+ },
+ "24h Sawmill Speed-up x5": {
+  "words": "24 Hour Sawmill Speedup",
+  "bar": 0.8
+ },
+ "Artwork Fragment Chest I x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Artwork Fragment Chest II x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Artwork Fragment Chest IV x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Artwork Fragment Chest V x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Artwork Fragment Chest VI x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Champions Armor": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Champions Boots": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Champions Helmet": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Champions Leg Armor": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Chips 100 x1": {
+  "words": "100 Chips",
+  "bar": 0.8
+ },
+ "Chips 100 x2": {
+  "words": "100 Chips",
+  "bar": 0.8
+ },
+ "Chips 100 x5": {
+  "words": "100 Chips",
+  "bar": 0.8
+ },
+ "Cloth Armor": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Cloth Hood": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Dragon Crystal x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Dragon Crystal x50": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Elites Bow": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Fighters Ring": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Food 200M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Food 20M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Food 500M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Food 50M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Food 5M": {
+  "words": "Food 5M",
+  "bar": 0.92
+ },
+ "Gear Lv3 Fire Crystal": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Fire Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Fire Grail": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Fire Staff": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Mountain Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Mountain Staff": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Thunder Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Thunder Staff": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Wind Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Wind Grail": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Wind Staff": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv3 Wood Crystal": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Fire Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Fire Grail": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Mountain Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Mountain Grail": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Thunder Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Thunder Grail": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Thunder Staff": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Wind Decoration": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gear Lv4 Wind Grail": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 1000 x1": {
+  "words": "1K General",
+  "bar": 0.8
+ },
+ "General EXP 1000 x10": {
+  "words": "1K General",
+  "bar": 0.8
+ },
+ "General EXP 10000 x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 10000 x20": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 10000 x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 2000 x1": {
+  "words": "2K General",
+  "bar": 0.8
+ },
+ "General EXP 2000 x2": {
+  "words": "2K General",
+  "bar": 0.8
+ },
+ "General EXP 20000 x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 20000 x20": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 500 x1": {
+  "words": "500 General E xp",
+  "bar": 0.8
+ },
+ "General EXP 500 x2": {
+  "words": "500 General E X P",
+  "bar": 0.8
+ },
+ "General EXP 500 x5": {
+  "words": "500 General EXP",
+  "bar": 0.8
+ },
+ "General EXP 5000 x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "General EXP 5000 x2": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Generals Axe": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Generals Boots": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Generals Leg Armor": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Generals Sword": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Gold 100K": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Leather Boots": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Lumber 200M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Lumber 20M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Lumber 500M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Lumber 50M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Lumber 5M": {
+  "words": "Lumber",
+  "bar": 0.919
+ },
+ "Medal x200": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Monarch EXP 1000 x1": {
+  "words": "1K Monarch",
+  "bar": 0.8
+ },
+ "Monarch EXP 1000 x2": {
+  "words": "1K Monarch",
+  "bar": 0.8
+ },
+ "Monarch EXP 1000 x5": {
+  "words": "1K Monarch",
+  "bar": 0.8
+ },
+ "Monarch EXP 10000 x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Monarch EXP 10000 x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Monarch EXP 20000 x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Monarch EXP 20000 x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Monarch EXP 5000 x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Ore 20M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Ore 500M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Ore 50M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Ore 5M": {
+  "words": "Ore 5M",
+  "bar": 0.93
+ },
+ "Refining Stone x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Refining Stone x200": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Refining Stone x50": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Research Stone x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Research Stone x25": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Research Stone x50": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Runestone Chest x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Spiritual Beast EXP 1000 x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Spiritual Beast EXP 1000 x20": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Spiritual Beast EXP 5000 x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Stamina 50": {
+  "words": "Stamina",
+  "bar": 0.8
+ },
+ "Stamina 50 x10": {
+  "words": "Stamina",
+  "bar": 0.8
+ },
+ "Standard Leg Armor": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Stone 20M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Stone 500M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Stone 50M": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Stone 5M": {
+  "words": "Stone 5M",
+  "bar": 0.905
+ },
+ "Tactic Scroll x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Tactic Scroll x20": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Tactic Scroll x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Transcendence Boots": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Transcendence Leg Armor": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Transcendence Ring": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Treasure Box x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Treasure Box x10": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Treasure Box x20": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Treasure Box x5": {
+  "words": "",
+  "bar": 0.8
+ },
+ "Tribute x10": {
+  "words": "Tribute",
+  "bar": 0.8
+ },
+ "Tribute x5": {
+  "words": "Tribute",
+  "bar": 0.8
+ },
+ "VIP 1 Day x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "VIP 1 Day x4": {
+  "words": "",
+  "bar": 0.8
+ },
+ "VIP 30 Days x1": {
+  "words": "",
+  "bar": 0.8
+ },
+ "VIP 30 Minutes x1": {
+  "words": "VIP 30 Minutes",
+  "bar": 0.8
+ },
+ "VIP 60 Minutes x1": {
+  "words": "VIP 60 Minutes",
+  "bar": 0.8
+ }
+}

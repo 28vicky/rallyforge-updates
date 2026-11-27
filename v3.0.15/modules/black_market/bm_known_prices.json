@@ -1,0 +1,420 @@
+{
+ "owner_ok": true,
+ "_note": "Every pack whose fixed price (9 Nov table) was also SEEN in the saved runs, with a picture and a picture bar. Ore 200M / Stone 200M and Gear Lv4 Fire / Wood Crystal held (same picture AND same price). Packs with no learned box line 1 are proven by picture + price + 'it is the purchase box'; their line 1 is learned on the first buy (bm_learned).",
+ "packs": {
+  "24h Farm Speed-up x1": {
+   "wood": 33000
+  },
+  "24h Farm Speed-up x2": {
+   "stone": 66000
+  },
+  "24h Farm Speed-up x20": {
+   "gem": 3800
+  },
+  "24h Farm Speed-up x5": {
+   "stone": 165000
+  },
+  "24h Iron Mine Speed-up x1": {
+   "wood": 33000
+  },
+  "24h Iron Mine Speed-up x2": {
+   "stone": 66000
+  },
+  "24h Iron Mine Speed-up x5": {
+   "stone": 165000
+  },
+  "24h Quarry Speed-up x1": {
+   "wood": 33000
+  },
+  "24h Quarry Speed-up x2": {
+   "stone": 66000
+  },
+  "24h Quarry Speed-up x20": {
+   "gem": 3800
+  },
+  "24h Quarry Speed-up x5": {
+   "stone": 165000
+  },
+  "24h Sawmill Speed-up x1": {
+   "wood": 33000
+  },
+  "24h Sawmill Speed-up x2": {
+   "stone": 66000
+  },
+  "24h Sawmill Speed-up x20": {
+   "gem": 3800
+  },
+  "24h Sawmill Speed-up x5": {
+   "stone": 165000
+  },
+  "Artwork Fragment Chest I x5": {
+   "gem": 1000
+  },
+  "Artwork Fragment Chest II x5": {
+   "gem": 1500
+  },
+  "Artwork Fragment Chest IV x5": {
+   "gem": 2500
+  },
+  "Artwork Fragment Chest V x5": {
+   "gem": 3000
+  },
+  "Artwork Fragment Chest VI x5": {
+   "gem": 3500
+  },
+  "Champions Armor": {
+   "gem": 28200
+  },
+  "Champions Boots": {
+   "gem": 28200
+  },
+  "Champions Helmet": {
+   "gem": 28200
+  },
+  "Champions Leg Armor": {
+   "gem": 28200
+  },
+  "Chips 100 x1": {
+   "ore": 75000
+  },
+  "Chips 100 x2": {
+   "ore": 150000
+  },
+  "Chips 100 x5": {
+   "ore": 375000
+  },
+  "Cloth Armor": {
+   "gem": 3700
+  },
+  "Cloth Hood": {
+   "gem": 3700
+  },
+  "Dragon Crystal x10": {
+   "gem": 3500
+  },
+  "Dragon Crystal x50": {
+   "gem": 17500
+  },
+  "Elites Bow": {
+   "gem": 10400
+  },
+  "Fighters Ring": {
+   "gem": 28200
+  },
+  "Food 200M": {
+   "gem": 84000
+  },
+  "Food 20M": {
+   "gem": 8400
+  },
+  "Food 500M": {
+   "gem": 180000
+  },
+  "Food 50M": {
+   "gem": 21000
+  },
+  "Food 5M": {
+   "gold": 1763000,
+   "gem": 1800
+  },
+  "Gear Lv3 Fire Crystal": {
+   "gem": 360
+  },
+  "Gear Lv3 Fire Decoration": {
+   "gem": 290
+  },
+  "Gear Lv3 Fire Grail": {
+   "gem": 290
+  },
+  "Gear Lv3 Fire Staff": {
+   "gem": 580
+  },
+  "Gear Lv3 Mountain Decoration": {
+   "gem": 580
+  },
+  "Gear Lv3 Mountain Staff": {
+   "gem": 510
+  },
+  "Gear Lv3 Thunder Decoration": {
+   "gem": 440
+  },
+  "Gear Lv3 Thunder Staff": {
+   "gem": 540
+  },
+  "Gear Lv3 Wind Decoration": {
+   "gem": 220
+  },
+  "Gear Lv3 Wind Grail": {
+   "gem": 290
+  },
+  "Gear Lv3 Wind Staff": {
+   "gem": 580
+  },
+  "Gear Lv3 Wood Crystal": {
+   "gem": 540
+  },
+  "Gear Lv4 Fire Decoration": {
+   "gem": 1080
+  },
+  "Gear Lv4 Fire Grail": {
+   "gem": 1080
+  },
+  "Gear Lv4 Mountain Decoration": {
+   "gem": 2160
+  },
+  "Gear Lv4 Mountain Grail": {
+   "gem": 2025
+  },
+  "Gear Lv4 Thunder Decoration": {
+   "gem": 1620
+  },
+  "Gear Lv4 Thunder Grail": {
+   "gem": 2160
+  },
+  "Gear Lv4 Thunder Staff": {
+   "gem": 2025
+  },
+  "Gear Lv4 Wind Decoration": {
+   "gem": 810
+  },
+  "Gear Lv4 Wind Grail": {
+   "gem": 1080
+  },
+  "General EXP 1000 x1": {
+   "stone": 14000
+  },
+  "General EXP 1000 x10": {
+   "stone": 120000
+  },
+  "General EXP 10000 x10": {
+   "gem": 3600
+  },
+  "General EXP 10000 x20": {
+   "gem": 7200
+  },
+  "General EXP 10000 x5": {
+   "gem": 1800
+  },
+  "General EXP 2000 x1": {
+   "ore": 37500
+  },
+  "General EXP 2000 x2": {
+   "ore": 75000
+  },
+  "General EXP 20000 x10": {
+   "gem": 7000
+  },
+  "General EXP 20000 x20": {
+   "gem": 14000
+  },
+  "General EXP 500 x1": {
+   "stone": 7000
+  },
+  "General EXP 500 x2": {
+   "stone": 14000
+  },
+  "General EXP 500 x5": {
+   "stone": 30000
+  },
+  "General EXP 5000 x1": {
+   "gem": 130
+  },
+  "General EXP 5000 x2": {
+   "gem": 260
+  },
+  "Generals Axe": {
+   "gem": 120000
+  },
+  "Generals Boots": {
+   "gem": 120000
+  },
+  "Generals Leg Armor": {
+   "gem": 120000
+  },
+  "Generals Sword": {
+   "gem": 120000
+  },
+  "Gold 100K": {
+   "gem": 360
+  },
+  "Leather Boots": {
+   "gem": 10400
+  },
+  "Lumber 200M": {
+   "gem": 84000
+  },
+  "Lumber 20M": {
+   "gem": 8400
+  },
+  "Lumber 500M": {
+   "gem": 180000
+  },
+  "Lumber 50M": {
+   "gem": 21000
+  },
+  "Lumber 5M": {
+   "gold": 1763000,
+   "gem": 1800
+  },
+  "Medal x200": {
+   "gem": 12000
+  },
+  "Monarch EXP 1000 x1": {
+   "ore": 37500
+  },
+  "Monarch EXP 1000 x2": {
+   "ore": 75000
+  },
+  "Monarch EXP 1000 x5": {
+   "ore": 187500
+  },
+  "Monarch EXP 10000 x1": {
+   "gem": 680
+  },
+  "Monarch EXP 10000 x5": {
+   "gem": 2600
+  },
+  "Monarch EXP 20000 x1": {
+   "gem": 1330
+  },
+  "Monarch EXP 20000 x5": {
+   "gem": 5050
+  },
+  "Monarch EXP 5000 x1": {
+   "gem": 300
+  },
+  "Ore 20M": {
+   "gem": 8400
+  },
+  "Ore 500M": {
+   "gem": 180000
+  },
+  "Ore 50M": {
+   "gem": 21000
+  },
+  "Ore 5M": {
+   "gem": 1800,
+   "gold": 1763000
+  },
+  "Refining Stone x10": {
+   "gem": 1500
+  },
+  "Refining Stone x200": {
+   "gem": 30000
+  },
+  "Refining Stone x50": {
+   "gem": 7500
+  },
+  "Research Stone x10": {
+   "gem": 1200
+  },
+  "Research Stone x25": {
+   "gem": 3000
+  },
+  "Research Stone x50": {
+   "gem": 6000
+  },
+  "Runestone Chest x10": {
+   "gem": 2500
+  },
+  "Spiritual Beast EXP 1000 x10": {
+   "gem": 2000
+  },
+  "Spiritual Beast EXP 1000 x20": {
+   "gem": 3200
+  },
+  "Spiritual Beast EXP 5000 x10": {
+   "gem": 8000
+  },
+  "Stamina 50": {
+   "gem": 300
+  },
+  "Stamina 50 x10": {
+   "gem": 3000
+  },
+  "Standard Leg Armor": {
+   "gem": 10400
+  },
+  "Stone 20M": {
+   "gem": 8400
+  },
+  "Stone 500M": {
+   "gem": 180000
+  },
+  "Stone 50M": {
+   "gem": 21000
+  },
+  "Stone 5M": {
+   "gem": 1800,
+   "gold": 1763000
+  },
+  "Tactic Scroll x10": {
+   "gem": 10000
+  },
+  "Tactic Scroll x20": {
+   "gem": 20000
+  },
+  "Tactic Scroll x5": {
+   "gem": 5000
+  },
+  "Transcendence Boots": {
+   "gem": 3700
+  },
+  "Transcendence Leg Armor": {
+   "gem": 3700
+  },
+  "Transcendence Ring": {
+   "gem": 3700
+  },
+  "Treasure Box x1": {
+   "gem": 2300
+  },
+  "Treasure Box x10": {
+   "gem": 22500
+  },
+  "Treasure Box x20": {
+   "gem": 45000
+  },
+  "Treasure Box x5": {
+   "gem": 11300
+  },
+  "Tribute x10": {
+   "gem": 500
+  },
+  "Tribute x5": {
+   "gem": 300
+  },
+  "VIP 1 Day x1": {
+   "gem": 190
+  },
+  "VIP 1 Day x4": {
+   "gem": 650
+  },
+  "VIP 30 Days x1": {
+   "gem": 3000
+  },
+  "VIP 30 Minutes x1": {
+   "wood": 3000
+  },
+  "VIP 60 Minutes x1": {
+   "wood": 6000
+  }
+ },
+ "not_offered": {
+  "Artwork Fragment Chest III x5": "price never seen in the saved runs",
+  "Dragon Crystal x20": "price never seen in the saved runs",
+  "Gear Lv3 Mountain Grail": "price never seen in the saved runs",
+  "Gear Lv4 Fire Crystal": "picture not separable from Gear Lv4 Wood Crystal at the same price",
+  "Gear Lv4 Wood Crystal": "picture not separable from Gear Lv4 Fire Crystal at the same price",
+  "Generals Bow": "price never seen in the saved runs",
+  "Generals Scroll Chest x1": "price never seen in the saved runs",
+  "Generals Spear": "price never seen in the saved runs",
+  "Gold 50K": "price never seen in the saved runs",
+  "Medal x500": "price never seen in the saved runs",
+  "Ore 200M": "held: picture and price both identical (Ore 200M / Stone 200M)",
+  "Runestone Chest x50": "price never seen in the saved runs",
+  "Stone 200M": "held: picture and price both identical (Ore 200M / Stone 200M)",
+  "Tactic Scroll x1": "price never seen in the saved runs",
+  "VIP 7 Days x1": "price never seen in the saved runs"
+ }
+}
