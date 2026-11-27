@@ -1,106 +1,496 @@
 {
-  "version": "3.0.13.2",
-  "notes": "Fixed: accounts could stay on The",
+  "version": "3.0.15",
+  "notes": "Before every tap in a task the bot looks at the whole screen and closes pop-ups first. Royal Thief: found inside the box around her, taps her name label. Black Market: gems read by picture, only the gem floor counts. Monster hunts: level read by picture; a monster that could not be checked stays in the list. Champions interact box fixed. Events page fixed. 14 fully learned tasks are on (your choices are kept).",
   "files": {
     "rally_bot.cp313-win_amd64.pyd": {
-      "sha256": "a2c09edb0dea01680ede9d7c11d0da5bed200b0c66c12f7a2c84062e404000f0",
-      "size": 15316992,
-      "url": "v3.0.13.2/rally_bot.cp313-win_amd64.pyd"
+      "sha256": "f0a1160298b669304bffc7e5ac22a4b776592062c1346d6e7e36aab5dcef7ce0",
+      "size": 13632512,
+      "url": "v3.0.15/rally_bot.cp313-win_amd64.pyd"
     },
     "web_app.cp313-win_amd64.pyd": {
-      "sha256": "6ed0b54799c1bf9b8499994c9f49823d96fb209ef6ba3ceec8e0d12287522f6e",
-      "size": 2473472,
-      "url": "v3.0.13.2/web_app.cp313-win_amd64.pyd"
+      "sha256": "ca4bb5b39c2b02bc40b4ba48addebda1692b29fb3ca748af515ee1c7fb743e26",
+      "size": 2461184,
+      "url": "v3.0.15/web_app.cp313-win_amd64.pyd"
     },
     "rf_license.cp313-win_amd64.pyd": {
-      "sha256": "93d0779137b37d6701b72c7ed9f4ddaa98b56914b23797123437ef757b57877c",
+      "sha256": "a66c6089e2bf83c3b38829e730fd71bb0d8a590fa9ee7ffa34b9ba0cd1dcc0ae",
       "size": 468480,
-      "url": "v3.0.13.2/rf_license.cp313-win_amd64.pyd"
+      "url": "v3.0.15/rf_license.cp313-win_amd64.pyd"
+    },
+    "rf_reader.cp313-win_amd64.pyd": {
+      "sha256": "0d23a0a5e9bd70ba921b06f4b1d214219a29a06bf0e1749382005bc80358bb7c",
+      "size": 902656,
+      "url": "v3.0.15/rf_reader.cp313-win_amd64.pyd"
+    },
+    "modules/black_market/black_market.cp313-win_amd64.pyd": {
+      "sha256": "d210748ebaf4eb1a8f488319a1d9c57bdee50483f551dab1b2605ea5fa62fec3",
+      "size": 351232,
+      "url": "v3.0.15/modules/black_market/black_market.cp313-win_amd64.pyd"
+    },
+    "modules/black_market/bm_buy.cp313-win_amd64.pyd": {
+      "sha256": "9e3d33ec83287be52c2460dfa584903fac7b0f70604234c00039333815f726f6",
+      "size": 1091584,
+      "url": "v3.0.15/modules/black_market/bm_buy.cp313-win_amd64.pyd"
+    },
+    "modules/black_market/bm_page.cp313-win_amd64.pyd": {
+      "sha256": "84171f4bb1cf80e5678747f30ac587be6056272c24b8fc9f7ae6f952b69d51f7",
+      "size": 489472,
+      "url": "v3.0.15/modules/black_market/bm_page.cp313-win_amd64.pyd"
+    },
+    "modules/black_market/bm_tool.cp313-win_amd64.pyd": {
+      "sha256": "c5d208d499b5af78428241090252718febaacbb040da2cfd64e95528d0e5b00c",
+      "size": 405504,
+      "url": "v3.0.15/modules/black_market/bm_tool.cp313-win_amd64.pyd"
+    },
+    "modules/black_market/bm_ticked.cp313-win_amd64.pyd": {
+      "sha256": "5cac9e2c5b05fbb2dfbfebcf47a682ddb2117abfc74d2caf97449763d745b358",
+      "size": 334848,
+      "url": "v3.0.15/modules/black_market/bm_ticked.cp313-win_amd64.pyd"
+    },
+    "modules/reader_ocr/win_ocr.cp313-win_amd64.pyd": {
+      "sha256": "74b7ee4405c2e8dd7b584070378b49e0360152369c58bcf5f61c8564c3c1f0db",
+      "size": 582656,
+      "url": "v3.0.15/modules/reader_ocr/win_ocr.cp313-win_amd64.pyd"
+    },
+    "modules/black_market/bm_gems.cp313-win_amd64.pyd": {
+      "sha256": "3be892136cd3668d6d774bbda4ecc08d1515990cf10d05a1317d729e9c64d499",
+      "size": 365056,
+      "url": "v3.0.15/modules/black_market/bm_gems.cp313-win_amd64.pyd"
+    },
+    "rf_reader_data.npz": {
+      "sha256": "7ee0546ea3f5c9d58e0de5c168f280c53d755b4e3d68a9d9c2f5d7032c5b9fa1",
+      "size": 4901893,
+      "url": "v3.0.15/rf_reader_data.npz"
+    },
+    "modules/black_market/bm_module_data.npz": {
+      "sha256": "c4a40d3f15ed9a2011503ac504b482b4ce9f812aaac8626c4b3215a79a78f09a",
+      "size": 40058,
+      "url": "v3.0.15/modules/black_market/bm_module_data.npz"
+    },
+    "modules/black_market/rebuy_box.npz": {
+      "sha256": "8879da41f4a13ef374118cba4519bdba1a98302dd072a06c20dda648714a7ce9",
+      "size": 18153,
+      "url": "v3.0.15/modules/black_market/rebuy_box.npz"
+    },
+    "modules/black_market/stamina_type.npz": {
+      "sha256": "4fdfb6548c6157637839c5d3a557a1947e2c8638de178060160e7134a00cab6b",
+      "size": 7111,
+      "url": "v3.0.15/modules/black_market/stamina_type.npz"
+    },
+    "modules/black_market/rebuy_badge.png": {
+      "sha256": "ad5e7f22d4438680003b065493202b20987f0bd935e78ab3c0cd20d323a352ac",
+      "size": 2077,
+      "url": "v3.0.15/modules/black_market/rebuy_badge.png"
+    },
+    "modules/black_market/spinner_008.png": {
+      "sha256": "0f8d257655a2cfa3d3f886e4d988b837e7dbeda759e3be18f8d82d4235ff8849",
+      "size": 268,
+      "url": "v3.0.15/modules/black_market/spinner_008.png"
+    },
+    "modules/black_market/bm_known_prices.json": {
+      "sha256": "def9ffe15088022cf18b074fe9fadcca61a16c3e1ca11c29a2c23c29cb0eba03",
+      "size": 7596,
+      "url": "v3.0.15/modules/black_market/bm_known_prices.json"
+    },
+    "modules/black_market/bm_item_words.json": {
+      "sha256": "6187676c161dfef845d2f8f99c6e75e72cdaf5c2756f73a0d3dd4f03460eea3a",
+      "size": 8195,
+      "url": "v3.0.15/modules/black_market/bm_item_words.json"
+    },
+    "modules/black_market/bm_gems.npz": {
+      "sha256": "e8be5e7005011baa0eaac8553e686019503316ff8e22dda7173bb07aa99d7219",
+      "size": 8576,
+      "url": "v3.0.15/modules/black_market/bm_gems.npz"
+    },
+    "modules/black_market/mk/mk_24h_Farm_Speed-up_x1.png": {
+      "sha256": "579976e403b6535a81fcb6b7f5194fdcba71dd43a95f2dd358a9ceb09e354b17",
+      "size": 18768,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Farm_Speed-up_x1.png"
+    },
+    "modules/black_market/mk/mk_24h_Farm_Speed-up_x20.png": {
+      "sha256": "07d88aa107f99c95ef32a11c01fc8b6cf00d8dd1c20896fd8af68f1cfce39482",
+      "size": 29963,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Farm_Speed-up_x20.png"
+    },
+    "modules/black_market/mk/mk_24h_Farm_Speed-up_x5.png": {
+      "sha256": "f68a8854315c1c862d7c49a797bec42e9b305e60be00c1216029af90bd32c0af",
+      "size": 29752,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Farm_Speed-up_x5.png"
+    },
+    "modules/black_market/mk/mk_24h_Iron_Mine_Speed-up_x1.png": {
+      "sha256": "fd1ca065abf9b134606712d484b6de5de6fab27ccfe9649443cf97794491e80b",
+      "size": 18116,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Iron_Mine_Speed-up_x1.png"
+    },
+    "modules/black_market/mk/mk_24h_Quarry_Speed-up_x1.png": {
+      "sha256": "2307d0a7d1681970110805af422ed52f8b3fec297a5fb886aa725808346b407b",
+      "size": 18396,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Quarry_Speed-up_x1.png"
+    },
+    "modules/black_market/mk/mk_24h_Quarry_Speed-up_x2.png": {
+      "sha256": "7747af912eb8682934fb8e5ef95d2fe8d9bfabc32117c24373ab64e2f6f0cdd9",
+      "size": 18423,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Quarry_Speed-up_x2.png"
+    },
+    "modules/black_market/mk/mk_24h_Sawmill_Speed-up_x1.png": {
+      "sha256": "25d91e12913eb19f2b14b2af880f9c642953af784e8fc02bcc2c57c2ede9d7ed",
+      "size": 29445,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Sawmill_Speed-up_x1.png"
+    },
+    "modules/black_market/mk/mk_24h_Sawmill_Speed-up_x2.png": {
+      "sha256": "76971eb64943940319f74bc2ae7fa05627666713ae15d72adef6bf92a7c9584e",
+      "size": 18676,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Sawmill_Speed-up_x2.png"
+    },
+    "modules/black_market/mk/mk_24h_Sawmill_Speed-up_x20.png": {
+      "sha256": "2470452b5cdd69f2abbf5946fe748e8d23df6c6724fdd43d8bb0688e95abe0cd",
+      "size": 18745,
+      "url": "v3.0.15/modules/black_market/mk/mk_24h_Sawmill_Speed-up_x20.png"
+    },
+    "modules/black_market/mk/mk_Artwork_Fragment_Chest_II_x5.png": {
+      "sha256": "0f154e4a2b606636411175c2ad3220c0a41cf6be438f284b8e4e85b5673fc9d4",
+      "size": 18889,
+      "url": "v3.0.15/modules/black_market/mk/mk_Artwork_Fragment_Chest_II_x5.png"
+    },
+    "modules/black_market/mk/mk_Artwork_Fragment_Chest_I_x5.png": {
+      "sha256": "e40ca03e454cdbc826636788420322fa9f28d381cb134a4c1b382fd8c097e7d4",
+      "size": 18325,
+      "url": "v3.0.15/modules/black_market/mk/mk_Artwork_Fragment_Chest_I_x5.png"
+    },
+    "modules/black_market/mk/mk_Chips_100_x2.png": {
+      "sha256": "41b48b018b8e361d02d6ea77d99547eaa21e92bf0fade2b8f816c6af5bb6d71c",
+      "size": 20028,
+      "url": "v3.0.15/modules/black_market/mk/mk_Chips_100_x2.png"
+    },
+    "modules/black_market/mk/mk_Dragon_Crystal_x10.png": {
+      "sha256": "270cd10ace1d6111c16c01d37623f0c0f87d8e7475be20c95e16d9c78593e8b9",
+      "size": 18608,
+      "url": "v3.0.15/modules/black_market/mk/mk_Dragon_Crystal_x10.png"
+    },
+    "modules/black_market/mk/mk_Dragon_Crystal_x50.png": {
+      "sha256": "7e628dbfd29328fe97129e72d2b9dcc3a57a5fc3d37de0cb09bb37b801f96c46",
+      "size": 29171,
+      "url": "v3.0.15/modules/black_market/mk/mk_Dragon_Crystal_x50.png"
+    },
+    "modules/black_market/mk/mk_Food_50M.png": {
+      "sha256": "a187fd1c30b21a4febeade7acfb56cc7797542d22ea01cc5a5daabb998d10283",
+      "size": 18769,
+      "url": "v3.0.15/modules/black_market/mk/mk_Food_50M.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Fire_Crystal.png": {
+      "sha256": "d86e835ad0ed4ede3a597f4f8392cddc4474037f1c5e9cbc03bdeda671946ee1",
+      "size": 18601,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Fire_Crystal.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Fire_Decoration.png": {
+      "sha256": "ff42658847d390610bf9b783f0cd903a1b412c88b04739370659f74d2fdf9cb1",
+      "size": 19200,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Fire_Decoration.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Fire_Grail.png": {
+      "sha256": "500ad34a9fc921732a547e859ecf9c8b904e2f3509be3f67c79a218eaa108864",
+      "size": 19362,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Fire_Grail.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Fire_Staff.png": {
+      "sha256": "1701f3cfb93f6493bae7f93b6c9cb5033cf549b0492f807b8311a04e584c7191",
+      "size": 19379,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Fire_Staff.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Mountain_Staff.png": {
+      "sha256": "d9b1319dcc3523c24e144d81ca661fab3211060b0f27e60936fc94b6be69b75f",
+      "size": 19856,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Mountain_Staff.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Thunder_Decoration.png": {
+      "sha256": "780c1bbf99d968e127515eaabb073985e0bf324ebd391def2263fb277daa669f",
+      "size": 30298,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Thunder_Decoration.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Wind_Decoration.png": {
+      "sha256": "ef47f16c79e601f41fdaf2981bee1d66bf2d1c4d05d63471f52c6017f99a807e",
+      "size": 19618,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Wind_Decoration.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Wind_Grail.png": {
+      "sha256": "d89fd27d460306ebb4d18c215e11a6eda3059787cf66ff4acddf50c0108579fc",
+      "size": 30329,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Wind_Grail.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Wind_Staff.png": {
+      "sha256": "ed1ae5fdd8aae591b26f9690e65f7c765ea83452e87e07351d83290ef190d805",
+      "size": 19674,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Wind_Staff.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv3_Wood_Crystal.png": {
+      "sha256": "ebb1f9f6b841f78faa3e35f1e9d08dadcc3e5de0955c4863b43d2e5f9b2e275f",
+      "size": 30076,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv3_Wood_Crystal.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Fire_Decoration.png": {
+      "sha256": "9071d07815e60ee745604bb65f7745ff9adee100a261373fd193679abed9cd22",
+      "size": 30920,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Fire_Decoration.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Fire_Grail.png": {
+      "sha256": "5cc7f5a7bcc6abceb93aa40de8a382d309af1a4acaed6175466f1c6975952179",
+      "size": 30537,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Fire_Grail.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Mountain_Decoration.png": {
+      "sha256": "b8d46fda861ea4c619e25112891bc849c1b106cae8e3182b107dbd2812027b3f",
+      "size": 31316,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Mountain_Decoration.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Mountain_Grail.png": {
+      "sha256": "9b2b3e540f28b0b887fbbba06337af3b71245e6f4cabbdca523513cbdfade581",
+      "size": 31061,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Mountain_Grail.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Thunder_Decoration.png": {
+      "sha256": "a4cb88fd930500244ea3f0553c8761cd1c80abdd10aa971b55c0f840b30858a0",
+      "size": 30734,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Thunder_Decoration.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Thunder_Grail.png": {
+      "sha256": "a341b66d57b11b6bcaddbb46a5a33921c46287c9e53bd8c9db12a20a6a15f780",
+      "size": 30727,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Thunder_Grail.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Thunder_Staff.png": {
+      "sha256": "2be723faec99d958266a0b9c6b2a27a81b5a38aa95b7b5959fee0e0c813a5a8d",
+      "size": 30531,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Thunder_Staff.png"
+    },
+    "modules/black_market/mk/mk_Gear_Lv4_Wind_Grail.png": {
+      "sha256": "8e8190b6a8b9bf089935c3735b8203481614438ef113f61c7a2a50f48a1595f5",
+      "size": 30782,
+      "url": "v3.0.15/modules/black_market/mk/mk_Gear_Lv4_Wind_Grail.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_10000_x10.png": {
+      "sha256": "b9d806e14761dd8f16a43d0b28f6dcd1aa3f4256fd5cf3545f37d32602a8ca99",
+      "size": 20861,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_10000_x10.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_1000_x1.png": {
+      "sha256": "a36797dd6f106731b0f3205fe2c66f11f9c12cc06489123c9dd17e2a451ea2b2",
+      "size": 19879,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_1000_x1.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_1000_x10.png": {
+      "sha256": "8d0940e6966dd7b27286c705f75ce2750836b18bad734c50c5834bddf32c0a4d",
+      "size": 20423,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_1000_x10.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_20000_x10.png": {
+      "sha256": "6ad95f39ebd6a9cd660a6262264ed665a38017ae20e22dc51f45a69438ae49e1",
+      "size": 20866,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_20000_x10.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_2000_x1.png": {
+      "sha256": "d2950fb4394d939bf58f3a8e7fa86fe37813cdb4a274036359222ffa0d13f3dd",
+      "size": 20015,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_2000_x1.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_500_x2.png": {
+      "sha256": "c3770d8389e54c6fbb7be6f9bd2f7836002060da3f7b52d22df1ce70699e878b",
+      "size": 19760,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_500_x2.png"
+    },
+    "modules/black_market/mk/mk_General_EXP_500_x5.png": {
+      "sha256": "6c1c3f45e60f36fdebf72e8ff3ff3d1110ef9080230a6fa7a20ba2d12c3369e5",
+      "size": 19416,
+      "url": "v3.0.15/modules/black_market/mk/mk_General_EXP_500_x5.png"
+    },
+    "modules/black_market/mk/mk_Lumber_20M.png": {
+      "sha256": "ce1522c53bf925524cc7528db86d92414c6d4fd1e8d6310737cd2d9a15d7ebbc",
+      "size": 18238,
+      "url": "v3.0.15/modules/black_market/mk/mk_Lumber_20M.png"
+    },
+    "modules/black_market/mk/mk_Lumber_500M.png": {
+      "sha256": "94c517cacbfe3ec866a995921178f22483545b0c852a488a2f934945c1b42ab0",
+      "size": 29368,
+      "url": "v3.0.15/modules/black_market/mk/mk_Lumber_500M.png"
+    },
+    "modules/black_market/mk/mk_Lumber_50M.png": {
+      "sha256": "b86c9b5fc0ee767732a00390c54ed06b7dfbc34fe6c471d34b6b2dd69eb4fce0",
+      "size": 17994,
+      "url": "v3.0.15/modules/black_market/mk/mk_Lumber_50M.png"
+    },
+    "modules/black_market/mk/mk_Monarch_EXP_10000_x5.png": {
+      "sha256": "d49ed9832e923507ec476478986c7285e34237c46f6ad9249f339adc4105f3a5",
+      "size": 31057,
+      "url": "v3.0.15/modules/black_market/mk/mk_Monarch_EXP_10000_x5.png"
+    },
+    "modules/black_market/mk/mk_Monarch_EXP_1000_x1.png": {
+      "sha256": "cbc2bdb6756ca4191110bc7f3ad53a6eb4d48e13d2e52ca2353b4ddd75607f10",
+      "size": 19802,
+      "url": "v3.0.15/modules/black_market/mk/mk_Monarch_EXP_1000_x1.png"
+    },
+    "modules/black_market/mk/mk_Monarch_EXP_1000_x2.png": {
+      "sha256": "ad7f6886185bac5685b68e8deb1e9e69acf1b76f8733356911ee6f4252c515a0",
+      "size": 31080,
+      "url": "v3.0.15/modules/black_market/mk/mk_Monarch_EXP_1000_x2.png"
+    },
+    "modules/black_market/mk/mk_Monarch_EXP_1000_x5.png": {
+      "sha256": "a52e02c29a035325203698d7fca6b88a941cacd5858a4aae999d1f9672dc4d81",
+      "size": 31097,
+      "url": "v3.0.15/modules/black_market/mk/mk_Monarch_EXP_1000_x5.png"
+    },
+    "modules/black_market/mk/mk_Monarch_EXP_20000_x5.png": {
+      "sha256": "3dbf84b149209531e3d4b14ed451e2999a5873227a898fb603be384ceb3a59e3",
+      "size": 31310,
+      "url": "v3.0.15/modules/black_market/mk/mk_Monarch_EXP_20000_x5.png"
+    },
+    "modules/black_market/mk/mk_Monarch_EXP_5000_x1.png": {
+      "sha256": "5e926a679f09e4369e76db55832fd2e575167601e95b9cef4c0ba6b4b0668cc6",
+      "size": 20315,
+      "url": "v3.0.15/modules/black_market/mk/mk_Monarch_EXP_5000_x1.png"
+    },
+    "modules/black_market/mk/mk_Ore_20M.png": {
+      "sha256": "e8ad577699d222eb9590516a4159d4b51e86e91cf9c41fb323a0742632d79d08",
+      "size": 18160,
+      "url": "v3.0.15/modules/black_market/mk/mk_Ore_20M.png"
+    },
+    "modules/black_market/mk/mk_Refining_Stone_x10.png": {
+      "sha256": "5683eda637fe74d6f5e423e01472a9c2b469df9e5c009b59425528f5c83af9a1",
+      "size": 18483,
+      "url": "v3.0.15/modules/black_market/mk/mk_Refining_Stone_x10.png"
+    },
+    "modules/black_market/mk/mk_Refining_Stone_x200.png": {
+      "sha256": "f76242a58ac3267ced6f36e74e80d1cb1bccb3e9445a434844ea09ffdc23ef17",
+      "size": 29086,
+      "url": "v3.0.15/modules/black_market/mk/mk_Refining_Stone_x200.png"
+    },
+    "modules/black_market/mk/mk_Research_Stone_x10.png": {
+      "sha256": "27184995d989b54be0e62fffc40ce7ed0fa2b568edcaa6666cc483b272fbaba8",
+      "size": 18899,
+      "url": "v3.0.15/modules/black_market/mk/mk_Research_Stone_x10.png"
+    },
+    "modules/black_market/mk/mk_Spiritual_Beast_EXP_1000_x20.png": {
+      "sha256": "4c158d8a8729af56404e50718df52fceb13be51e0bccbcb4237e014b7332589a",
+      "size": 31174,
+      "url": "v3.0.15/modules/black_market/mk/mk_Spiritual_Beast_EXP_1000_x20.png"
+    },
+    "modules/black_market/mk/mk_Stone_20M.png": {
+      "sha256": "26c04c3f45dee925212ed71c5b159dd9bd273037530ee55e514299ebfa9b4273",
+      "size": 18864,
+      "url": "v3.0.15/modules/black_market/mk/mk_Stone_20M.png"
+    },
+    "modules/black_market/mk/mk_Stone_500M.png": {
+      "sha256": "33a3c6ac5d041250f0385fdf8f22dd3109bbd719f84927f3ddbb47a0da16bf27",
+      "size": 29585,
+      "url": "v3.0.15/modules/black_market/mk/mk_Stone_500M.png"
+    },
+    "modules/black_market/mk/mk_Treasure_Box_x10.png": {
+      "sha256": "6ff14429eea767d5ab02d761ec6adfeb4f6ebe3d3dd433f5c661a6a8e51500d5",
+      "size": 18732,
+      "url": "v3.0.15/modules/black_market/mk/mk_Treasure_Box_x10.png"
+    },
+    "modules/black_market/mk/mk_Treasure_Box_x5.png": {
+      "sha256": "bd13b6bb5e3a1aa67573859b1b44ceeab8cf1f3528476beac1d42f869d2914c3",
+      "size": 18451,
+      "url": "v3.0.15/modules/black_market/mk/mk_Treasure_Box_x5.png"
+    },
+    "modules/black_market/mk/mk_Tribute_x5.png": {
+      "sha256": "18c3716a4ceb7563768ce2c80bda15dde23f8ee50259201c88babb11bc1f0891",
+      "size": 31848,
+      "url": "v3.0.15/modules/black_market/mk/mk_Tribute_x5.png"
+    },
+    "modules/black_market/mk/mk_VIP_1_Day_x4.png": {
+      "sha256": "1fb6b7e9a4bfb502e7c1f4731b8f59a58c0785584590b6adbf63c177230c3332",
+      "size": 19914,
+      "url": "v3.0.15/modules/black_market/mk/mk_VIP_1_Day_x4.png"
+    },
+    "modules/black_market/mk/mk_VIP_30_Minutes_x1.png": {
+      "sha256": "5cdc5a434d8ddfc5b71d69635333d1b3d1d03fa44fa5d91cc14251a50f85c871",
+      "size": 19299,
+      "url": "v3.0.15/modules/black_market/mk/mk_VIP_30_Minutes_x1.png"
     },
     "ui/app.css": {
-      "sha256": "185420523e56deec216993f2348e89bd10ce1ab096e1b178e9ec75844d83343b",
-      "size": 238820,
-      "url": "v3.0.13.2/ui/app.css"
+      "sha256": "8dbc9b7a50b2b37bb9406f8ca1cc1f135b588e3af076efec73f6aa54607f0c58",
+      "size": 239728,
+      "url": "v3.0.15/ui/app.css"
     },
     "ui/app.js": {
-      "sha256": "2e52565aa2df366466d8d55268f3ef179847e03875a5d4611327646f23a65b4e",
-      "size": 99673,
-      "url": "v3.0.13.2/ui/app.js"
+      "sha256": "7a44a7f93217eac508237cd309a6b7bee0336c604b9958c010d1be31336103ad",
+      "size": 99547,
+      "url": "v3.0.15/ui/app.js"
     },
     "ui/changelog.js": {
-      "sha256": "e057ce04dd8b69816907fb2f4f0ecef19a1ce9ce87f974a9785ddc3cef91c2a6",
-      "size": 19916,
-      "url": "v3.0.13.2/ui/changelog.js"
+      "sha256": "a30b92b4edb365b01d5f8dc941e7ad04c76d7bc281243c0547b13cebf2b65f2c",
+      "size": 23569,
+      "url": "v3.0.15/ui/changelog.js"
     },
     "ui/dialogs.js": {
-      "sha256": "27ad864f5ef05cee26e2b6f8e191397663ded5acbf09dcbc86b240e16cf08a4c",
-      "size": 57831,
-      "url": "v3.0.13.2/ui/dialogs.js"
+      "sha256": "e1a94748113582ed49124128c47f069068abf19433d3419806a3be0176183a1f",
+      "size": 58101,
+      "url": "v3.0.15/ui/dialogs.js"
     },
     "ui/eula.html": {
       "sha256": "f7608bc625ac4ea037a33a44f5b00a65dc9aa4c55ac3a537538aeb60ad225149",
       "size": 7679,
-      "url": "v3.0.13.2/ui/eula.html"
+      "url": "v3.0.15/ui/eula.html"
     },
     "ui/fonts.css": {
-      "sha256": "d26015a2cdc6da076fc2977667a0527a8bdeedce83e7ce36e6578af3ade7ccd1",
-      "size": 112690,
-      "url": "v3.0.13.2/ui/fonts.css"
+      "sha256": "9682adbbc179a544c14473b1d0c63728a0cc3ab8b904ad5ebde5d8d167ea6406",
+      "size": 150580,
+      "url": "v3.0.15/ui/fonts.css"
     },
     "ui/index.html": {
       "sha256": "6f64dbfb41faff19513b7964173a17c93e10e5d04631630b662b70febbdea211",
       "size": 1688,
-      "url": "v3.0.13.2/ui/index.html"
+      "url": "v3.0.15/ui/index.html"
     },
     "ui/logo-small.svg": {
       "sha256": "585929bc1cde8758b49ec3b2505df67ac6cfd75f45146683c769a18fa0d4a2bb",
       "size": 266,
-      "url": "v3.0.13.2/ui/logo-small.svg"
+      "url": "v3.0.15/ui/logo-small.svg"
     },
     "ui/logo.svg": {
       "sha256": "585929bc1cde8758b49ec3b2505df67ac6cfd75f45146683c769a18fa0d4a2bb",
       "size": 266,
-      "url": "v3.0.13.2/ui/logo.svg"
+      "url": "v3.0.15/ui/logo.svg"
     },
     "ui/pages.js": {
-      "sha256": "2ae163344dbb143afc18c7fa09c0db6cf2f270e7e59bc8c9a6720e8ba76061f1",
-      "size": 359700,
-      "url": "v3.0.13.2/ui/pages.js"
+      "sha256": "f1ad124cb7ee6bf161ac72b61db660d22096eb3eed5550faf51692a5b1198d39",
+      "size": 357966,
+      "url": "v3.0.15/ui/pages.js"
     },
     "ui/rf.css": {
       "sha256": "ec25615b031c4f75d26042b6ab1f8e1d3998041e59f4f7f44144b9008bc81102",
       "size": 15563,
-      "url": "v3.0.13.2/ui/rf.css"
+      "url": "v3.0.15/ui/rf.css"
     },
     "ui/tour.js": {
       "sha256": "5124423d6a94f2d762d0aee826ae84ccaed3de0ebb8d754190e0b8826184b63a",
       "size": 6892,
-      "url": "v3.0.13.2/ui/tour.js"
+      "url": "v3.0.15/ui/tour.js"
     },
     "extension/background.js": {
       "sha256": "48797f431abcca920cfb767b984a46f499143db2528aee881f63f04b7d9adea9",
       "size": 976,
-      "url": "v3.0.13.2/extension/background.js"
+      "url": "v3.0.15/extension/background.js"
     },
     "extension/content.js": {
       "sha256": "100e63c00c86b01f6d1ff91f65403a576e35a8eeccfa4e769ba58ba3470ca8d9",
       "size": 1473,
-      "url": "v3.0.13.2/extension/content.js"
+      "url": "v3.0.15/extension/content.js"
     },
     "extension/manifest.json": {
       "sha256": "d01cdd4e8977468de9ad23ca32103b55c184234af8657a7e41dc0c8c2f5a9590",
       "size": 617,
-      "url": "v3.0.13.2/extension/manifest.json"
+      "url": "v3.0.15/extension/manifest.json"
     },
     "extension/popup.html": {
       "sha256": "09a09eccf7d8af128a99d44433197d9fe9c26fd15f658d97bd9af979a38567fa",
       "size": 2342,
-      "url": "v3.0.13.2/extension/popup.html"
+      "url": "v3.0.15/extension/popup.html"
     },
     "extension/popup.js": {
       "sha256": "1d30b91d25dbbe0e31ff8bebb556cf255f764664e5ed42be0d86849759024d3d",
       "size": 1184,
-      "url": "v3.0.13.2/extension/popup.js"
+      "url": "v3.0.15/extension/popup.js"
     }
   },
   "mode": "ask",
@@ -4127,29 +4517,13 @@
       "sha256": "cf3a1aeca6e388916c9d7e3105630594d85516e00c130dadfdc5f09b2579a537",
       "url": "templates/act_alliance_donation.png"
     },
-    "act_alliance_help.png": {
-      "sha256": "c8111fef3ddf4b28eb14028820151b7f6a4ca2c6a39a52114178710b02a75eb6",
-      "url": "templates/act_alliance_help.png"
-    },
     "act_black_market.png": {
       "sha256": "9520cfcd566f50c913fefd1e1293e9256611aff748965855f702fe4b53dbd3d6",
       "url": "templates/act_black_market.png"
     },
-    "act_construction.png": {
-      "sha256": "23def6b5080fc2fe781860dc529a974514a774432438c5ca59608a9450e45d03",
-      "url": "templates/act_construction.png"
-    },
     "act_done_chest.png": {
       "sha256": "18ed244a93be68cfbe601c3828aa7c3063d4499cd4289845adb1bc76fa314797",
       "url": "templates/act_done_chest.png"
-    },
-    "act_general_enhancing.png": {
-      "sha256": "51004fe8fed2f2b70d6a49251be36f834995e86d502ee7f8f692317c25af85f3",
-      "url": "templates/act_general_enhancing.png"
-    },
-    "act_gold_levy.png": {
-      "sha256": "849f590ba3a0f8b10b7594b669c34ab50e32f5fe55bd4f41b8814302c9e357d9",
-      "url": "templates/act_gold_levy.png"
     },
     "act_greet_champion.png": {
       "sha256": "1e604636e34b352084f929ecc4bce391392347744948ba31d19016450744f213",
@@ -4159,57 +4533,13 @@
       "sha256": "a79e263420cfa0f619b435f7b0f10104b1ee8da758ca056014c40032944c1527",
       "url": "templates/act_labor.png"
     },
-    "act_material_composing.png": {
-      "sha256": "c1905ffcd016b28794f1f0685c66733635bbc0fd9fc3709ea03bcf41c2cc63b4",
-      "url": "templates/act_material_composing.png"
-    },
     "act_offering.png": {
       "sha256": "7c68b1199d1ce0d5ff1c284aa0237f063245fe0e0127e68e6b9c329189a13841",
       "url": "templates/act_offering.png"
     },
-    "act_patrol.png": {
-      "sha256": "0272f137dfbedeb6aac8f26e4765424a80ad700915d9a2c56095ea582e55720e",
-      "url": "templates/act_patrol.png"
-    },
-    "act_ranger_knight.png": {
-      "sha256": "cfd21d68e11173a3a73bace6162df86f207cdd3269dfc912e522669525e3944a",
-      "url": "templates/act_ranger_knight.png"
-    },
-    "act_relic_exploration.png": {
-      "sha256": "1eb5c11289792f26c7e4a360bc4d16fba4e1415a8b5f2153ac238e5c9c12108e",
-      "url": "templates/act_relic_exploration.png"
-    },
-    "act_research.png": {
-      "sha256": "4ce79c275ffb684e93a89ad9c085b6ba61da7f26d2be7a3f1590d06aa735bb93",
-      "url": "templates/act_research.png"
-    },
-    "act_resource_gathering.png": {
-      "sha256": "96f1fc3e6922255d680c3291c74c7071df31349ea9571cdabf66544604978b3c",
-      "url": "templates/act_resource_gathering.png"
-    },
-    "act_resource_tax.png": {
-      "sha256": "c3783c0df150af9ceb8c776c77f9cef0ea8499f46537a7e9be028b1b8f522acf",
-      "url": "templates/act_resource_tax.png"
-    },
     "act_trade_carriage.png": {
       "sha256": "6e7f12d1df68d56965e5fad18595109affa0dea25155a642f239b023a0105fdd",
       "url": "templates/act_trade_carriage.png"
-    },
-    "act_trap_building.png": {
-      "sha256": "13e8d80ebd4c754991c3b661ecac4361e5d9112202b101b83b048b43943397ac",
-      "url": "templates/act_trap_building.png"
-    },
-    "act_troop_healing.png": {
-      "sha256": "c953f81c0234647cc2c10d3e3adf70c32e2cc4a3c71bdce0db11bf5424bc667e",
-      "url": "templates/act_troop_healing.png"
-    },
-    "act_troop_killing.png": {
-      "sha256": "0160fee61b35d42b3b15991385b97b6fad67623fe7c3d28cfa140a67fc0684f3",
-      "url": "templates/act_troop_killing.png"
-    },
-    "act_troop_training.png": {
-      "sha256": "972a37b4260fa675d0774181115ff37ba9d8903180fa0e9803777d0fb0bb4c8a",
-      "url": "templates/act_troop_training.png"
     },
     "act_wheel_of_fortune.png": {
       "sha256": "f74a5ad07774fa69b233ba21186ec4e5d695c86bdbed8cc94fa13f7fa3420c34",
@@ -4299,6 +4629,10 @@
       "sha256": "ba4652d418bcd84af9971d507314c5aec49ef1de8273d3a1029f23d181c31219",
       "url": "templates/event_center_icon.png"
     },
+    "exit_quit_label.png": {
+      "sha256": "eb5b3bf3e2bccedf4149d887586fd6e23b07088625e79bb3690337548f60383a",
+      "url": "templates/exit_quit_label.png"
+    },
     "eyes_lag_mask.png": {
       "sha256": "fc634dc0d6a00b507c8285124bf2aa47428dd9d9d8eb4c2be17eec1f6c76fb1b",
       "url": "templates/eyes_lag_mask.png"
@@ -4314,6 +4648,10 @@
     "join_button.png": {
       "sha256": "271ba437e6793b6f2179e8e6ea923f29f49bfed07b45ac208a0f5696f1ee4ac1",
       "url": "templates/join_button.png"
+    },
+    "kick_restart_label.png": {
+      "sha256": "f0c993090857e6b8af78348f4f078084ddc49f3373f05b11ba8e52ee826924a8",
+      "url": "templates/kick_restart_label.png"
     },
     "lag_wifi.png": {
       "sha256": "87b27e637e0de7ceeb05d4e19baf1bc5ad3243d08332ff23173797455b33d438",
@@ -4715,9 +5053,17 @@
       "sha256": "c48684d0db42262f9e0206910b0b52af7491f4f288ebf86ce144949f136119cd",
       "url": "templates/ring_wheel.png"
     },
-    "valuable_event_icon.png": {
-      "sha256": "005995d69dac99abf63906b1c8d9e1714929432bcc1d6862901406b630c451b0",
-      "url": "templates/valuable_event_icon.png"
+    "thief_body_hat.png": {
+      "sha256": "d38efaecd1809626d54335118dad60ca5a0ae0419f30deb133292c9c1a135771",
+      "url": "templates/thief_body_hat.png"
+    },
+    "thief_body_man.png": {
+      "sha256": "dc5ab091389f1f1b1ce97c6688e67e87d3b47839a7cd36563b496888c668f373",
+      "url": "templates/thief_body_man.png"
+    },
+    "thief_body_woman.png": {
+      "sha256": "b103274595922e75c68fecce2649a58211f82e98eda72ec62a41cef3adfe7656",
+      "url": "templates/thief_body_woman.png"
     },
     "vk_seed_label_0.png": {
       "sha256": "a18462d249f788cc3778a34d2b36fc0772f2cf10d907fca6b2d871c0c9bfa562",
@@ -4764,6 +5110,6 @@
       "url": "templates/world_map_btn.png"
     }
   },
-  "rsig": "D7VAYpDuOpC8jGnskws_nGMYoZeHO5c60UNCaTmFPrg3N69SJwo66U0kyRrl4qdT7WXia9WPa3NRe1zU_5vGDw",
-  "sig": "1a6cb77ed17423cb6798526c517be9e545028cd7602ac6e2de642b700de702b0"
+  "rsig": "PCBrUiuq7TBqhSepEL7DO1uC70Xa1s1by1LsvPdYryPdXCm5HZt2noy3c1Tklc4b9XFWtwcbKvleJmJqPou4Bw",
+  "sig": "ebb78f8b168c97a3a90130eac88a46da725523ce2fe6e9b880590908623961af"
 }
